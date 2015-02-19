@@ -3,7 +3,7 @@ var fs = require('fs');
 var app = express();
 var http = require('http');
 var server = http.createServer(app);
-var config = require("./Settings/config.js");
+var config = require("./settings/config.js");
 var qsp = require("querystring");
 
 var mailer = require("./BLL/Mailer.js");
