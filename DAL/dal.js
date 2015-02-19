@@ -1,6 +1,6 @@
 ﻿var fs = require("fs");
 var Mongolian = require("mongolian")
-var config = require("../Settings/config.js");
+var config = require("../settings/config.js");
 var server = new Mongolian
 var db = server.db(config.db.name)
 
