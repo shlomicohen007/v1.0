@@ -1,0 +1,56 @@
+﻿<div class="InnerRidesDetailsPane">
+    <div class="TravelWrapper">
+        <h1 class="TravelBoardTitle">הנסיעות שלי</h1>
+        <div class="DatePane">
+            <div class="PickDateImg">
+                <img alt="" src="Images/DateIcon.jpg" />
+            </div>
+            <input type="text" id="dateInput" class="DateInput" data-role="none" />
+            <div class="DateLbl">תאריך מבוקש</div>
+        </div>
+    </div>
+    <div class="RidesPane">
+        <table class="Rides_T" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <th>מס נסיעה</th>
+                <th>סוג</th>
+                <th>תאריך פינוי</th>
+                <th>שעת פינוי</th>
+                <th>שם החברה</th>
+                <th>מס' רכבים</th>
+                <th>אזור הפינוי</th>
+                <th>תאריך החזרה</th>
+                <th>יעד החזרה</th>
+                <th>התקשרות</th>
+            </tr>
+            <% for ride,index in @res : %>
+            <tr>
+                <td><%- ride._id %></td>
+                <td>
+                    <% if ride.type == "2" : %>
+                    קבלנות משנה
+                    <% else : %>
+                    נסיעה
+                    <% end %>
+                </td>
+                <td><%- ride.aviliableDate %></td>
+                <td><%- ride.aviliableHour %></td>
+                <td>
+                    
+                        <%- ride.company %>
+                    
+                </td>
+                <td><%- ride.vehicleNumber %></td>
+                <td><%- ride.area %></td>
+                <td><%- ride.returnDate %></td>
+                <td><%- ride.destination %></td>
+                <td>  
+                    <a id="BidRide<%- ride._id %>" container="#Pane" class="CommunicationBtn" href="/addride?rideID=<%- ride._id %>" data-role="none">ערוך</a>&nbsp;
+                    <a id="BidRide<%- ride._id %>" container="#Pane" class="CommunicationBtn" onclick="deleteRideFormMyRides('<%- ride._id %>');" data-role="none">מחק</a>
+                </td>
+            </tr>
+            <% end %>
+        </table>
+        <div id="CompanyDeatils" class="CompanyDeatilsPane"></div>
+    </div>
+</div>

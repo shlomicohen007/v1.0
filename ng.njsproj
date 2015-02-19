@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>ng</Name>
+    <RootNamespace>ng</RootNamespace>
+    <NodeExePath />
+    <NodeExeArguments />
+    <ScriptArguments />
+    <StartWebBrowser>True</StartWebBrowser>
+    <LaunchUrl />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dc5ae91e-4655-4d26-81aa-cf6356abaa31</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>server.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ProjectFiles</ProjectView>
+    <NodejsPort>8080</NodejsPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BLL\aMember.js" />
+    <Compile Include="BLL\Areas\Areas.js" />
+    <Compile Include="BLL\Authentication\Operators.js" />
+    <Compile Include="BLL\Ector.js" />
+    <Compile Include="BLL\Jobs.js" />
+    <Compile Include="BLL\Mailer.js" />
+    <Compile Include="BLL\Orders\Order.js" />
+    <Compile Include="BLL\Packer\jsPacker.js" />
+    <Compile Include="BLL\Rss.js" />
+    <Compile Include="BLL\TemplateManager\AjaxTM.js" />
+    <Compile Include="BLL\TemplateManager\BySocket.js" />
+    <Compile Include="BLL\TemplateManager\Direct.js" />
+    <Compile Include="BLL\TemplateManager\index.js" />
+    <Compile Include="BLL\TemplateProcessor.js" />
+    <Compile Include="BLL\ws\ws.js" />
+    <Compile Include="Client\Core\AutoForm.js" />
+    <Compile Include="Client\Core\coffee-script.js" />
+    <Compile Include="Client\Core\Core.js" />
+    <Compile Include="Client\Core\ect.min.js" />
+    <Compile Include="Client\Core\jquery.cookie.js" />
+    <Compile Include="Client\Core\jquery.min.js" />
+    <Compile Include="Client\Core\JSite.PushState.js" />
+    <Compile Include="Client\Core\JSite.Storage.js" />
+    <Compile Include="Client\Sys\sysLoader.js" />
+    <Compile Include="Content\Modules\AddRide\AddRide.js" />
+    <Compile Include="Content\Modules\Admin\ActiveRides\ActiveRides.js" />
+    <Compile Include="Content\Modules\Admin\Advertisers\Advertisers.js" />
+    <Compile Include="Content\Modules\Admin\Categories\Categories.js" />
+    <Compile Include="Content\Modules\Admin\Index\Business.js" />
+    <Compile Include="Content\Modules\Admin\Login\Login.js" />
+    <Compile Include="Content\Modules\Admin\Products\ProductForm.js" />
+    <Compile Include="Content\Modules\Admin\RidesHistory\RidesHistory.js" />
+    <Compile Include="Content\Modules\Admin\Users\Users.js" />
+    <Compile Include="Content\Modules\Authentication\Register.js" />
+    <Compile Include="Content\Modules\ContactUs\ContactUs.js" />
+    <Compile Include="Content\Modules\HomePage\Chat.js" />
+    <Compile Include="Content\Modules\HomePage\hp.js" />
+    <Compile Include="Content\Modules\Indexes\Indexes.js" />
+    <Compile Include="Content\Modules\Indexes\Business.js" />
+    <Compile Include="Content\Modules\Main\Main.js" />
+    <Compile Include="Content\Modules\Main\Notifications.js" />
+    <Compile Include="Content\Modules\MyRides\MyRides.js" />
+    <Compile Include="Content\Modules\OpenRequests\OpenRequests.js" />
+    <Compile Include="Content\Modules\PayCal\PayCal.js" />
+    <Compile Include="Content\Modules\Profile\Profile.js" />
+    <Compile Include="Content\Modules\Reminders\Reminders.js" />
+    <Compile Include="Content\Modules\Scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Compile Include="Content\Modules\Store\myOrders.js" />
+    <Compile Include="Content\Modules\Store\ShoppingCart.js" />
+    <Compile Include="Content\Modules\Store\Store.js" />
+    <Compile Include="DAL\dal.js" />
+    <Compile Include="DAL\Entity\Schemas.js" />
+    <Compile Include="DAL\Responder\AgreementResponder.js" />
+    <Compile Include="DAL\Responder\DBFindResponder.js" />
+    <Compile Include="DAL\Responder\GridResponder.js" />
+    <Compile Include="DAL\Responder\index.js" />
+    <Compile Include="DAL\Responder\JsonResponder.js" />
+    <Compile Include="DAL\Responder\PayCalResponder.js" />
+    <Compile Include="DAL\Responder\Responder.js" />
+    <Compile Include="server.js" />
+    <Compile Include="Settings\Packer.js" />
+    <Compile Include="Settings\PageTemplate.js" />
+    <Compile Include="Settings\urlPull.json" />
+    <Content Include="Client\Public\Galgalaz.htm" />
+    <Content Include="Client\Public\Images\c1.jpg" />
+    <Content Include="Client\Public\Images\r1.jpg" />
+    <Content Include="Client\Public\Images\RegBG.jpg" />
+    <Content Include="Client\Public\Images\visaasakims.png" />
+    <Content Include="Client\Sys\sys.css" />
+    <Content Include="Content\EmailTemplates\Agreement.htm" />
+    <Content Include="Content\EmailTemplates\ContactUs.htm" />
+    <Content Include="Content\EmailTemplates\ForgotPass.htm" />
+    <Content Include="Content\EmailTemplates\Order.htm" />
+    <Content Include="Content\EmailTemplates\order.json" />
+    <Content Include="Content\EmailTemplates\t1.htm" />
+    <Content Include="Content\Modules\AddRide\AddRide.css" />
+    <Content Include="Content\Modules\AddRide\AddRide.htm" />
+    <Content Include="Content\Modules\AddRide\Cities.htm" />
+    <Content Include="Content\Modules\AddRide\CityList.json" />
+    <Content Include="Content\Modules\Admin\ActiveRides\ActiveRides.css" />
+    <Content Include="Content\Modules\Admin\ActiveRides\activeRides.htm" />
+    <Content Include="Content\Modules\Admin\Advertisers\Advertisers.css" />
+    <Content Include="Content\Modules\Admin\Advertisers\advertisers.htm" />
+    <Content Include="Content\Modules\Admin\Index\Business.css" />
+    <Content Include="Content\Modules\Admin\Index\Business.htm" />
+    <Content Include="Content\Modules\Admin\Login\Login.htm" />
+    <Content Include="Content\Modules\Admin\Orders\Order.htm" />
+    <Content Include="Content\Modules\Admin\RidesHistory\RidesHistory.css" />
+    <Content Include="Content\Modules\Admin\RidesHistory\ridesHistory.htm" />
+    <Content Include="Content\Modules\Admin\Users\Profile.htm" />
+    <Content Include="Content\Modules\Admin\Users\Users.css" />
+    <Content Include="Content\Modules\Admin\Users\users.htm" />
+    <Content Include="Content\Modules\Agreement\Agreement.css" />
+    <Content Include="Content\Modules\Agreement\SigndAgreement.htm" />
+    <Content Include="Content\Modules\Board\Board.htm" />
+    <Content Include="Content\Modules\Agreement\Agreement.htm" />
+    <Content Include="Content\Modules\Board\SubContactionRides.htm" />
+    <Content Include="Content\Modules\HomePage\CompanyDetails.htm" />
+    <Content Include="Content\Modules\HomePage\FaviArea.htm" />
+    <Content Include="Content\Modules\Indexes\Business.htm" />
+    <Content Include="Content\Modules\Indexes\Businesses.htm" />
+    <Content Include="Content\Modules\Indexes\Categories.htm" />
+    <Content Include="Content\Modules\Indexes\Indexes.htm" />
+    <Content Include="Content\Modules\Indexes\Indexes.css" />
+    <Content Include="Content\Modules\Indexes\Indexes.json" />
+    <Content Include="Content\Modules\Ituran\Ituran.htm" />
+    <Content Include="Content\Modules\Main\Print.htm" />
+    <Content Include="Content\Modules\Admin\Orders\OrderGrid.htm" />
+    <Content Include="Content\Modules\Authentication\ForgotPass.htm" />
+    <Content Include="Content\Modules\MyRides\MyRides.css" />
+    <Content Include="Content\Modules\MyRides\MyRides.htm" />
+    <Content Include="Content\Modules\OpenRequests\OpenRequests.css" />
+    <Content Include="Content\Modules\OpenRequests\OpenRequests.htm" />
+    <Content Include="Content\Modules\Order\Confirmation.htm" />
+    <Content Include="Content\Modules\Order\Shipping.css" />
+    <Content Include="Content\Modules\Order\Shipping.htm" />
+    <Content Include="Content\Modules\PayCal\PayCal.htm" />
+    <Content Include="Content\Modules\Pointer\Pointer.htm" />
+    <Content Include="Content\Modules\Profile\Profile.css" />
+    <Content Include="Content\Modules\Profile\Profile.htm" />
+    <Content Include="Content\Modules\Reminders\Reminders.css" />
+    <Content Include="Content\Modules\Reminders\Reminders.htm" />
+    <Content Include="Content\Modules\Reports\OwnerConfirmedRides.htm" />
+    <Content Include="Content\Modules\Reports\Reports.css" />
+    <Content Include="Content\Modules\Reports\UserConfirmedRides.htm" />
+    <Content Include="Content\Modules\RSS\Rss.htm" />
+    <Content Include="Content\Modules\RSS\Ynet.xml" />
+    <Content Include="Content\Modules\Scrollbar\jquery.mCustomScrollbar.css" />
+    <Content Include="Content\Modules\Store\myOrders.htm" />
+    <Content Include="Content\Modules\Store\Order.htm" />
+    <Content Include="Content\Modules\Upload\imgUpload.html" />
+    <Content Include="Content\Modules\Upload\uploadEnd.html" />
+    <Content Include="Content\Modules\UserAccount\UserAccount.htm" />
+    <Content Include="Settings\config.js" />
+    <Content Include="Content\Modules\AboutUs\AboutUs.css" />
+    <Content Include="Content\Modules\AboutUs\AboutUs.htm" />
+    <Content Include="Content\Modules\Admin\Categories\CategoriesForm.htm" />
+    <Content Include="Content\Modules\Admin\Categories\Categories.htm" />
+    <Content Include="Content\Modules\Admin\Customer\CustomerGrid.htm" />
+    <Content Include="Content\Modules\Admin\Main\Main.css" />
+    <Content Include="Content\Modules\Admin\Main\main.htm" />
+    <Content Include="Content\Modules\Admin\Main\main.json" />
+    <Content Include="Content\Modules\Admin\Products\ProductForm.htm" />
+    <Content Include="Content\Modules\Authentication\Login.css" />
+    <Content Include="Content\Modules\Authentication\Login.htm" />
+    <Content Include="Content\Modules\Authentication\Register.css" />
+    <Content Include="Content\Modules\Authentication\Register1.htm" />
+    <Content Include="Content\Modules\ContactUs\ContactUs.css" />
+    <Content Include="Content\Modules\ContactUs\ContactUs.htm" />
+    <Content Include="Content\Modules\Core\AutoForm.htm" />
+    <Content Include="Content\Modules\Core\Grid.htm" />
+    <Content Include="Content\Modules\HomePage\HomePage.json" />
+    <Content Include="Content\Modules\HomePage\hp.css" />
+    <Content Include="Content\Modules\HomePage\hp.htm" />
+    <Content Include="Content\Modules\HomePage\TopText.htm" />
+    <Content Include="Content\Modules\Main\Main.css" />
+    <Content Include="Content\Modules\Main\main.htm" />
+    <Content Include="Content\Modules\Main\main.json" />
+    <Content Include="Content\Modules\Admin\Products\ProductGrid.htm" />
+    <Content Include="Content\Modules\Store\OrderSummery.htm" />
+    <Content Include="Content\Modules\Store\ProductGallery.htm" />
+    <Content Include="Content\Modules\Store\ShoppingCart.htm" />
+    <Content Include="Content\Modules\Store\store.htm" />
+    <Content Include="Content\Modules\Store\Store.css" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="BLL\Authentication\" />
+    <Folder Include="BLL\Areas\" />
+    <Folder Include="BLL\Orders\" />
+    <Folder Include="BLL\ws\" />
+    <Folder Include="BLL\Packer\" />
+    <Folder Include="BLL\TemplateManager\" />
+    <Folder Include="Client\Core\" />
+    <Folder Include="Client\Public\Images\" />
+    <Folder Include="Client\Public\ProdPic\" />
+    <Folder Include="Client\Sys\" />
+    <Folder Include="Client\Public\" />
+    <Folder Include="Client\Public\Min\" />
+    <Folder Include="Content\Modules\" />
+    <Folder Include="Content\Modules\AddRide\" />
+    <Folder Include="Content\Modules\Admin\Categories\" />
+    <Folder Include="Content\Modules\Admin\Main\" />
+    <Folder Include="Content\Modules\Admin\Customer\" />
+    <Folder Include="Content\Modules\Admin\Login\" />
+    <Folder Include="Content\Modules\Admin\Index\" />
+    <Folder Include="Content\Modules\Admin\ActiveRides\" />
+    <Folder Include="Content\Modules\Admin\Advertisers\" />
+    <Folder Include="Content\Modules\Admin\Users\" />
+    <Folder Include="Content\Modules\Admin\RidesHistory\" />
+    <Folder Include="Content\Modules\Admin\Orders\" />
+    <Folder Include="Content\Modules\Admin\Products\" />
+    <Folder Include="Content\Modules\Core\" />
+    <Folder Include="Content\Modules\HomePage\" />
+    <Folder Include="Content\Modules\Main\" />
+    <Folder Include="Content\Modules\ContactUs\" />
+    <Folder Include="Content\Modules\AboutUs\" />
+    <Folder Include="Content\Modules\Admin\" />
+    <Folder Include="Content\Modules\Authentication\" />
+    <Folder Include="Content\Modules\MyRides\" />
+    <Folder Include="Content\Modules\Board\" />
+    <Folder Include="Content\Modules\Agreement\" />
+    <Folder Include="Content\Modules\Indexes\" />
+    <Folder Include="Content\Modules\Ituran\" />
+    <Folder Include="Content\Modules\PayCal\" />
+    <Folder Include="Content\Modules\UserAccount\" />
+    <Folder Include="Content\Modules\Pointer\" />
+    <Folder Include="Content\Modules\Reports\" />
+    <Folder Include="Content\Modules\Reminders\" />
+    <Folder Include="Content\Modules\RSS\" />
+    <Folder Include="Content\Modules\OpenRequests\" />
+    <Folder Include="Content\Modules\Profile\" />
+    <Folder Include="Content\Modules\Scrollbar\" />
+    <Folder Include="Content\Modules\Order\" />
+    <Folder Include="Content\Modules\Store\" />
+    <Folder Include="Content\EmailTemplates\" />
+    <Folder Include="Content\Modules\Upload\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Client\" />
+    <Folder Include="Content\" />
+    <Folder Include="DAL\Entity\" />
+    <Folder Include="DAL\Responder\" />
+    <Folder Include="Settings\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

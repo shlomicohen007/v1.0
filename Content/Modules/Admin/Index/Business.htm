@@ -1,0 +1,65 @@
+﻿<div ng-form="Business" class="AddBusinessForm">
+    <h1>הוספת עסק</h1>
+    <div>
+        <label>שם העסק</label>
+        <input type="text" ng-key="businessName" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>
+    <div>
+        <label>תיאור קצר</label>
+        <textarea rows="2" cols="2" ng-key="shortDescription" ng-validate="required" data-role="none"></textarea>
+    </div>
+
+    <div>
+        <label>תיאור</label>
+        <textarea rows="2" cols="2" ng-key="description" ng-validate="required" data-role="none"></textarea>        
+    </div>
+    <div>
+        <label>עיר</label>
+        <input type="text" ng-key="city" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>
+    <div>
+        <label>כתובת</label>
+        <input type="text" ng-key="address" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>
+    <div>
+        <label>טלפון ראשי</label>
+        <input type="text" ng-key="phone" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>
+    <div>
+        <label>פקס</label>
+        <input type="text" ng-key="fax" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>  
+    <div>
+        <label>אתר</label>
+        <input type="text" ng-key="website" ng-validate="required" class="InputTxt" data-role="none" />
+    </div>  
+    <div>
+        <label>טלפונים נוספים</label>
+        <textarea rows="2" cols="2" ng-key="phones" ng-validate="required" data-role="none"></textarea>
+    </div> 
+    <div>
+        <label>לוגו</label>        
+    </div>   
+    <div>
+        <label>מפת מיקום</label>
+        <!--<div class="Cordinates">
+            <label>x: </label>
+            <input type="text" ng-key="xCord" ng-validate="required" class="InputTxt xCord" data-role="none" />
+            <label> y: </label>
+            <input type="text" ng-key="yCord" ng-validate="required" class="InputTxt yCord" data-role="none" />
+        </div>-->
+    </div>  
+    <div class="Clear"></div>
+    <div>
+        <label>קטגוריה</label>
+        <select id="sCategory" data-role="none" ng-validate="required" ng-key="category">
+            <% for category, index in @res : %>
+            <option id="<%- category._id %>">
+                <%- category.name %>
+            </option>
+            <% end %>
+        </select>
+    </div>
+    <a class="SaveBusinessBtn" href="javascript://" onclick="SaveBusiness();" data-role="none">שמור</a>
+    <span class="SaveMsg"></span>
+</div>

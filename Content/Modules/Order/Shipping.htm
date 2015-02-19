@@ -1,0 +1,123 @@
+﻿
+<div class="shipping" ng-form="Shipping">
+    <div class="cuStepOn">
+        <div class="round">1</div>
+        <span>פרטי המשלוח</span>
+        <div class="arrow-down"></div>
+    </div>
+    <div class="cuStepOff" style=" margin-right: 80px;">
+        <div class="round">2</div>
+        <span>אישור הזמנה</span>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="regTitle">פרטי הנמען למשלוח</div>
+    <div class="shipCont1">
+        <a href="javascript://" onclick="openLightBox('.updateShipping');" class="btnUpdateAddress">עדכן פרטים</a>
+        <div class="shippingDtl">
+            <%- @res[0].firstName%> <%- @res[0].lastName%> * <%- @res[0].street%>  <%- @res[0].houseNumber%> <%- @res[0].city%> *  טלפון לבירורים: <%- @res[0].phone%>
+            <% if !@res[0].private : %>
+            <div>
+                מס' דירה:<%- @res[0].appNumber%>
+                קומה:<%- @res[0].flor%>
+                כניסה:<%- @res[0].entrance%>
+            </div>
+            <% end %>
+        </div>
+        <div style="display:none;">
+            <div class="updateShipping" dir="rtl" ng-form="UserDtl">
+                <div class="regFiled">
+                    *שם פרטי
+                    <input type="text" ng-key="firstName" ng-validate="required" value="<%- @res[0].firstName%>" />
+                </div>
+                <div class="regFiled">
+                    *שם משפחה
+                    <input type="text" ng-key="lastName" ng-validate="required" value="<%- @res[0].lastName%>" />
+                </div>
+                <div class="regFiled" style="margin-left:0">
+                    *טלפון לבירורים
+                    <input type="text" ng-key="phone" ng-validate="required" value="<%- @res[0].phone%>" />
+                </div>
+                <div class="regFiled">
+                    *ישוב
+                    <input type="text" ng-key="city" ng-validate="required" value="<%- @res[0].city%>" />
+                </div>
+                <div class="regFiled">
+                    *שם רחוב
+                    <input type="text" ng-key="street" ng-validate="required" value="<%- @res[0].street%>" />
+                </div>
+                <div class="regFiled" style="margin-left:0">
+                    *מס בית
+                    <input type="text" ng-key="houseNumber" ng-validate="required" value="<%- @res[0].houseNumber%>" />
+                </div>
+
+                <div class="regFiledS cop">
+                    מס' דירה
+                    <input type="text" ng-key="appNumber" value="<%- @res[0].appNumber%>" />
+                </div>
+                <div class="regFiledS cop">
+                    קומה
+                    <input type="text" ng-key="flor" value="<%- @res[0].flor%>" />
+                </div>
+                <div class="regFiledS cop">
+                    כניסה
+                    <input type="text" ng-key="entrance" value="<%- @res[0].entrance%>" />
+                </div>
+                <div class="regFiledS">
+                    בית פרטי
+                    <input type="checkbox" ng-key="private" onclick="$('.cop').toggle()" 
+                        <% 'checked="checked"' if @res[0].private  %> 
+                    />
+                </div>
+
+                <br />
+                <a href="javascript://" onclick="UpdateUserDtl()" class="btnUpdateAddress">עדכן פרטים</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="regTitle">עלויות משלוח</div>
+    <div class="shipCont1" style="height:90px;">
+        בית יצחק וגוש חיה : ללא עלות מינמום הזמנה, ללא עלות משלוח
+
+        <br />
+        <br />
+        יישובי  זכרון, קיסריה, אזור פרדס חנה, עמק חפר, לב השרון, גוש תלמונד, נתניה ואבן יהודה:  מינמום הזמנה: 300 ש"ח, ללא עלות משלוח. 
+
+    </div>
+    <div class="regTitle">פרטי המשלוח</div>
+    <div class="shipCont1" style="height:160px;">
+        תאריך מתוכנן לאירוח
+
+        <input style="margin-right:35px; height:25px; width:272px;" type="text" ng-key="eDate" />
+        <br />
+        <br />
+        <b>
+            צוות בשר מהכפר
+            יחזור אליך בטווח של שעתיים מקבלת ההזמנה
+            <br />
+            לתיאום מועד נוח לאספקה
+        </b>
+        <br />
+        <br />
+        <div class="regTitle" style="font-size:16px;">מתחייבים להספקה תוך 48 שעות</div>
+    </div>
+    <div class="regTitle">הערות למשלוח</div>
+    <div class="shipCont3">
+        <textarea style="width:430px; height:140px;" ng-key="notes"></textarea>
+    </div>
+    <a class="btnSend shpSend" href="javascript://" onclick="ShoppingCart.SubmitOrder()">
+        אשר הזמנה
+    </a>
+
+
+
+
+    <div class="SCEmpty">
+        עגלת הקניות שלך ריקה
+        <br />
+        הנך מועבר לחנות להמשך קניה
+
+    </div>

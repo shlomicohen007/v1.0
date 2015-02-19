@@ -1,0 +1,96 @@
+﻿<% total = 0 %>
+<% addTotal = (d)-> %>
+<% total += parseInt(d) %>
+<% end %>
+<div class="InnerRidesDetailsPane">
+    <div class="TravelWrapper">
+        <h1 class="TravelBoardTitle">נסיעות מאושרות שלי</h1>
+        <div class="ReportsDatePane">
+            <div class="PickDateImg">
+                <img alt="" src="Images/DateIcon.jpg" />
+            </div>
+            <input type="text" id="dateInput" class="DateInput" data-role="none" />
+            <div class="DateLbl">תאריך מבוקש</div>
+        </div>
+    </div>
+    <div class="RidesPane">
+        <table class="Rides_T" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <th>מס נסיעה</th>
+                <th>בקשה מאת</th>
+                <th>תאריך עיסקה</th>
+                <th>שעת פינוי</th>
+                <th>מס' רכבים</th>
+                <th>אזור הפינוי</th>
+                <th>תאריך החזרה</th>
+                <th>יעד החזרה</th>
+                <th>סכום</th>
+                <th>התקשרות</th>
+            </tr>
+            <% for ride,index in @res : %>
+            <% if ride.requests : %>
+            <%  req = ride.requests[ride.soldTo]  %>
+            <% if req : %>
+            <tr>
+                <td><%- ride._id %></td>
+                <td><%- req.from %></td>
+                <td><%- ride.aviliableDate %></td>
+                <td><%- ride.aviliableHour %></td>
+                <td><%- ride.vehicleNumber %></td>
+                <td><%- ride.area %></td>
+                <td><%- ride.returnDate %></td>
+                <td><%- ride.destination %></td>
+                <td>
+                    <%-  req.price %>
+                    ש"ח
+                </td>
+                <td>
+                    <div class="ApprovedRedBallIcon" id="Ball<%- ride._id %>_<%- req.key %>"></div>
+                    <div id="BidRide<%- ride._id %>_<%- req.key %>" class="OpenApprovedRideBtn" onclick="OpenApprovedRideRequest('<%- ride._id %>', '<%- req.key %>')">פתח</div>
+                </td>
+            </tr>
+            <tr style="display:none;">
+                <td colspan="10"></td>
+            </tr>
+            <tr class="ChatRow" id="ChatRow_<%- ride._id %>_<%- req.key %>">
+                <td colspan="7" style="width:75%;">
+                    <div class="ChatWin" id="ChatWin_<%- ride._id %>_<%- req.key %>">
+                        <% if req.msgs : %>
+                        <% for msg in req.msgs : %>
+                        <% if msg.username == ride.username : %>
+                        <span style="color:red">
+                            <%- msg.time%> |
+                            אתה:
+                            <br /> <%- msg.message %>
+                        </span><br />
+                        <% else : %>
+                        <%- msg.time%> |
+                        <%- msg.name %>:
+                        <br /> <%- msg.message %><br />
+                        <% end %>
+                        <% end %>
+                        <% end %>
+                    </div>
+
+                </td>
+                <td align="center" colspan="2" style="width:25%">
+                    פרטים נוספים
+                    <div style="height:100px;">
+                        <%- ride.extraDetails %>
+                    </div>
+                    מחיר העיסקה
+                    <%- req.price %>
+                    <% addTotal req.price %>
+                    <br />
+                    <a href="/agreement?rideID=<%- ride._id %>" ajaxmode="disabled" target="_blank">לצפיה בהסכם</a>
+                </td>
+            </tr>
+            <% end %>
+            <% end %>
+            <% end %>
+        </table>        
+    </div>
+    <div class="TotalSumPane">
+        <span class="TotalLbl">סה"כ </span> <span> <%- total %> ש"ח</span>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+﻿<div id="OrderSummery" dir="rtl">
+    <div class="OSHeader">
+        <a href="javascript://" onclick="closeLightBox()" class="btnOS">המשך בקנייה</a>
+        <a href="javascript://" onclick="ShoppingCart.Clear(); ShoppingCart.Init(); closeLightBox()" class="btnOS">מחק הכל</a>
+        <div class="CartTitle OSTitle">
+            עגלת הקניות שלי
+        </div>
+
+    </div>
+    <div class="OSContent" dir="ltr">
+        <table dir="rtl">
+            <% for cat,index in @categories : %>
+            <% if cat : %>
+            <tr>
+                <td colspan="5">
+                    <div class="Title">
+                        <span><%- cat.name %></span>
+                        <div class="arrow-down"></div>
+                    </div>
+                </td>
+            </tr>
+            <% for p in cat.products : %>
+            <% if p : %>
+            <tr>
+                <td>
+                    <b>
+                        <%-p.cartDtl.quantity%>
+
+                        <% if p.cartDtl.purchase=='kg' :%>
+                        ק"ג
+                        <% else : %>
+                        יח'
+                        <% end %>
+                    </b>
+                </td>
+                <td>
+                    <img src="<%-p.image %>" height="70" />
+                </td>
+                <td>
+                    <%-p.name%>
+                </td>
+                <td>
+                    <a class="plus" onclick="ShoppingCart.addOSProduct(<%-cat._id%>,<%-p._id%>,1)">+</a>
+                    <input type="text" value="<%-p.cartDtl.quantity%>" ng-key="quantity" id="OSProdQnt<%-p._id%>" ng-parse="int" />
+                    <a class="minus" onclick="ShoppingCart.addOSProduct(<%-cat._id%>,<%-p._id%>,-1)">-</a>
+                    <div class="OSUnitSelector">
+                        <% if p.purchase=='kg' or p.purchase=='Both' :%>
+                        <a class="radioOff"></a>
+                        קילו
+                        <% end %>
+                        <% if p.purchase=='Units' or p.purchase=='Both' :%>
+                        <a class="radioOn"></a>
+                        יח'
+                        <% end %>
+                    </div>
+                </td>
+                <td>
+                    <b>
+                        <% if p.specialPrice : %>
+                        <%-p.specialPrice%>
+                        <% else : %>
+                        <%-p.price%>
+                        <% end %>
+                    </b>
+                    <span>
+                        &#8362;
+                        <% if p.display=='kg' :%>
+                        לק"ג
+                        <% else : %>
+                        ליח'
+                        <% end %>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 1px; background-color: #E8E8E8; padding:0;"></td>
+            </tr>
+            <% end %>
+            <% end %>
+            <tr >
+                <td colspan="5" style="background-color: #2C2C2C; color:#fff; height:32px; padding-left:30px;" align="left">
+                    סה"כ
+                    <%- cat.name %>:
+
+                    &nbsp;
+
+                    <b id="CatTotal<%- cat._id %>" class="CatPrice"><%- cat.total %></b>
+                    &#8362;
+                </td>
+            </tr>
+            <% end %>
+            <% end %>
+
+        </table>
+    </div>
+    <div style="padding:15px;">
+        <a href="javascript://" onclick="gotoShipping()" class="btnSend btnCommitOrder" container="#Pane">בצע הזמנה</a>
+        <div style="float:left; margin-top:10px;">
+            סה"כ
+
+            <b id="CartTotal" class="OrderPrice"><%- @total %></b>
+            &#8362;
+        </div>
+    </div>
+</div>

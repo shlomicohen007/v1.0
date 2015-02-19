@@ -1,0 +1,71 @@
+﻿<div class="IndexItemDetailsPane">    
+    <h1>
+        <%- @res[0].businessName %>
+    </h1>
+    <div class="IndexItemDescriptionPane">
+        <div class="LogoFrame">
+            <img alt="" src="Images/IndexLogo.jpg" class="ItemLogo" style="width: 100%; height: 100%;" />
+        </div>
+        <div class="IndexItemDescription">
+            <%- @res[0].description %>
+            <!--מוסך מורשה לאוטובוסים רנו, מתמחים באוטובוסים ומשאיות<br />
+            שירות 24 שעות<br />
+            טקסט טקסט טקסט-->
+        </div>
+    </div>
+    <div class="Clear"></div>
+    <div class="IndexItemContactPane">
+        <div class="IndexItemContact">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="ContactLblTD">
+                        עיר:
+                    </td>
+                    <td class="ContactDataTD">
+                        <%- @res[0].city %>
+                        <!--נהריה-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ContactLblTD">
+                        כתובת:
+                    </td>
+                    <td class="ContactDataTD">
+                        <%- @res[0].address %>
+                        <!--אזור תעשייה ליד שופרסל-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ContactLblTD">
+                        פקס:
+                    </td>
+                    <td class="ContactDataTD">
+                        <%- @res[0].fax %>
+                        <!--04-985587-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ContactLblTD">
+                        אתר:
+                    </td>
+                    <td class="ContactDataTD">
+                        <a href="http://<%- @res[0].website %>" class="WebsiteLink" data-role="none"><%- @res[0].website %></a>
+                        <!--<a href="http://www.mosahahim.co.il" class="WebsiteLink" data-role="none">www.mosahahim.co.il</a>-->
+                    </td>
+                </tr>
+            </table>
+            <div class="IndexItemPhones">
+                <%- @res[0].phones %>
+                <!--04-9985754 | 054-7857854
+                058-8745445-->
+            </div>
+        </div>
+        <div class="IndexItemMap">
+            <div class="MapFrame">
+                <img alt="" src="Images/IndexLocation.jpg" style="width: 100%; height: 100%;" />
+            </div>
+            <div>מיקום במפה</div>
+        </div>
+    </div>
+    <div class="Clear"></div>
+</div>

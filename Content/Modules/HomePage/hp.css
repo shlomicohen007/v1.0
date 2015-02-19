@@ -1,0 +1,1447 @@
+﻿/* Interactive Area */
+
+.InteractivePane {
+    margin: 0 0 10px 0;
+    width: 100%;
+    background-color: #babfd5;
+    overflow: visible !important;
+}
+
+.CompanyTitlePane {
+    height: 100%;
+    width: 45% !important;
+    /*border: solid 1px red !important;*/
+}
+
+.CompanyTitle {
+    margin: 0;
+    width: 95%;
+    padding: 0 5% 0 0;
+    line-height: 210%;
+    color: #000000;
+    font-size: 210%;
+    text-align: right;
+    text-shadow: none;
+}
+
+.InteractiveActionsPane {
+    height: 99.7%;
+    padding: 0.3% 0 0 !important;
+    width: 55% !important;
+}
+
+.MyRidesBtn,
+.AddRideBtn,
+.OpenRequestsBtn,
+.ReffreshIcon,
+.NotificationsPane {
+    float: left;
+    margin: 0 0 0 0.6% !important;
+    width: 29%;
+}
+
+.MyRidesBtn,
+.AddRideBtn,
+.OpenRequestsBtn {
+    height: 57px;
+}
+
+.NotificationsPane,.ReffreshIcon {
+    padding: 0.4% 0 0;
+    position: relative;
+    width: 7%;
+}
+.ReffreshIcon {
+cursor: pointer;
+display: none;
+height: auto;
+left: 74px;
+top: -2px;
+width: 4.3vw;
+}
+
+.MainPane {
+    min-height: 455px;
+    overflow: visible !important;
+}
+
+/* Forum And Radio Script*/
+
+.MainRightPane {
+    width: 15% !important;
+    /*border: solid 1px red !important;*/
+}
+
+.ForumPane {
+    height: 370px !important;
+    background-color: #FFFFFF;
+    border: solid 1px #CDCDCD;
+    border-radius: 0 0 5px 5px;
+}
+
+.ForumTitleWrapper {
+    width: 100%;
+    height: 10.7%;
+}
+
+    .ForumTitleWrapper > img {
+        width: 100%;
+        height: 100%;
+    }
+
+.ForumMsgsPane {
+    height: 70%;
+    margin: 3% 0;
+    max-height: 70% !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 7%;
+}
+
+.ForumMsgInput {
+    margin: 0 auto;
+    width: 90%;
+    height: 35px;
+    background-color: #FFFFFF;
+    border: solid 2px #CDCDCD;
+}
+
+    .ForumMsgInput input {
+        direction: rtl;
+        float: right;
+        height: 80%;
+        margin: 1% 0 0;
+        padding: 0 2%;
+        text-align: right;
+        width: 73%;
+        border: solid 0px red;
+    }
+
+.ForumSendBtn {
+    background-color: #4c66a3;
+    float: left;
+    height: 100%;
+    line-height: 2.2;
+    width: 23%;
+}
+.ForumSendBtn a, .ForumSendBtn a :hover {
+    color:#ffffff !important;
+	text-decoration: none;
+	text-align: center;
+}
+.SavedPercentagePane .Header {
+    background-color: #4c66a3;
+    color: #ffffff !important;
+    display: block;
+    font-size: 140%;
+    height: 39px;
+    line-height: 170%;
+    padding: 0;
+    text-align: center;
+}
+
+    .ForumSendBtn img {
+        width: 100%;
+        height: 100%;
+    }
+
+/* Rides Related */
+
+.MainMiddlePane {
+    margin: 0 1% !important;
+    width: 68% !important;
+    /*min-height: 460px !important;*/
+    /*background-color: #FFFFFF;*/
+    border: solid 1px green;
+    direction: rtl;
+    overflow: hidden;
+}
+
+.PagetitleWrapper {
+    background-color: #499c4a;
+    color: #ffffff;
+    height: 39px;
+    text-align: right;
+    width: 100%;
+}
+
+.PageTitle {
+    display: inline-block;
+    float: right;
+    font-size: 170%;
+    font-weight: normal;
+    line-height: 80%;
+    margin: 0.7% 4.5% 0 0;
+}
+
+.FormLabel {
+    font-size: 150% !important;
+    color: #000000;
+    width: 35%;
+    line-height: 110%;
+}
+
+.InputTxt {
+    background-color: #FFFFFF;
+    border: solid 1px #000000;
+    margin: 0 0 10px;
+    /*line-height: 200%;*/
+    height: 25px;
+    width: 60%;
+    float: left;
+    direction: rtl;
+    padding: 0 5px;
+    text-align: right;
+    /*min-height: 0;*/
+    text-align: right;
+    text-shadow: none;
+}
+
+.MainLeftPane {
+    width: 15% !important;
+    /*border: solid 1px black !important;*/
+}
+
+.CityAutoCompletePane {
+    margin: 5% 0 0 0;
+    background-color: #4965A4;
+    display: inline-block;
+    position: relative;
+}
+
+    .CityAutoCompletePane img {
+        float: right;
+        width: 27%;
+        height: 100%;
+    }
+
+    .CityAutoCompletePane input {
+        background-color: #ffffff;
+        border: 0 none;
+        float: right;
+        height: 25px;
+        margin: 3% 0.5% 0 0;
+        width: 62%;
+        padding: 0 4%;
+    }
+
+/* Travel Board */
+
+
+.InnerRidesDetailsPane {
+    margin: 0 0 0 0 !important;
+}
+
+.TravelWrapper {
+    width: 100%;
+    height: 39px;
+    background-color: #499C4A;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.TravelBoardTitle {
+    display: inline-block;
+    float: right;
+    font-size: 1.3vw !important;
+    font-weight: normal;
+    margin: 0.15vw 0.8vw 0 0;
+}
+
+.DatePane {
+    float: left;
+    margin: 0;
+    width: 70%;
+    color: #FFFFFF;
+}
+
+    .DatePane > div.PickDateImg,
+    .DatePane > div.DateLbl {
+        float: left;
+        margin: 0.4% 0.5% 0 2.5%;
+    }
+
+    .DatePane > div.DateLbl {
+    font-size: 120%;
+    margin: 1% 0 0 1%;
+    }
+
+    .DatePane select {
+    float: left;
+    margin: 1.2% 0.5% 0 2.5%;
+    }
+
+.DateInput {
+    background-color: #ffffff;
+    border: 0 none;
+    color: #4f9356;
+    float: left;
+    font-weight: bold;
+    height: 23px;
+    padding: 0;
+    text-align: center;
+    width: 15%;
+	margin: 1% 0 0 1%;
+}
+
+.MiniBus,
+.Bus {
+    width: 15%;
+    height: 75%;
+    float: right;
+    margin: 0.7% 12% 0 0;
+}
+
+.Bus {
+    margin: 0.7% 5% 0 0;
+}
+
+.MiniBusBtn,
+.BusBtn {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    /*background: url('../Images/MiniBusBtn.jpg') no-repeat;*/
+}
+
+.BusBtn {
+    /*background: url('../Images/BusBtn.jpg') no-repeat;*/
+}
+
+.RidesPane {
+    background-color: #ffffff;
+    border: 1px solid #cbccce;
+    height: 488px;
+    overflow: auto;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    -moz-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+}
+
+.Rides_T {
+    direction: rtl;
+    font-weight: bold !important;
+    text-shadow: none;
+    width: 100%;
+}
+
+    .Rides_T th {
+        background-color: #4c66a3;
+        color: #ffffff;
+        font-size: 110%;
+        font-weight: bold;
+        height: 30px;
+        text-align: center;
+    }
+
+    .Rides_T tr td {
+        font-size: 100%;
+        height: 34px;
+        text-align: center;
+    }
+
+    .Rides_T tr:nth-child(even) td {
+        background-color: #D6D9EC;
+		border-bottom: 1px solid #b4b4b4;
+    }
+
+/* Search Pane */
+
+/*.SearchAreaPane {
+    float: left;    
+    width: 17% !important;
+    min-height: 485px;    
+    direction: rtl;
+    overflow: hidden;
+}
+
+.SearchInputWrapper {
+    height: 45px;
+    text-align: right;
+    background: url('../Images/SearchIcon.jpg') left center no-repeat #00BEFC;
+}
+
+    .SearchInputWrapper div {
+        background-color: inherit !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        border-radius: 0 !important;
+        border-style: none !important;
+        border-width: 0 !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 80%;
+        float: right;
+    }
+
+.SearchBtn {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+.SearchInput {
+    color: #000000;
+    font-size: 22px;
+    background-color: transparent;
+    border: 0;
+    text-align: right;
+    height: 41px;
+    padding: 2px 15px 2px 0;
+    min-height: 0 !important;
+    text-align: right !important;
+    text-shadow: none !important;
+}
+
+.SearchResultsPane {
+    height: 450px;
+    overflow-y: auto;
+}
+
+.CitiesList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .CitiesList li {
+        height: 34px;
+        padding: 6px 15px 0 0;
+        border-bottom: solid 2px #757575;
+        color: #000000;
+        font-size: 22px;
+        text-align: right;
+    }*/
+
+/* Rides Pane */
+
+/*.RidesDetailsPane {
+    float: right;
+    width: 83% !important;
+    min-height: 500px !important;
+    background-color: #FFFFFF;
+    direction: rtl;
+    overflow: hidden;
+}*/
+
+/*************************************************************/
+
+.RedBall,
+.GreenBall {
+    background-color: #BF291B;
+    border-radius: 9px;
+    display: inline-block;
+    height: 15px;
+    margin: 2% 5% 0;
+    width: 15px;
+    float: left;
+}
+
+.GreenBall {
+    background-color: #489A46;
+}
+
+.BidRideBtn,
+.CloseBidRideBtn {
+    width: 60%;
+    float: left;
+    margin: 4% 0 0;
+}
+
+.BidRideBtn {
+    background-color: #c0281b;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 0 1px;
+    width: 70%;
+}
+
+.AdjustRedBall {
+    width: 14% !important;
+}
+
+.CloseBidRideBtn {
+    background-color: transparent;
+    margin: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.CompanyNameClick {
+    cursor: pointer;
+    color: #3F66A9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+tr.ChatRow {
+    display: none;
+}
+
+    tr.ChatRow td {
+        background-color: #FFFFFF !important;
+		border-bottom: 1px solid #b4b4b4;
+    }
+
+tr.CurrentRow {
+    color: #FFFFFF;
+}
+
+    tr.CurrentRow td {
+        background-color: #4c66a3 !important;
+        border-top: solid 1px #FFFFFF;
+		height: 38px;
+    }
+        tr.CurrentRow td .CompanyNameClick{
+            color: #FFFFFF  !important;
+        }
+
+.ChatWinTD {
+    width: 75%;
+    padding: 0;
+    /*border-top: solid 1px #000000;
+    border-left: solid 1px #000000;
+    border-bottom: solid 1px #000000;*/
+}
+
+
+.ChatWin {
+    overflow: auto;
+    height: 200px;
+    background-color: #e8e8e8;
+    margin: 0;
+    border: 0;
+    text-align: right;
+    padding: 1% 1% 0 0;
+}
+
+.ChatMsg {
+    background-color: #ffffff;
+    border: 0 solid #cdcdcd;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000000;
+    display: inline-block;
+    float: right;
+    height: 26px;
+    margin: 0;
+    padding: 4px 1%;
+    resize: none;
+    width: 78%;
+}
+.ChatRow .hpChatRow {
+    border-bottom:1px solid #000000;
+}
+.ChatSend {
+    background-color: #499c4a;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 129%;
+    font-weight: normal;
+    height: 31px;
+    margin: 0;
+    padding: 3px 0 0;
+    width: 20%;
+}
+
+.MoreDetailsTD {
+    width: 25%;
+    text-align: right !important;
+    font-weight: bold;
+}
+
+.MoreDetailsLbl {
+color: #51649F;
+line-height: 4.45;
+padding: 20px;
+}
+
+.MoreDetails {
+    width: 96%;
+    padding: 2%;
+    font-weight: normal;
+    text-align: right;
+}
+
+/*.DealDetailsTD {
+    width: 13%;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    font-weight: bold;
+}*/
+
+.MoreDetailsTD > .ui-input-text,
+.MoreDetailsTD > .ui-body-inherit,
+.MoreDetailsTD > .ui-corner-all,
+.MoreDetailsTD > .ui-shadow-inset {
+    background-color: inherit !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 0 !important;
+    border-style: none !important;
+    border-width: 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.DealPrice {
+    width: 80% !important;
+    height: 25px !important;
+    margin: 10% auto 52% !important;
+    border: 1px solid #CDCDCD !important;
+    background-color: #FFFFFF !important;
+    min-height: 0 !important;
+}
+
+.AgreedPrice {
+    color: red;
+}
+.ChatRow td div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+    display: block;
+    height: 35px;
+    margin: 5% auto;
+    width: 49%;
+}
+.ApproveRideBtn {
+    background-color: #4c66a3;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 125%;
+    font-weight: bold;
+    height: 34px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    width: 100%;
+	line-height: 1.6;
+}
+id#approveBtn .ApproveRideBtn {
+}
+id#disapproveBtn .ApproveRideBtn {
+}
+.ApproveDealByVisa {
+    width: 100%;
+    height: 95%;
+}
+
+    .ApproveDealByVisa img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.InnerCompanyDetailsPane {
+    width: 400px;
+}
+
+    .InnerCompanyDetailsPane table {
+        width: 100%;
+    }
+
+        .InnerCompanyDetailsPane table th {
+            text-decoration: underline;
+        }
+
+.TxtBold {
+    font-weight: bold;
+}
+
+
+#FaviAreaForm {
+    padding: 40px;
+}
+
+    #FaviAreaForm a.btnSend {
+        background-color: #0072bb;
+        color: #ffffff;
+        display: block;
+        font-size: 160%;
+        font-weight: normal;
+        height: 34px;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        width: 55%;
+        margin-top: 10px;
+    }
+	
+	.ui-datepicker span {
+    color: transparent;
+}
+    .furmHeader {
+	background-color: #4c66a3;
+    color: #ffffff;
+    font-size: 1.2vw;
+    height: 1vw;
+    padding-bottom: 0.8vw;
+    padding-top: 0.2vw;
+    text-align: center;
+	}
+	
+div#Pane div.ui-grid-a div.ui-block-b.RightPane div.RightContentPane div.ui-grid-a.MainPane div.ui-block-b.MainMiddlePane div#InnerPane div.InnerRidesDetailsPane div.TravelWrapper div.DatePane form.ui-filterable div.ui-input-search.ui-shadow-inset.ui-input-has-clear.ui-body-inherit.ui-corner-all input {
+    margin-right: -8%;
+}
+div#InnerPane div.InnerRidesDetailsPane div.TravelWrapper div.DatePane form.ui-filterable div.ui-input-search.ui-shadow-inset.ui-input-has-clear.ui-body-inherit.ui-corner-all a.ui-input-clear.ui-btn.ui-icon-delete.ui-btn-icon-notext.ui-corner-all {
+    height: 0.8vw;
+    padding: 6px 4px;
+    width: 0.8vw;
+}
+.aprovedisaprove {
+margin-top: 10%;
+}
+.ui-datepicker-title {
+    line-height: 1.8;
+}
+/*************************************************************/
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 30px;
+    }
+
+    .MainPane {
+        min-height: 317px;
+    }
+
+    .InputTxt {
+        height: 20px;
+    }
+
+    .ForumPane {
+        height: 205px !important;
+    }
+
+    .ForumTitleWrapper {
+        height: 19%;
+    }
+
+    .ForumMsgsPane {
+        height: 60%;
+        max-height: 60% !important;
+    }
+
+    .ForumMsgInput {
+        height: 25px;
+    }
+
+    .ForumSendBtn {
+        width: 23%;
+    }
+
+    .TravelBoardTitle {
+        font-size: 245%;
+        line-height: 155%;
+    }
+
+    .DateInput {
+        font-size: 150%;
+    }
+
+    .DatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1.5% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 2.7% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 13px;
+    }
+
+    .RidesPane {
+        height: 284px;
+        max-height: 284px;
+    }
+
+    .Rides_T th {
+        font-size: 130%;
+    }
+
+    .Rides_T tr td {
+        font-size: 130%;
+    }
+
+    .RedBall,
+    .GreenBall {
+        height: 30%;
+        margin: 6% 5% 0;
+    }
+
+    .GreenBall {
+    background-color: #489a46;
+    margin: 3% 9% 0;
+    width: 12%;
+    }
+
+    .BidRideBtn {
+        font-size: 90%;
+        padding: 0 0 2px;
+        width: 70%;
+    }
+
+    .AdjustRedBall {
+        width: 16% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 2% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 145%;
+        height: 32px;
+        margin: 0;
+        padding: 1px 0 0;
+        width: 20%;
+    }
+	.aprovedisaprove {
+margin-top: 24px;
+}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 33px;
+    }
+
+    .MainPane {
+        min-height: 327px;
+    }
+
+    .InputTxt {
+        height: 20px;
+    }
+
+    .ForumPane {
+        height: 205px !important;
+    }
+
+    .ForumTitleWrapper {
+        height: 19%;
+    }
+
+    .ForumMsgsPane {
+        height: 60%;
+        max-height: 60% !important;
+    }
+
+    .ForumMsgInput {
+        height: 25px;
+    }
+
+    .ForumSendBtn {
+        width: 23%;
+    }
+
+    .TravelBoardTitle {
+        font-size: 245%;
+        line-height: 155%;
+    }
+
+    .DateInput {
+        font-size: 150%;
+    }
+
+    .DatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1.5% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 2.7% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 15px;
+    }
+
+    .RidesPane {
+        height: 293px;
+        max-height: 293px;
+    }
+
+    .Rides_T th {
+        font-size: 130%;
+    }
+
+    .Rides_T tr td {
+        font-size: 130%;
+    }
+
+    .RedBall,
+    .GreenBall {
+        height: 30%;
+        margin: 5% 5% 0;
+    }
+
+    .GreenBall {
+        margin: 8% 8% 0 5%;
+        height: 30%;
+        width: 15%;
+    }
+
+    .BidRideBtn {
+        font-size: 92%;
+        padding: 0 0 3px;
+        width: 70%;
+    }
+
+    .AdjustRedBall {
+        width: 15% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 2% 0 0 5%;
+    }
+	.aprovedisaprove {
+margin-top: 20px;
+}
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 36px;
+    }
+
+    .MainPane {
+        min-height: 340px;
+    }
+
+    .InputTxt {
+        height: 20px;
+    }
+
+    .ForumPane {
+        height: 205px !important;
+    }
+
+    .ForumTitleWrapper {
+        height: 19%;
+    }
+
+    .ForumMsgsPane {
+        height: 60%;
+        max-height: 60% !important;
+    }
+
+    .ForumMsgInput {
+        height: 25px;
+    }
+
+    .ForumSendBtn {
+        width: 23%;
+    }
+
+    .TravelBoardTitle {
+        font-size: 245%;
+        line-height: 218%;
+    }
+
+    .DateInput {
+        font-size: 150%;
+margin: 2% 0 0 1% !important;
+height: 18px;
+		
+    }
+
+    .DatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 2.2% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 15px;
+    }
+
+    .RidesPane {
+        height: 501px
+    }
+
+    .Rides_T th {
+        font-size: 130%;
+    }
+
+    .Rides_T tr td {
+        font-size: 125%;
+    }
+
+    .RedBall,
+    .GreenBall {
+    height: 12px;
+    margin: 3% 7% 0 4%;
+    width: 12px;
+    }
+
+    .GreenBall {
+        margin: 8% 0 0 10%;
+        height: 30%;
+        width: 15%;
+    }
+
+    .BidRideBtn {
+        font-size: 90%;
+        padding: 0 3px 3px;
+        width: 50%;
+    }
+
+    .AdjustRedBall {
+        height: 33%;
+        width: 16% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 1% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 140%;
+    }
+	.aprovedisaprove {
+margin-top: 43px;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 39px;
+    }
+
+    .MainPane {
+        min-height: 350px;
+    }
+
+    .InputTxt {
+        height: 20px;
+    }
+
+    .ForumPane {
+        height: 290px !important;
+    }
+
+    .ForumTitleWrapper {
+        height: 13%;
+    }
+
+    .ForumMsgInput {
+        height: 25px;
+    }
+
+    .ForumSendBtn {
+        width: 23%;
+    }
+
+    .TravelBoardTitle {
+        font-size: 245%;
+        line-height: 192%;
+    }
+
+    .DateInput {
+        font-size: 150%;
+margin: 1.9% 0 0 1% !important;
+height: 18px;
+    }
+
+    .DatePane > div.DateLbl {
+    font-size: 153%;
+    margin: 1.5% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 2.2% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 17px;
+    }
+
+    .RidesPane {
+        height: 504px;
+    }
+
+    .Rides_T th {
+        font-size: 125%;
+    }
+
+    .Rides_T tr td {
+        font-size: 120%;
+    }
+
+    .RedBall,
+    .GreenBall {
+    height: 12px;
+    margin: 5% 5% 0 3%;
+    width: 12px;
+    }
+
+    .GreenBall {
+        margin: 3% 0 0 10%;
+        height: 35%;
+        width: 15%;
+    }
+
+    .BidRideBtn {
+        font-size: 90%;
+        padding: 0 0 4px;
+        width: 70%;
+    }
+
+    .AdjustRedBall {
+        height: 33%;
+        width: 12%;
+    }
+
+    .CloseBidRideBtn {
+        margin: 1% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 150%;
+    }
+	.aprovedisaprove {
+margin-top: 24%;
+}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 42px;
+    }
+
+    .ForumPane {
+        height: 302px !important;
+    }
+
+    .MainPane {
+        min-height: 365px;
+    }
+
+    .InputTxt {
+        height: 20px;
+    }
+
+    .TravelBoardTitle {
+        font-size: 225%;
+        line-height: 168%;
+    }
+
+    .DateInput {
+        font-size: 150%;
+margin: 1.5% 0 0 1% !important;
+height: 19px;
+    }
+
+    .DatePane > div.DateLbl {
+    font-size: 150%;
+    margin: 1.2% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 1.6% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 19px;
+    }
+
+    .RidesPane {
+        height: 506px;
+    }
+
+    .Rides_T th {
+        font-size: 125%;
+    }
+
+    .Rides_T tr td {
+        font-size: 120%;
+    }
+
+    .RedBall,
+    .GreenBall {
+    height: 12px;
+    margin: 4% 5% 0 4%;
+    width: 12px;
+    }
+
+    .GreenBall {
+        margin: 3% 0% 0 10%;
+        height: 40%;
+        width: 16%;
+    }
+
+    .BidRideBtn {
+        font-size: 90%;
+        padding: 0 0 2px;
+        width: 68%;
+    }
+
+    .AdjustRedBall {
+        height: 40%;
+        width: 16% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 1% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 150%;
+    }
+	.aprovedisaprove {
+margin-top: 19.5%;
+}
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 48px;
+    }
+
+    .ForumPane {
+        height: 325px !important;
+    }
+
+    .MainPane {
+        min-height: 397px;
+    }
+
+    .InputTxt {
+        height: 25px;
+    }
+
+    .TravelBoardTitle {
+        font-size: 210%;
+        line-height: 154%;
+    }
+
+    .DateInput {
+        margin: 1.5% 0 0 1% !important;
+        height: 20px;
+		font-size: 130%;
+    }
+
+    .DatePane > div.DateLbl {
+    font-size: 135%;
+    margin: 1.2% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 1.6% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 21px;
+    }
+
+    .RidesPane {
+        height: 468px;
+    }
+
+    .Rides_T tr td {
+        font-size: 105%;
+    }
+
+    .RedBall,
+    .GreenBall {
+    height: 12px;
+    margin: 4% 5% 0 6%;
+    width: 12px;
+    }
+
+    .GreenBall {
+        margin: 3% 0 0 10%;
+        width: 15% !important;
+        height: 40%;
+    }
+
+    .BidRideBtn {
+        font-size: 90%;
+        padding: 0 0 2px;
+        width: 70%;
+    }
+
+    .AdjustRedBall {
+        height: 40%;
+        margin: 3% 7% 0 !important;
+        width: 14% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 1% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 150%;
+    }
+	.aprovedisaprove {
+margin-top: 17%;
+}
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+
+    .MyRidesBtn,
+    .AddRideBtn,
+    .OpenRequestsBtn {
+        height: 50px;
+    }
+
+    .ForumPane {
+        height: 332px !important;
+    }
+
+    .MainPane {
+        min-height: 412px;
+    }
+
+    .InputTxt {
+        height: 25px;
+    }
+
+    .TravelBoardTitle {
+        font-size: 210%;
+    }
+
+    .DateInput {
+    font-size: 115%;
+    height: 20px;
+    margin: 1.5% 0 0 1%;
+    }
+
+    .DatePane > div.DateLbl {
+        font-size: 130%;
+        margin: 1% 0 0 2%;
+    }
+
+    .DatePane select {
+        margin: 1.4% 0.5% 0 2.5%;
+    }
+
+    .CityAutoCompletePane input {
+        height: 21px;
+    }
+
+    .RidesPane {
+        height: 487px;
+    }
+
+    .Rides_T tr td {
+        font-size: 105%;
+    }
+
+    .RedBall,
+    .GreenBall {
+        height: 14px;
+        margin: 2% 5% 0 4%;
+    }
+
+    .GreenBall {
+        margin: 2% 0 0 10%;
+        width: 15%;
+        height: 45%;
+    }
+
+    .BidRideBtn {
+        font-size: 95%;
+        padding: 0 0 2px;
+        width: 65%;
+    }
+
+    .AdjustRedBall {
+        height: 45%;
+        margin: 4% 5% 0 10%;
+        width: 15% !important;
+    }
+
+    .CloseBidRideBtn {
+        margin: 1% 0 0 5%;
+    }
+
+    .ChatSend {
+        font-size: 150%;
+    }
+	.aprovedisaprove {
+margin-top: 13.5%;
+}
+}
+
+@media only screen and (min-width: 1900px) {
+}
+
+
+/* custom css */
+.ui-filterable {
+    height: 29px;
+    margin-top: 1%;
+    width: 27%;
+}
+
+#CityList {
+    height: 356px !important;
+    margin-top: -4px;
+    overflow: auto;
+    padding-top: 11px;
+    position: absolute;
+    width: 8%
+}
+
+    #CityList li {
+    cursor: pointer;
+    margin-top: -11px;
+    padding: 5% 7% 12%;
+    text-align: right !important;
+    }
+
+.ui-filterable .ui-input-search {
+    font-size: 11px;
+}
+
+.ui-input-search input {
+    direction: rtl !important;
+    padding-left: 1.75em;
+    text-align: right !important;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    color: #333;
+    text-shadow: 0 0 0 #f3f3f3 !important;
+}
+
+.ui-input-search input {
+    padding-right: 1.75em !important;
+}
+
+div #filtercity .ui-li-static .ui-body-inherit .ui-first-child .ui-last-child {
+    width: 11% !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    text-align: right !important;
+}

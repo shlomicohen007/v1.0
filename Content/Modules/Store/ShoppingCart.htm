@@ -1,0 +1,43 @@
+﻿
+<div id="sb" style="height:255px; margin-top:3px; overflow:auto;" dir="ltr">
+    <table dir="rtl">
+        <% for p in @products : %>
+        <% if p : %>
+        <tr>
+            <td>
+                <%-p.quantity%>
+
+                <% if p.purchase=='kg' :%>
+                ק"ג
+                <% else : %>
+                יח'
+                <% end %>
+            </td>
+            <td>
+                <img src="<%-p.img %>" height="30" />
+            </td>
+            <td class="cartText" valign="top">
+                <div class="cartTextCon">
+                    <div>
+                        <span>
+                            <%-p.name%>
+                        </span>
+                        <a class="delProd" href="javascript://" onclick="ShoppingCart.setProdQuantity(<%-p._id%>,0);">מחק</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="height: 1px; background-color: #E8E8E8; padding:0;"></td>
+        </tr>
+        <% end %>
+        <% end %>
+    </table>
+</div>
+<div class="CartTotalCont">
+    <div class="CartTotal">
+        <%- @total %>
+        &#8362;
+    </div>
+    <a class="btnCheckOut" onclick="ShoppingCart.OpenOrderSummery()" href="javascript://">הצג עגלה ובצע הזמנה</a>
+</div>

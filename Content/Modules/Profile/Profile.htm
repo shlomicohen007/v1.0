@@ -1,0 +1,61 @@
+﻿<div class="AddProfileTitleWrapper" ng-form="Company">
+    <div class="PagetitleWrapper">
+        <h1 class="PageTitle">פרופיל חברה</h1>
+    </div>    
+    <div class="ui-grid-a ProfileDetailsPane">
+        <div class="ui-block-a ExtraDetailsPane">
+            <h1>פרטים נוספים והערות</h1>
+            <textarea ng-key="extraDetails" class="CompanyExtraDetailsText" cols="2" rows="2" data-role="none"></textarea>
+            <!--<div class="ExtraDetailsWrapper">
+            </div>-->
+            <div container="InnerPane" onclick="updateBusCompanyDtl()" height="38px" width="100%" class="AddCompanyProfileBtn style="display: block;">
+			<h2>עדכון פרטים</h2>
+			</div>
+            <!--<a class="AddCompanyProfileBtn" href="javascript://" onclick="updateBusCompanyDtl()"></a>-->
+            <div class="SuccessMsg">הפרטים נשמרו בהצלחה</div>
+        </div>
+        <div class="ui-block-b AddCompanyProfileFormPane">
+            <div class="CompanyNameWrapper">
+                <label class="FormLabel">מס</label>
+                <span ng-key="_id" ng-parse="int" style="color:black; font-weight:bold"></span>
+            </div>
+            <div class="CompanyNameWrapper Clear">
+                <label class="FormLabel">שם חברה</label>
+                <input type="text" ng-key="companyName" ng-validate="required" class="CompanyName InputTxt" data-role="none" />
+            </div>
+            <div class="ContactNameWrapper Clear">
+                <label class="FormLabel">שם איש קשר</label>
+                <input type="text" ng-key="contactName" ng-validate="required" class="ContactName InputTxt" data-role="none" />
+            </div>
+            <div class="FaxNumberWrapper Clear">
+                <label class="FormLabel">פקס</label>
+                <input type="text" ng-key="faxNumber" class="FaxNumber InputTxt" data-role="none" />
+            </div>
+            <div class="AddressWrapper Clear">
+                <label class="FormLabel">כתובת</label>
+                <input type="text" ng-key="address" class="Address InputTxt" data-role="none" />
+            </div>
+            <div class="PhoneNumberWrapper Clear">
+                <label class="FormLabel">טלפון</label>
+                <input type="text" ng-key="phoneNumber" ng-validate="required" class="PhoneNumber InputTxt" data-role="none" />
+            </div>
+            <div class="EmailWrapper Clear">
+                <label class="FormLabel">מייל</label>
+                <input type="text" ng-key="email" ng-validate="required" class="Email InputTxt" data-role="none" />
+            </div>
+            <div class="AuthorizedDealerWrapper Clear">
+                <label class="FormLabel">ח.פ/עוסק מורשה</label>
+                <input type="text" ng-key="companyNumber" class="AuthorizedDealer InputTxt" data-role="none" />
+            </div>
+            <div class="BusesNumberWrapper Clear">
+                <label class="FormLabel">מס' אוטובוסים</label>
+                <input type="text" ng-key="busesNumber" ng-validate="required" ng-parse="int" class="BusesNumber InputTxt" data-role="none" />
+            </div>
+            <div class="MinibusesNumberWrapper Clear">
+                <label class="FormLabel">מס' מיניבוסים</label>
+                <input type="text" ng-key="minibusesNumber" ng-validate="required" ng-parse="int" class="MinibusesNumber InputTxt" data-role="none" />
+            </div>
+        </div>
+    </div>
+    <div class="Clear"></div>
+</div>

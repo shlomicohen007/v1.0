@@ -1,0 +1,95 @@
+﻿<div ng-form="Register" class="RegistrationPane">        
+    <div class="ui-grid-a">        
+        <div class="ui-block-a CompanyDetailsPane" ng-form="CompanyDtl">
+            <div class="BlackTitle">פרטי חברה</div>
+            <div class="FormField">
+                <label class="FormLabel">שם חברה</label>
+                <input type="text" ng-key="companyName" ng-validate="required" class="CompanyName InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">ח.פ/עוסק מורשה</label>
+                <input type="text" ng-key="companyNumber" class="AuthorizedDealer InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">איש קשר</label>
+                <input type="text" ng-key="contactPerson" ng-validate="required" class="ContactPerson InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">טלפון/פלאפון</label>
+                <input type="text" ng-key="phoneNumber" ng-validate="required" class="PhoneNumber InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">כתובת</label>
+                <input type="text" ng-key="address" class="Address InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>  
+            <div class="FormField">
+                <label class="FormLabel">עיר</label>
+                <input type="text" ng-key="city" ng-validate="required" ng-parse="int" class="City InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">פקס</label>
+                <input type="text" ng-key="faxNumber" class="FaxNumber InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>                                              
+            <!--<div class="FormField">
+                <label class="FormLabel">מס' כלי רכב</label>
+                <input type="text" ng-key="vehicleNumber" ng-validate="required" ng-parse="int" class="VehicleNumber InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">אזור פעילות</label>
+                <input type="text" ng-key="activityArea" ng-validate="required" ng-parse="int" class="ActivityArea InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>-->
+            <div class="RegisterBtn">
+                <img alt="הרשמה" src="Images/RegisterBtn.jpg" onclick="register1Continue()" style="cursor:pointer" />
+            </div>
+            <!--<div class="FormField" style="color:black">
+                <input type="checkbox" ng-key="minibusesNumber" ng-validate="required" ng-parse="int" class="MinibusesNumber InputTxt" data-role="none" />
+                מעוניין להיות חבר מועדון BUSNET
+            </div>-->
+        </div>
+        <div class="ui-block-b AccountDetailsPane" ng-form="Company">
+            <h1 class="RegisterationTitle">הרשמה למערכת BusNet</h1>
+            <div class="BlackTitle">פרטי חשבון</div>
+            <!--<div class="FormField">
+                <label class="FormLabel">שם פרטי</label>
+                <input type="text" ng-key="firstName" ng-validate="required" class="FirstName InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">שם משפחה</label>
+                <input type="text" ng-key="lastName" ng-validate="required" class="LastName InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>-->
+            <div class="FormField">
+                <label class="FormLabel">מייל</label>
+                <input type="text" ng-key="email" ng-validate="required" class="Email InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">שם משתמש</label>
+                <input type="text" ng-key="username" ng-validate="required" class="UserName InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">סיסמה</label>
+                <input type="text" ng-key="password" ng-validate="required" class="Password InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="FormField">
+                <label class="FormLabel">אישור סיסמה</label>
+                <input type="text" ng-key="confirmpassword" ng-validate="required" class="ConfirmPassword InputTxt" data-role="none" />
+                <div class="Clear"></div>
+            </div>
+            <div class="BlackTitle">פרטי תשלום</div>
+        </div>
+        <div class="Clear"></div>
+    </div>
+</div>

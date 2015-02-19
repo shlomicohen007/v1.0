@@ -1,0 +1,160 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBoRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAMAAAExAAIAAAASAAAATgAAAAAAAJOjAAAD6AAAk6MAAAPoUGFpbnQuTkVUIHYzLjUuMTEA/9sAQwACAQECAQECAgICAgICAgMFAwMDAwMGBAQDBQcGBwcHBgcHCAkLCQgICggHBwoNCgoLDAwMDAcJDg8NDA4LDAwM/9sAQwECAgIDAwMGAwMGDAgHCAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAZAAKAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A/fyiiigAooooAKKKKACiiigAooooAKK57+xde/6DD/8AfiL/AOJo/sXXv+gw/wD34i/+JoA6GiiigD//2Q==);*/
+    /*background-color: #D3DFEB;*/
+    font-size: 0.5em !important;
+    font-family: Arial;
+    color: #000000;    
+}
+
+.Body
+{
+    background-color: #FFFFFF !important;
+}
+
+.Main {
+    direction: rtl;
+    margin: auto;
+}
+
+.Header {
+    width: 100%;
+    height: 65px;
+    margin: 0;
+    text-align: right;
+    background-color: #0072FF;
+}
+
+#SysPane {
+    margin: 0.1% 0 0;
+    padding: 0;
+}
+
+.AdminTopMenu {
+    float: right;        
+    list-style: none;
+    margin: 15px 0 0;
+}
+
+    .AdminTopMenu li,
+    .AdminTopMenu li:last-child {
+        float: right;
+        border-left: solid 1px #DBDBDB;
+        padding: 0 15px;
+        text-align: center;
+        font-size: 170%;
+        font-weight: bold;
+    }
+
+        .AdminTopMenu li:last-child {
+            border: 0;
+        }
+
+        .AdminTopMenu li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .AdminTopMenu li:hover a,
+        .AdminTopMenu li:hover a.Clicked {
+            color: white;
+        }
+
+#approveAgreementPayBtn i {
+background-image: url('../Images/visaasakims.png');
+background-size: cover;
+display: inline-block;
+width: 129px;
+height: 52px;
+    
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    body {
+        font-size: 0.5em !important;
+        width: 1000px;
+    }
+
+    .Main {
+        width: 1000px;
+    }
+
+    /*.AdminTopMenu {
+        width: 78%;
+    }*/
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    body {
+        font-size: 0.55em !important;
+    }
+
+    .Main {
+        width: 1100px;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+    body {
+        font-size: 0.6em !important;
+    }
+
+    .Main {
+        width: 1190px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    body {
+        font-size: 0.65em !important;
+    }
+
+    .Main {
+        width: 1280px;
+    }
+
+    /*.AdminTopMenu li > a,
+    .AdminTopMenu li > a:hover,
+    .AdminTopMenu li > a.Click {
+        font-size: 165%;
+    }*/
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    body {
+        font-size: 0.7em !important;
+    }
+
+    .Main {
+        width: 1400px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    body {
+        font-size: 0.8em !important;
+        width: 1600px;
+    }
+
+    .Main {
+        width: 1600px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    body {
+        font-size: 0.85em !important;
+    }
+
+    .Main {
+        width: 1680px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    body {
+        font-size: 0.95em !important;
+    }
+    
+}

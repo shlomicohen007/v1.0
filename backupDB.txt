@@ -1,0 +1,2 @@
+1. Backup Code Line Example: mongodump -d Cms
+2. Restore Code Line Example: c:\mongodb\bin\mongorestore -d Cms --drop

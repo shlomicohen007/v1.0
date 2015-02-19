@@ -1,0 +1,300 @@
+{ "_id" : 1001, "isActive" : true, "category" :[ 1001], "name" : "אנטריקוט מיושן אנגוס - לרוסטביף  3-4 ק\"ג", "price" : 125, "display" : "kg", "purchase" : "Units", "unitWeight" : 3.5, "image" : "ProdPic/rostbifantricot.jpg" }
+{ "_id" : 1002, "isActive" : true, "category" :[ 1001], "name" : "שיפודי אנטריקוט מיושן אנגוס", "price" : 125, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.1, "image" : "ProdPic/shipodantricot.jpg" }
+{ "_id" : 1003, "isActive" : true, "category" :[ 1001], "name" : "אנטריקוט - ארגנטינאי - דל סור", "price" : 125, "display" : "kg", "purchase" : "Units", "unitWeight" : 3, "image" : "ProdPic/antricotargntinaidelsor.jpg" }
+{ "_id" : 1004, "isActive" : true, "category" :[ 1001], "name" : "אנטריקוט מיושן אנגוס 3-4 ק\"ג ", "price" : 137, "display" : "kg", "purchase" : "Units", "unitWeight" : 3.5, "image" : "ProdPic/antricotangus.jpg" }
+{ "_id" : 1005, "isActive" : true, "category" :[ 1001], "name" : "סטייק אנטריקוט מיושן אנגוס כ -  300 גרם", "price" : 147, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.6, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1006, "isActive" : true, "category" :[ 1001], "name" : "אנטריקוט מיושן אנגוס - פרימיום 3.5 - 4.5 ק\"ג ", "price" : 149, "display" : "kg", "purchase" : "Units", "unitWeight" : 4, "image" : "ProdPic/antricotangusfidlotprimium.jpg" }
+{ "_id" : 1007, "isActive" : true, "category" :[ 1001], "name" : "אנטריקוט פריים ריב - עם עצם 6-7 ק\"ג ", "price" : 98, "display" : "kg", "purchase" : "Units", "unitWeight" : 6.5, "image" : "ProdPic/primerib.jpg" }
+{ "_id" : 1008, "isActive" : true, "category" :[ 1001], "name" : "סינטה אורגוואי", "price" : 95, "display" : "kg", "purchase" : "Units", "unitWeight" : 6, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1009, "isActive" : true, "category" :[ 1001], "name" : "סינטה עגל 4-6 ק\"ג ", "price" : 112, "display" : "kg", "purchase" : "Units", "unitWeight" : 5, "image" : "ProdPic/sintaegel.jpg" }
+{ "_id" : 1010, "isActive" : true, "category" :[ 1001], "name" : "סינטה פרה שמנה פרימיום 5-6 ק\"ג ", "price" : 179, "display" : "kg", "purchase" : "Units", "unitWeight" : 6, "image" : "ProdPic/sintaprimum.jpg" }
+{ "_id" : 1011, "isActive" : true, "category" :[ 1001], "name" : "שיפודי פילה בקר", "price" : 122, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/shipodfilebakar.jpg" }
+{ "_id" : 1012, "isActive" : true, "category" :[ 1001], "name" : "פילה בקר 1.1 -1.5 ק\"ג ", "price" : 150, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.3, "image" : "ProdPic/filebakar.jpg" }
+{ "_id" : 1013, "isActive" : true, "category" :[ 1001], "name" : "אסאדו מיושן -  אנגוס פידלוט ללא עצם 3.5-4.5 ק\"ג ", "price" : 69, "display" : "kg", "purchase" : "Units", "unitWeight" : 4, "image" : "ProdPic/asadobliezem.jpg" }
+{ "_id" : 1014, "isActive" : true, "category" :[ 1001], "name" : "אסאדו שלם / פרוס - עם עצם 5-6 ק\"ג ", "price" : 59, "display" : "kg", "purchase" : "Units", "unitWeight" : 5.5, "image" : "ProdPic/asadoimezem.jpg" }
+{ "_id" : 1015, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות מרגז - חריפות", "price" : 51, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.95, "image" : "ProdPic/margez.jpg" }
+{ "_id" : 1016, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות צ'וריסוס - ארגנטינאיות", "price" : 51, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/choricoss.jpg" }
+{ "_id" : 1017, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות עגל 80 גרם", "price" : 57, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.64, "image" : "ProdPic/naknikiotegel.jpg" }
+{ "_id" : 1018, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות עוף לילדים", "price" : 24, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/naknikiotoflilladim.jpg" }
+{ "_id" : 1019, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות שטראסבורג עגל - 60 גר' יח'", "price" : 85, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.24, "image" : "ProdPic/naknikiotstrasburgegel.jpg" }
+{ "_id" : 1020, "isActive" : true, "category" :[ 1002], "name" : "נקניקיות פרנקפורטר בקר", "price" : 85, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/nakniotfrankforterbakar.jpg" }
+{ "_id" : 1021, "isActive" : true, "category" :[ 1002], "name" : "תולוז הודו מעושן - נקניקית ספירלה כ- 80 גר'", "price" : 85, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/naknikiottuluz.jpg" }
+{ "_id" : 1022, "isActive" : true, "category" :[ 1002], "name" : "כרוב כבוש 500 גרם", "price" : "", "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/crovcavosh.jpg" }
+{ "_id" : 1023, "isActive" : true, "category" :[ 1002], "name" : "המבורגר מיני אנגוס - 80 גרם", "price" : 46, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.28, "image" : "ProdPic/hamburger80gram.jpg" }
+{ "_id" : 1024, "isActive" : true, "category" :[ 1002], "name" : "המבורגר ג'וניור אנגוס - 160 גרם", "price" : 46, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.28, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1025, "isActive" : true, "category" :[ 1002], "name" : "המבורגר מקסי אנגוס - 220 גרם", "price" : 46, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.1, "image" : "ProdPic/hamburger220gram.jpg" }
+{ "_id" : 1026, "isActive" : true, "category" :[ 1002], "name" : "הקבב של שישקו - 70 גר' ליח'", "price" : 46, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.26, "image" : "ProdPic/akbabshelshisko.jpg" }
+{ "_id" : 1027, "isActive" : true, "category" :[ 1002], "name" : "קבב בטחינה -70 גר' ליח'", "price" : 46, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.4, "image" : "ProdPic/kababthcina.jpg" }
+{ "_id" : 1028, "isActive" : true, "category" :[ 1002], "name" : "קבב חצילים - 70 גר' ליח'", "price" : 49, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.26, "image" : "ProdPic/kababhazi.jpg" }
+{ "_id" : 1029, "isActive" : true, "category" :[ 1002], "name" : "קבב על מקל קינמון - 70 גר' ליח'", "price" : 54, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.82, "image" : "ProdPic/kababalmakelkinamon.jpg" }
+{ "_id" : 1030, "isActive" : true, "category" :[ 1002], "name" : "קבב טלה עם פיסטוק - 70 גר' ליח'", "price" : 59, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.26, "image" : "ProdPic/kababfistok.jpg" }
+{ "_id" : 1031, "isActive" : true, "category" :[ 1002], "name" : "קבב טלה עם צנובר - 70 גר' ליח'", "price" : 59, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.26, "image" : "ProdPic/kababimznobar.jpg" }
+{ "_id" : 1032, "isActive" : true, "category" :[ 1003], "name" : "נתח בשר לצלי - לתנור כ- 1.8 ק\"ג", "price" : 48, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.8, "image" : "ProdPic/zlicatef.jpg" }
+{ "_id" : 1033, "isActive" : true, "category" :[ 1003], "name" : "נתח בשר - לבישול קדרה כ- 3.5 ק\"ג", "price" : 42, "display" : "kg", "purchase" : "Units", "unitWeight" : 3.5, "image" : "ProdPic/basarlekdera.jpg" }
+{ "_id" : 1034, "isActive" : true, "category" :[ 1003], "name" : "נתח בשר - לגולש כ- 3.5 ק\"ג", "price" : 36, "display" : "kg", "purchase" : "Units", "unitWeight" : 3.5, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1035, "isActive" : true, "category" :[ 1003], "name" : "בשר בקר טחון - אנגוס - 1 ק\"ג", "price" : 44, "display" : "kg", "purchase" : "Units", "unitWeight" : 1, "image" : "ProdPic/basartacon.jpg" }
+{ "_id" : 1036, "isActive" : true, "category" :[ 1003], "name" : "עצמות בקר - עם מח עצם - למרק ולחמין", "price" : 32, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1037, "isActive" : true, "category" :[ 1003], "name" : "מסרן - נקניק לחמין כ- 650 גר'", "price" : 57, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.65, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1038, "isActive" : true, "category" :[ 1003], "name" : "קשקע - לחמין כ- 500 גרם", "price" : 44, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.5, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1039, "isActive" : true, "category" :[ 1004], "name" : "סטייק פרגית - כ- 130 גר' ליח'", "price" : 61.9, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.3, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1040, "isActive" : true, "category" :[ 1004], "name" : "סטייק פרגית - במרינדה שום ודבש", "price" : 61.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/stakepargitbsomvedvash.jpg" }
+{ "_id" : 1041, "isActive" : true, "category" :[ 1004], "name" : "סטייק פרגית - במרינדה ים תיכונית", "price" : 61.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/stakepargityamticoni.jpg" }
+{ "_id" : 1042, "isActive" : true, "category" :[ 1004], "name" : "שיפודי פרגית", "price" : 69.90000000000001, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1043, "isActive" : true, "category" :[ 1004], "name" : "שיפודי פרגית - במרינדה שום ודבש", "price" : 69.90000000000001, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/shipodpargitsomvedvas.jpg" }
+{ "_id" : 1044, "isActive" : true, "category" :[ 1004], "name" : "שיפודי פרגית - במרינדה  ים תיכונית", "price" : 69.90000000000001, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1045, "isActive" : true, "category" :[ 1004], "name" : "שיפודי לבבות עוף", "price" : 69.90000000000001, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/shipodlevavotof.jpg" }
+{ "_id" : 1046, "isActive" : true, "category" :[ 1004], "name" : "שיפודי חזה עוף", "price" : 69.90000000000001, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/shipodhazeof.jpg" }
+{ "_id" : 1047, "isActive" : true, "category" :[ 1004], "name" : "חזה עוף - חצוי כ- 250 גר'", "price" : 34.9, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.5, "image" : "ProdPic/hazeofhazshoy1.jpg" }
+{ "_id" : 1048, "isActive" : true, "category" :[ 1004], "name" : "חזה עוף - פרוס לשניצל", "price" : 36.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/hazeofparoslesnitel.jpg" }
+{ "_id" : 1049, "isActive" : true, "category" :[ 1004], "name" : "חזה עוף פרוס - במרינדה שום ודבש - לגריל", "price" : 42.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1050, "isActive" : true, "category" :[ 1004], "name" : "חזה עוף שלם", "price" : 42.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/hazeofsalem.jpg" }
+{ "_id" : 1051, "isActive" : true, "category" :[ 1004], "name" : "כרעיים עוף - שלמים /מחולקים", "price" : 29.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1052, "isActive" : true, "category" :[ 1004], "name" : "כנפיים עוף חתוכות מקוצבות", "price" : 19, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/knafimof.jpg" }
+{ "_id" : 1053, "isActive" : true, "category" :[ 1004], "name" : "כנפיים עוף חתוכות מקוצבות - במרינדה שום ודבש", "price" : 21.9, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/knafimofbmarinada.jpg" }
+{ "_id" : 1054, "isActive" : true, "category" :[ 1004], "name" : "כנפיים עוף חתוכות מקוצבות - במרינדה שום ודבש", "price" : "", "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1055, "isActive" : true, "category" :[ 1004], "name" : "צלעות כבש", "price" : 135, "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/zlaotcheves.jpg" }
+{ "_id" : 1056, "isActive" : true, "category" :[ 1004], "name" : "כתף טלה שלם 1.5 ק\"ג ", "price" : 88.5, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.5, "image" : "ProdPic/katefcheves.jpg" }
+{ "_id" : 1057, "isActive" : true, "category" :[ 1004], "name" : "רבע כבש - כ- 3.5 ק\"ג ", "price" : 96, "display" : "kg", "purchase" : "Units", "unitWeight" : 3.5, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1058, "isActive" : true, "category" :[ 1004], "name" : "שיפודי טלה - כ- 110 גר' ליח'", "price" : 145, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.88, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1059, "isActive" : true, "category" :[ 1006], "name" : "פילה סלמון נורבגי גדול - כ- 1.6 ק\"ג ", "price" : 69, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.6, "image" : "ProdPic/filesalmon.jpg.jpg" }
+{ "_id" : 1060, "isActive" : true, "category" :[ 1006], "name" : "פילה סלמון נורבגי גדול - כ- 1.6 ק\"ג ", "price" : "", "display" : "kg", "purchase" : "Units",  "image" : "ProdPic/filesalmon5.jpg" }
+{ "_id" : 1061, "isActive" : true, "category" :[ 1006], "name" : "פילה אמנון - מתובל כ- 170 גר' ליח'", "price" : 44, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.02, "image" : "ProdPic/fileamnon.jpg" }
+{ "_id" : 1062, "isActive" : true, "category" :[ 1006], "name" : "פילה באס - כ- 170 גר' ליח'", "price" : 48, "display" : "kg", "purchase" : "Units", "unitWeight" : 1.02, "image" : "ProdPic/filebas.jpg" }
+{ "_id" : 1063, "isActive" : true, "category" :[ 1006], "name" : "פילה דניס - מתובל כ- 100 גר' ליח'", "price" : 79, "display" : "kg", "purchase" : "Units", "unitWeight" : 0.7, "image" : "ProdPic/default.jpg" }
+{ "_id" : 1064, "isActive" : true, "category" :[ 2001], "name" : "צ'יפס אמריקאי 2.5 ק\"ג", "price" : 33.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/Chipsamrikai.jpg" }
+{ "_id" : 1065, "isActive" : true, "category" :[ 2001], "name" : "הום פרייז - קוביות תפו\"א לטיגון ואפיה", "price" : 13.8, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/homfrids.jpg" }
+{ "_id" : 1066, "isActive" : true, "category" :[ 2001], "name" : "סירות - פלחי תפו\"א עם קליפה לטיגון ואפיה", "price" : 13.8, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/placimemklipa-sirot.jpg" }
+{ "_id" : 1067, "isActive" : true, "category" :[ 2001], "name" : "טבעות בצל הולנדיות - 700 גר'", "price" : 17.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/tabotbatzal.jpg" }
+{ "_id" : 1068, "isActive" : true, "category" :[ 2001], "name" : "קייג'ין - תיבול להום פרייז, פלחים וצ'יפס", "price" : 9.800000000000001, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1069, "isActive" : true, "category" :[ 2001], "name" : "קטשופ - 750 גר'", "price" : 16, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1070, "isActive" : true, "category" :[ 2002], "name" : "לחמניות להמבורגר - 80 גרם", "price" : 15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/lacmaniahmburger80gram.jpg" }
+{ "_id" : 1071, "isActive" : true, "category" :[ 2002], "name" : "לחמניות להמבורגר - 220 גרם", "price" : 15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/lacmaniahmburger220gram.jpg" }
+{ "_id" : 1072, "isActive" : true, "category" :[ 2002], "name" : "לחמניות לנקניקיה - 8 יח'", "price" : 15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1073, "isActive" : true, "category" :[ 2002], "name" : "פיתות אסליות בעבודת יד - 10 יח' במארז", "price" : 15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitot.jpg" }
+{ "_id" : 1074, "isActive" : true, "category" :[ 2002], "name" : "פיתות בייבי - אסליות - 10 יח'", "price" : 15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1075, "isActive" : true, "category" :[ 2003], "name" : "אלף האיים  - 300 גר'", "price" : 13, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1076, "isActive" : true, "category" :[ 2003], "name" : "ויניגרד תפוזים -300 גר'", "price" : 13, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1077, "isActive" : true, "category" :[ 2003], "name" : "ויניגרד קלאסי - 300  גר'", "price" : 13, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1078, "isActive" : true, "category" :[ 2003], "name" : "חרדל ודבש לסלט - 300 גר'", "price" : 13, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1079, "isActive" : true, "category" :[ 2003], "name" : "ברביקיו - לגריל ולהמבורגר - 300 גר'", "price" : 13, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1080, "isActive" : true, "category" :[ 2003], "name" : "צ'ימצ'ורי - 220 גר'", "price" : 24.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1081, "isActive" : true, "category" :[ 2003], "name" : "מיונז הלמנס - צנצנת", "price" : 15.8, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1082, "isActive" : true, "category" :[ 3001], "name" : "חומוס ירושלמי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1083, "isActive" : true, "category" :[ 3001], "name" : "חומוס ירושלמי 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1084, "isActive" : true, "category" :[ 3001], "name" : "חומוס מסבחה עם גרגרים  - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1085, "isActive" : true, "category" :[ 3001], "name" : "חומוס מסבחה עם גרגרים  - 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1086, "isActive" : true, "category" :[ 3001], "name" : "מסבחה ירוקה קצוצה טרייה  - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1087, "isActive" : true, "category" :[ 3001], "name" : "טחינה ישראלית אמיתית - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1088, "isActive" : true, "category" :[ 3001], "name" : "טחינה ישראלית אמיתית - 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1089, "isActive" : true, "category" :[ 3001], "name" : "טחינה אבו גוש - עם פטרוזיליה 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1090, "isActive" : true, "category" :[ 3001], "name" : "טחינה אבו גוש - עם פטרוזיליה 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1091, "isActive" : true, "category" :[ 3001], "name" : "טחינה גולמית אל - ארז  500 גר'", "price" : 17, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/thinaelerez.jpg" }
+{ "_id" : 1092, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש טבעי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1093, "isActive" : true, "category" :[ 3002], "name" : "חציל תאילנדי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1094, "isActive" : true, "category" :[ 3002], "name" : "חציל מרוקאי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1095, "isActive" : true, "category" :[ 3002], "name" : "חציל איטלקי עם זיתים 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1096, "isActive" : true, "category" :[ 3002], "name" : "חציל יפני עם רוטב צ'ילי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1097, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש במיונז 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1098, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש במיונז 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1099, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש עם ירקות 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1100, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש עם ירקות 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1101, "isActive" : true, "category" :[ 3002], "name" : "חציל על האש בטחינה 500 גר'", "price" : 16.15, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1102, "isActive" : true, "category" :[ 3002], "name" : "חציל ברוטב מתוק אדום אדום 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1103, "isActive" : true, "category" :[ 3002], "name" : "חציל פיקנטי ברוטב אדום 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1104, "isActive" : true, "category" :[ 3003], "name" : "תורכי תורכי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1105, "isActive" : true, "category" :[ 3003], "name" : "תורכי תורכי 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1106, "isActive" : true, "category" :[ 3003], "name" : "סלסה עגבניות עם שום 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1107, "isActive" : true, "category" :[ 3003], "name" : "מטבוחה על האש -250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1108, "isActive" : true, "category" :[ 3003], "name" : "מרדומה חמודה - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1109, "isActive" : true, "category" :[ 3004], "name" : "פלפלים קלויים על האש - רצועות - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1110, "isActive" : true, "category" :[ 3004], "name" : "פלפלים קלויים על האש - רצועות חריף בכיף", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1111, "isActive" : true, "category" :[ 3004], "name" : "סלק אדום אדום - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1112, "isActive" : true, "category" :[ 3004], "name" : "כרוב אדום במיונז 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1113, "isActive" : true, "category" :[ 3004], "name" : "פלפל גמבה - שרי פיקנטי 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1114, "isActive" : true, "category" :[ 3004], "name" : "גזר מרוקאי - עם פטרוזיליה קצוצה 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1115, "isActive" : true, "category" :[ 3004], "name" : "תפו\"א במיונז עם מלפפון חמוץ 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1116, "isActive" : true, "category" :[ 3004], "name" : "קולסלאו - 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1117, "isActive" : true, "category" :[ 3004], "name" : "ארטישוק במיונז וירקות 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1118, "isActive" : true, "category" :[ 3004], "name" : "פלחי ארטישוק ברוטב חמצמץ 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1119, "isActive" : true, "category" :[ 3004], "name" : "קישוא בטעם כבד 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1120, "isActive" : true, "category" :[ 3004], "name" : "קישוא מוקפץ ברוטב עדין 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1121, "isActive" : true, "category" :[ 3004], "name" : "פיטריות שמפיניון מוקפצות עם בצל 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1122, "isActive" : true, "category" :[ 3004], "name" : "פטריות במשרה מרינדה חמצמצה 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1123, "isActive" : true, "category" :[ 3004], "name" : "תירס עם פטריות 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1124, "isActive" : true, "category" :[ 3004], "name" : "סלט ביצים במיונז בנגיעות חרדל 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1125, "isActive" : true, "category" :[ 3004], "name" : "פסטו טרי טרי 250 גר'", "price" : 12.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1126, "isActive" : true, "category" :[ 3005], "name" : "רצועות גזר דקות מתובלות בלימון 0.5 ק\"ג ", "price" : 15.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1127, "isActive" : true, "category" :[ 3005], "name" : "לפת חמצמצה 250 גר'", "price" : 8.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1128, "isActive" : true, "category" :[ 3005], "name" : "פלחי לימון כבושים מתובלים 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1129, "isActive" : true, "category" :[ 3005], "name" : "עגבניות שרי - כבושות  0.5 ק\"ג", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1130, "isActive" : true, "category" :[ 3005], "name" : "עגבניות  ירוקות - כבושות  0.5 ק\"ג", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1131, "isActive" : true, "category" :[ 3005], "name" : "מסייר - ירקות כבושים  1 ק\"ג", "price" : 16, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1132, "isActive" : true, "category" :[ 3005], "name" : "כרוב אדום עם טיפטופי לימון 1 ק\"ג", "price" : 19.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1133, "isActive" : true, "category" :[ 3005], "name" : "כרוב לבן עם טיפטופי לימון 1 ק\"ג", "price" : 19.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1134, "isActive" : true, "category" :[ 3005], "name" : "כרוב לבן עם טיפטופי לימון וכוסברה 1 ק\"ג", "price" : 19.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1135, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - סורי 100 גר'", "price" : 6.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1136, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - שחורים 100 גר'", "price" : 6.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1137, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : 6.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim4.jpg" }
+{ "_id" : 1138, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim1.jpg" }
+{ "_id" : 1139, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim2.jpg" }
+{ "_id" : 1140, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim3.jpg" }
+{ "_id" : 1141, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim5.jpg" }
+{ "_id" : 1142, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim6.jpg" }
+{ "_id" : 1143, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim7.jpg" }
+{ "_id" : 1144, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim8.jpg" }
+{ "_id" : 1145, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim9.jpg" }
+{ "_id" : 1146, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim10.jpg" }
+{ "_id" : 1147, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim11.jpg" }
+{ "_id" : 1148, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim12.jpg" }
+{ "_id" : 1149, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim13.jpg" }
+{ "_id" : 1150, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim14.jpg" }
+{ "_id" : 1151, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim15.jpg" }
+{ "_id" : 1152, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim16.jpg" }
+{ "_id" : 1153, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim17.jpg" }
+{ "_id" : 1154, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim18.jpg" }
+{ "_id" : 1155, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim19.jpg" }
+{ "_id" : 1156, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim20.jpg" }
+{ "_id" : 1157, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim21.jpg" }
+{ "_id" : 1158, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim22.jpg" }
+{ "_id" : 1159, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/zeitim23.jpg" }
+{ "_id" : 1160, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1161, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1162, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1163, "isActive" : true, "category" :[ 3005], "name" : "זיתים מיוחדים - ירוקים 100 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1164, "isActive" : true, "category" :[ 3005], "name" : "מלפפון הבית במלח 0.5 ק\"ג  ", "price" : 16.45, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/hamozim.jpg" }
+{ "_id" : 1165, "isActive" : true, "category" :[ 3005], "name" : "מלפפון הבית בחומץ 0.5 ק\"ג ", "price" : 16.45, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/hamozim4.jpg" }
+{ "_id" : 1166, "isActive" : true, "category" :[ 3006], "name" : "סלט צ'רשי - ממרח דלעת טריפוליטאי 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1167, "isActive" : true, "category" :[ 3006], "name" : "פלפל צ'ומה 250 גר'", "price" : 11.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1168, "isActive" : true, "category" :[ 3006], "name" : "סחוג ירוק / אדום  150 גר'", "price" : 12.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1169, "isActive" : true, "category" :[ 3006], "name" : "אריסה 250 גר'", "price" : 13.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1170, "isActive" : true, "category" :[ 3006], "name" : "פלפל שיפקונית - 250 גר'", "price" : 9.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1171, "isActive" : true, "category" :[ 3006], "name" : "פלפל חריף מטוגן שלם 500 גר'", "price" : 14.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1172, "isActive" : true, "category" :[ 4004], "name" : "פירות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/peyrot.jpg" }
+{ "_id" : 1173, "isActive" : true, "category" :[ 4004], "name" : "פירות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/peyrot3.jpg" }
+{ "_id" : 1174, "isActive" : true, "category" :[ 4004], "name" : "ירקות אווירה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1175, "isActive" : true, "category" :[ 4004], "name" : "ירקות - סל טנא", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/yrakot.jpg" }
+{ "_id" : 1176, "isActive" : true, "category" :[ 4004], "name" : "", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/yrakot4.jpg" }
+{ "_id" : 1177, "isActive" : true, "category" :[ 4004], "name" : "אננס", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/anans.jpg" }
+{ "_id" : 1178, "isActive" : true, "category" :[ 4004], "name" : "אפרסק", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/afarsek.jpg" }
+{ "_id" : 1179, "isActive" : true, "category" :[ 4004], "name" : "מנגו", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/mango.jpg" }
+{ "_id" : 1180, "isActive" : true, "category" :[ 4004], "name" : "ענבים", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/anavim.jpg" }
+{ "_id" : 1181, "isActive" : true, "category" :[ 4004], "name" : "מלון", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/melon1.jpg" }
+{ "_id" : 1182, "isActive" : true, "category" :[ 4004], "name" : "אגס", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/agas.jpg" }
+{ "_id" : 1183, "isActive" : true, "category" :[ 4004], "name" : "קלמנטינה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/klmantina.jpg" }
+{ "_id" : 1184, "isActive" : true, "category" :[ 4004], "name" : "קיווי", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/kiwi.jpg" }
+{ "_id" : 1185, "isActive" : true, "category" :[ 4004], "name" : "פטל שחור", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/petelshacor.jpg" }
+{ "_id" : 1186, "isActive" : true, "category" :[ 4004], "name" : "תפוז דם", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/tapuzdam.jpg" }
+{ "_id" : 1187, "isActive" : true, "category" :[ 4004], "name" : "אבטיח", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/avatiach.jpg" }
+{ "_id" : 1188, "isActive" : true, "category" :[ 4004], "name" : "שזיף אדום - סנטה רוזה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/shezifadom.jpg" }
+{ "_id" : 1189, "isActive" : true, "category" :[ 4004], "name" : "בטטה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/batata.jpg" }
+{ "_id" : 1190, "isActive" : true, "category" :[ 4004], "name" : "דלורית", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/dalorit.jpg" }
+{ "_id" : 1191, "isActive" : true, "category" :[ 4004], "name" : "לבבות חסה - שטופים 250 גר'", "price" : 9.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1192, "isActive" : true, "category" :[ 4004], "name" : "לבבות חסה - שטופים 1 ק\"ג ", "price" : 29, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1193, "isActive" : true, "category" :[ 4004], "name" : "לבבות חסה - אלון ירוק 250 גר'", "price" : 9.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1194, "isActive" : true, "category" :[ 4004], "name" : "לבבות חסה - אלון אדום 250 גר'", "price" : 9.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1195, "isActive" : true, "category" :[ 4004], "name" : "מיקס עליי בייבי - 250 גר'", "price" : 15.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1196, "isActive" : true, "category" :[ 4004], "name" : "מיקס עליי בייבי 0.5 ק\"ג ", "price" : 28, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1197, "isActive" : true, "category" :[ 4004], "name" : "עגבניות שרי כתומות 1 ק\"ג", "price" : 19.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1198, "isActive" : true, "category" :[ 4004], "name" : "עגבניות שרי מיקס 1 ק\"ג", "price" : 19.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/agvaniotsheritamar.jpg" }
+{ "_id" : 1199, "isActive" : true, "category" :[ 4004], "name" : "עגבניות שרי מיקס כ- 250 גר'", "price" : 13.5, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/agvaniotsheri.jpg.jpg" }
+{ "_id" : 1200, "isActive" : true, "category" :[ 4004], "name" : "עגבניות שרי צהובות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/agvaniotsherizaov.jpg" }
+{ "_id" : 1201, "isActive" : true, "category" :[ 4004], "name" : "עגבניה פרוסה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1202, "isActive" : true, "category" :[ 4004], "name" : "עגבניה שלמה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/agvaniia.jpg" }
+{ "_id" : 1203, "isActive" : true, "category" :[ 4004], "name" : "אספרגוס", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/aspargus.jpg" }
+{ "_id" : 1204, "isActive" : true, "category" :[ 4004], "name" : "פטריות פורטובלו 0.5 ק\"ג", "price" : 49, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitriotportobelo.jpg" }
+{ "_id" : 1205, "isActive" : true, "category" :[ 4004], "name" : "פטריות יער 0.5 ק\"ג ", "price" : 49, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitriotyar.jpg" }
+{ "_id" : 1206, "isActive" : true, "category" :[ 4004], "name" : "פטריות שמפיניון סלסלה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitriotshampinion.jpg" }
+{ "_id" : 1207, "isActive" : true, "category" :[ 4004], "name" : "פטריות מלך היער", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitriotmelechhyar.jpg" }
+{ "_id" : 1208, "isActive" : true, "category" :[ 4004], "name" : "פטריות שיטאקי", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pitriotshitaki.jpg" }
+{ "_id" : 1209, "isActive" : true, "category" :[ 4004], "name" : "גזר צבעוני כ- 10 יח'", "price" : 24, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/gezerzivoni.jpg" }
+{ "_id" : 1210, "isActive" : true, "category" :[ 4004], "name" : "עלי תבלין טריים - טימין כ- 130 גר'", "price" : 7.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/timin.jpg" }
+{ "_id" : 1211, "isActive" : true, "category" :[ 4004], "name" : "עלי רוזמרין טריים - כ- 130 גר'", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/rozmzrin.jpg" }
+{ "_id" : 1212, "isActive" : true, "category" :[ 4004], "name" : "עלי תבלין טריים - טרגון כ- 130 גר'", "price" : 7.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/targon.jpg" }
+{ "_id" : 1213, "isActive" : true, "category" :[ 4004], "name" : "עלי תבלין טריים - זעתר כ- 130 גר'", "price" : 7.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/aleytavlin.jpg" }
+{ "_id" : 1214, "isActive" : true, "category" :[ 4004], "name" : "עלי תבלין טריים - עירית כ- 130 גר'", "price" : 7.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1215, "isActive" : true, "category" :[ 4004], "name" : "עלי תבלין טריים - רוקט כ- 130 גר'", "price" : 7.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1216, "isActive" : true, "category" :[ 4004], "name" : "נבטי חמניות כ- 130 גר'", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/nivtayhamnia.jpg" }
+{ "_id" : 1217, "isActive" : true, "category" :[ 4004], "name" : "נבטי ברוקלי כ- 130 גר'", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1218, "isActive" : true, "category" :[ 4004], "name" : "נבטי צנונית כ- 130 גר'", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/nivtayznonit.jpg" }
+{ "_id" : 1219, "isActive" : true, "category" :[ 4004], "name" : "נבטי אלפלפא", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/nivteyalfalfa.jpg" }
+{ "_id" : 1220, "isActive" : true, "category" :[ 4004], "name" : "בצל סגול - מקולף שלם 1 ק\"ג ", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/basaladommekolaf.jpg" }
+{ "_id" : 1221, "isActive" : true, "category" :[ 4004], "name" : "בצלל סגול - מקולף פרוס 0.5 ק\"ג", "price" : 7, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/bazal sagol.jpg" }
+{ "_id" : 1222, "isActive" : true, "category" :[ 4004], "name" : "תפוח אדמה זעיר  1 ק\"ג ", "price" : 8.6, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1223, "isActive" : true, "category" :[ 4004], "name" : "תפ\"א ליפס  1 ק\"ג ", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/taphchadama.jpg" }
+{ "_id" : 1224, "isActive" : true, "category" :[ 4004], "name" : "תפו\"א באטר  1 ק\"ג ", "price" : 8.699999999999999, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1225, "isActive" : true, "category" :[ 4004], "name" : "תפו\"א באטר - מתוק - מיוחד לאפיה  1 ק\"ג ", "price" : 8.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1226, "isActive" : true, "category" :[ 4004], "name" : "אנדיב", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/andiv.jpg" }
+{ "_id" : 1227, "isActive" : true, "category" :[ 4004], "name" : "נבטי עדשים", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/nivteyadashim.jpg" }
+{ "_id" : 1228, "isActive" : true, "category" :[ 4004], "name" : "פטרוזיליה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/petrozilia.jpg" }
+{ "_id" : 1229, "isActive" : true, "category" :[ 4004], "name" : "כוסברה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/cosbara.jpg" }
+{ "_id" : 1230, "isActive" : true, "category" :[ 4004], "name" : "נענע", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/nana.jpg" }
+{ "_id" : 1231, "isActive" : true, "category" :[ 4004], "name" : "שיני שום קלופות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/somkalof.jpg" }
+{ "_id" : 1232, "isActive" : true, "category" :[ 4004], "name" : "ראש שום", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/som.jpg" }
+{ "_id" : 1233, "isActive" : true, "category" :[ 4004], "name" : "תערובת פיצוחים", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/tarovrtpituchim.jpg" }
+{ "_id" : 1234, "isActive" : true, "category" :[ 5001], "name" : "עוגת מוס - שוקולד", "price" : 48.3, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1235, "isActive" : true, "category" :[ 5001], "name" : "עוגת היער השחור", "price" : 48.3, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1236, "isActive" : true, "category" :[ 5001], "name" : "עוגת פירות", "price" : 48.3, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1237, "isActive" : true, "category" :[ 5001], "name" : "עוגת  טירמיסו", "price" : 48.3, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1238, "isActive" : true, "category" :[ 5001], "name" : "עוגת גבינה", "price" : 48.3, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1239, "isActive" : true, "category" :[ 5001], "name" : "עוגה בחושה ע\"ב שוקולד", "price" : 35.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1240, "isActive" : true, "category" :[ 5001], "name" : "עוגה בחושה ע\"ב פאדג' ", "price" : 35.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1241, "isActive" : true, "category" :[ 5001], "name" : "עוגה בחושה ע\"ב פרי ", "price" : 35.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1242, "isActive" : true, "category" :[ 5001], "name" : "עוגה בחושה ע\"ב חמאה ", "price" : 35.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1243, "isActive" : true, "category" :[ 5001], "name" : "עוגה בחושה ע\"ב פיסטוקים ", "price" : 35.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1244, "isActive" : true, "category" :[ 5001], "name" : "שמרים שוקולד פיצפוצים", "price" : 36.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1245, "isActive" : true, "category" :[ 5001], "name" : "שמרים פרג", "price" : 36.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1246, "isActive" : true, "category" :[ 5001], "name" : "שמרים אגוזים", "price" : 36.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1247, "isActive" : true, "category" :[ 5001], "name" : "שמרים גבינה", "price" : 36.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1248, "isActive" : true, "category" :[ 5001], "name" : "שמרים חלבה", "price" : 36.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1249, "isActive" : true, "category" :[ 5001], "name" : "בראוניז  16 יח' במגש", "price" : 98, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1250, "isActive" : true, "category" :[ 5001], "name" : "פאי תותים  8 מנות", "price" : 117, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1251, "isActive" : true, "category" :[ 5001], "name" : "פאי מרנג לימון  10 מנות", "price" : 79, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1252, "isActive" : true, "category" :[ 5001], "name" : "טרפלס (כדורי שוקולד 25 גרם) - קוקוס / קקאו / סוכריות צבעוניות - 500 גרם כ - 20 כדורים", "price" : 46, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1253, "isActive" : true, "category" :[ 5001], "name" : "עוגת מוס שוקולד - יום הולדת", "price" : 135, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1254, "isActive" : true, "category" :[ 5001], "name" : "שטרודל (קפוא לאפיה ביתית) - גבינה", "price" : 27.6, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/shtrodeltapohachetz.jpg" }
+{ "_id" : 1255, "isActive" : true, "category" :[ 5001], "name" : "גלידה - וניל  חלבי 4 ליטר", "price" : 87, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/glidavanil.jpg" }
+{ "_id" : 1256, "isActive" : true, "category" :[ 5001], "name" : "גלידה - שוקולד  חלבי 4 ליטר", "price" : 88, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1257, "isActive" : true, "category" :[ 5001], "name" : "וופל גלידה - גביע", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/vafelglida.jpg" }
+{ "_id" : 1258, "isActive" : true, "category" :[ 5001], "name" : "וופל אמריקאי 5 יח'", "price" : 19.7, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/vafelbelgi.jpg" }
+{ "_id" : 1259, "isActive" : true, "category" :[ 5002], "name" : "שטרודל (קפוא לאפיה ביתית) - פרג", "price" : 27.6, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1260, "isActive" : true, "category" :[ 5002], "name" : "שטרודל (קפוא לאפיה ביתית) - תפוחים", "price" : 27.6, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1261, "isActive" : true, "category" :[ 5002], "name" : "פירות יער קפואים - פטל  2 ק\"ג ", "price" : 69.90000000000001, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1262, "isActive" : true, "category" :[ 5002], "name" : "פירות יער קפואים - דובדבן 2 ק\"ג ", "price" : 69.90000000000001, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1263, "isActive" : true, "category" :[ 5002], "name" : "פירות יער קפואים - דומדומיות שחורות ואדומות 2 ק\"ג ", "price" : 69.90000000000001, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1264, "isActive" : true, "category" :[ 5002], "name" : "סורבט - תות 4 ליטר", "price" : 87, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbettot.jpg" }
+{ "_id" : 1265, "isActive" : true, "category" :[ 5002], "name" : "סורבט - מנגו 4 ליטר", "price" : 87, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1266, "isActive" : true, "category" :[ 5002], "name" : "סורבט - פסיפלורה 4 ליטר", "price" : 87, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1267, "isActive" : true, "category" :[ 5002], "name" : "גלידה - וניל  פרווה 4 ליטר", "price" : 79, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/glidatvanilparve.jpg" }
+{ "_id" : 1268, "isActive" : true, "category" :[ 5002], "name" : "גלידה - שוקו פרווה 4 ליטר", "price" : 79, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/glidatshokoladparve.jpg" }
+{ "_id" : 1269, "isActive" : true, "category" :[ 5002], "name" : "גלידה - תות שמנת פרווה 4 ליטר", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/glidattotshamenet.jpg" }
+{ "_id" : 1270, "isActive" : true, "category" :[ 5002], "name" : "מרנג לימון פס", "price" : 48, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1271, "isActive" : true, "category" :[ 5002], "name" : "טארט תפוחים ע\"ב שקדים", "price" : 48, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1272, "isActive" : true, "category" :[ 5002], "name" : "פרלין מוס אגוזים (שכבות)", "price" : 56, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1273, "isActive" : true, "category" :[ 5002], "name" : "סורבט מישמיש", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetmishmish.jpg" }
+{ "_id" : 1274, "isActive" : true, "category" :[ 5002], "name" : "סורבט תפוז סיני", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbettapuzsini.jpg" }
+{ "_id" : 1275, "isActive" : true, "category" :[ 5002], "name" : "סורבט ערק אשכוליות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetarakeshkoliot.jpg" }
+{ "_id" : 1276, "isActive" : true, "category" :[ 5002], "name" : "סורבט פטל", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetpetel.jpg" }
+{ "_id" : 1277, "isActive" : true, "category" :[ 5002], "name" : "סורבט ליצ'י", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetlitshi.jpg" }
+{ "_id" : 1278, "isActive" : true, "category" :[ 5002], "name" : "סורבט לימונענע", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetlimonana.jpg" }
+{ "_id" : 1279, "isActive" : true, "category" :[ 5002], "name" : "סורבט פסיפלורה", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetpasiflora.jpg" }
+{ "_id" : 1280, "isActive" : true, "category" :[ 5002], "name" : "סורבט קיווי", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetkiwi.jpg" }
+{ "_id" : 1281, "isActive" : true, "category" :[ 5002], "name" : "סורבט אוכמניות", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetuchmaniot.jpg" }
+{ "_id" : 1282, "isActive" : true, "category" :[ 5002], "name" : "סורבט תפוח ג'ינג'ר", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbettapuchginger.jpg" }
+{ "_id" : 1283, "isActive" : true, "category" :[ 5002], "name" : "סורבט כסיס", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetcasis.jpg" }
+{ "_id" : 1284, "isActive" : true, "category" :[ 5002], "name" : "סורבט אשכולית קמפרי", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbeteshkoliotkampari.jpg" }
+{ "_id" : 1285, "isActive" : true, "category" :[ 5002], "name" : "סורבט קוקוס", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetkokos.jpg" }
+{ "_id" : 1286, "isActive" : true, "category" :[ 5002], "name" : "סורבט מנגו", "price" : "", "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/surbetmango.jpg" }
+{ "_id" : 1287, "isActive" : true, "category" :[ 6001], "name" : "תפוז סחוט טבעי  5 ליטר", "price" : 37, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/mitztivei.jpg" }
+{ "_id" : 1288, "isActive" : true, "category" :[ 6001], "name" : "לימונדה טבעית 5 ליטר", "price" : 37, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1289, "isActive" : true, "category" :[ 6001], "name" : "אשכולית אדומה סחוטה 5 ליטר", "price" : 37, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1290, "isActive" : true, "category" :[ 6001], "name" : "תפוח עץ סחוט 2 ליטר", "price" : 27, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1291, "isActive" : true, "category" :[ 6001], "name" : "קוביות קרח 5 ק\"ג ", "price" : 20, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1292, "isActive" : true, "category" :[ 6002], "name" : "יין ירדן הר חרמון 750 מ\"ל ", "price" : 42, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1293, "isActive" : true, "category" :[ 6002], "name" : "לוונבראו - עדינה 5.2% חבית 5 ליטר", "price" : 139, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1294, "isActive" : true, "category" :[ 6002], "name" : "ספטן - לאגר זהובה 5.2% חבית 5 ליטר", "price" : 149, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1295, "isActive" : true, "category" :[ 6002], "name" : "פרנסיס קאנר 5% חבית קטנה 5 ליטר", "price" : 159, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1296, "isActive" : true, "category" :[ 7001], "name" : "סיר פוייקה - 14 ליטר", "price" : 50, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1297, "isActive" : true, "category" :[ 7001], "name" : "גרילר אסאדו גדול 40*100 ס\"מ  רשת גריל נעה ", "price" : 150, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1298, "isActive" : true, "category" :[ 7001], "name" : "גרילר נקניקיות מסתובבות", "price" : 115, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }
+{ "_id" : 1299, "isActive" : true, "category" :[ 7002], "name" : "פחמים מעץ הקסיה מאפריקה - 5 ק\"ג ", "price" : 30, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/pecmim.jpg" }
+{ "_id" : 1300, "isActive" : true, "category" :[ 7002], "name" : "מדליק פחמים - חומר בערה מוצק 270 גר'", "price" : 13.9, "display" : "Units", "purchase" : "Units",  "image" : "ProdPic/default.jpg" }

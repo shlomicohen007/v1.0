@@ -1,0 +1,22 @@
+﻿
+.AboutUs {
+    height:880px;
+    background-image:url('../images/aubg.png');
+   background-repeat:no-repeat;
+   background-position:bottom;
+}
+.AboutUsMiddel {
+    border-bottom:solid 2px #CD181F;
+    border-top:solid 2px #CD181F;
+    margin: 30px 0;
+    padding:40px 0 0 0;
+}
+
+.au1{ margin:25px 0 50px 0;}
+
+.au3{
+    background-image:url('../images/ab1.jpg');
+    background-repeat:no-repeat;
+   background-position:top left;
+    height:480px;
+}

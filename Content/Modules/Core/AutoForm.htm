@@ -1,0 +1,15 @@
+﻿
+<a href="javascript://" id="AutoFormClose" onclick="AutoForm.Close(this)">x</a>
+<table>
+    <% for c in @fileds : %>
+    <tr>
+        <th>
+            <%- c.DisplayName %>
+        </th>
+        <td>
+            <input type="<%- c.Type %>" name="<%- c.Name %>" />
+        </td>
+    </tr>
+    <% end %>
+    <tr><td colspan="2"><input type="button" onclick="save()" value="Save" /></td></tr>
+</table>

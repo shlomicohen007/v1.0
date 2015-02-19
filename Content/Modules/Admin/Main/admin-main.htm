@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%- @title%></title>
+    <base href="http://{{host}}/" />
+    <link type="text/css" rel="stylesheet" href="/min/min.css">
+</head>
+<body>
+    <div class="Main">
+        <div class="TopLine"></div>
+        <div class="Header">
+            <ul class="TopMenu">
+                <% for link in @links : %>
+                <li style="<%-link.style%>"><a href="<%- link.Url %>" container="#Pane"><%- link.Name %></a></li>
+                <% end %>
+            </ul>
+            <a class="Logo" href="/admin/" container="#Pane">
+                <img src="images/logo.png" />
+            </a>
+            <div id="HeaderText"></div>
+        </div>
+        <div id="Pane">
+
+        </div>
+        <div class="footerHr" ></div>
+        <div class="footer1">
+           
+        </div>
+        <div class="footer2">
+           
+        </div>
+        <div class="footer3">
+            
+            <div>
+                <a href="http://www.reynet.co.il/">בניית אתרים - ריי נט</a>
+
+                <a href="http://www.reynet.co.il/">עיצוב - יוסי חג'אג'</a>
+                כל הזכויות שמורות &copy;
+                2014 בשר מהכפר
+            </div>
+
+        </div>
+    </div>
+    <div id="mask"></div>
+    <div id="lb"><a class="X" onclick="closeLightBox()"></a></div>
+    <div id="OS" style="display:none;"></div>
+   
+    <script type="text/javascript" src="/min/admin.js"></script>
+</body>
+</html>
+
+

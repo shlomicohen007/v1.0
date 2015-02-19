@@ -1,0 +1,45 @@
+﻿<div class="ContactUs">
+    <div class="TitlePane">
+        <h1 class="Title">תמיכה</h1>
+    </div>
+    <div class="cu1" ng-form="ContactUs">
+        אתם מוזמנים לפנות אלינו בכל שאלה...
+        <input type="text" ng-watermark="שם" ng-key="name" ng-validate="required" data-role="none" />
+        <input type="text" ng-watermark="טלפון" ng-key="phone" ng-validate="required" data-role="none" />
+        <input type="text" ng-watermark="אימייל" ng-key="email" ng-validate="required" data-role="none" />
+        <input type="text" ng-watermark="חברה" ng-key="company" ng-validate="required" data-role="none" />
+        <select class="sMsgType" ng-key="msgType" ng-validate="required" data-role="none">
+            <option value="">סוג פנייה</option>
+            <option>תמיכה</option>
+            <option>הצעות שיפור</option>
+        </select>
+        <textarea ng-watermark="הודעה" ng-key="content" data-role="none"></textarea>
+        <div class="Clear"></div>
+        <div class="ContactUsSendBtn">
+            <a id="SendCUMsg" class="btnSend cuSend" data-role="none" onclick="sendContactUs();" href="javascript://">
+                <img src="Images/ForumSendBtn.jpg" alt="שלח">
+            </a>
+        </div>
+    </div>
+	<!--
+	<div>
+  <h2>בעיות במערכת? יש לכם שאלות? חפשו את הפתרון פה</h2>		
+  <div data-role="collapsible-set" id="helpqa" data-mini="true">
+	<div data-role="collapsible">
+	<h3>Section 1</h3>
+	<p>I'm the collapsible set content for section B.</p>
+	</div>
+	<div data-role="collapsible">
+	<h3>Section 2</h3>
+	<p>I'm the collapsible set content for section B.</p>
+	</div>
+	<div data-role="collapsible">
+	<h3>Section 2</h3>
+	<p>I'm the collapsible set content for section B.</p>
+	</div>
+   </div>
+</div>
+-->
+	
+	</div>
+</div>

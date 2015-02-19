@@ -1,0 +1,82 @@
+﻿
+<a href="javascript://" onclick="OpenProductForm()">הוסף מוצר חדש</a>
+
+&nbsp;&nbsp;
+|
+&nbsp;
+&nbsp;
+
+
+חפש מוצר:
+<input type="text" id="name" /> <input type="button" onclick="searchProduct();" value="חפש" />
+<br/>
+    <div id="Grid"></div>
+    <div id="ProductEditor" dir="rtl">
+        <table width="360" cellspacing="3" style="margin:20px;" ng-form="Product">
+            <tr>
+                <td>מספר:</td>
+                <td><span ng-key="_id" ng-parse="int"></span></td>
+                <td align="left">
+                    פעיל
+                    <input type="checkbox" ng-key="isActive" />
+                </td>
+            </tr>
+            <tr>
+                <td>שם:</td>
+                <td colspan="2"><input type="text" style="width:250px;" ng-key="name" /></td>
+            </tr>
+            <tr>
+                <td>מחיר:</td>
+                <td><input type="text" style="width:50px;" ng-key="price" ng-parse="float" /></td>
+                <td>מבצע: <input type="text" style="width:50px;" ng-key="specialPrice" ng-parse="float" /></td>
+            </tr>
+            <tr>
+                <td>משקל ליח':</td>
+                <td><input type="text" style="width:50px;" ng-key="unitWeight" ng-parse="float" /></td>
+                <td rowspan="2">
+                    <img ng-key="image" id="prodImg" src="ProdPic/default.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td>מחיר שיוצג:</td>
+                <td><input type="radio" ng-key="display" value="Units" name="display" />יח' / <input type="radio" value="kg" name="display" />ק"ג</td>
+            </tr>
+           
+            <tr>
+                <td>נקנה ב:</td>
+                <td colspan="2">
+                    <input type="radio" ng-key="purchase" value="Units" name="purchase" />יח' / <input type="radio" value="kg" name="purchase" />ק"ג
+                    / <input type="radio" value="Both" name="purchase" /> גם וגם
+                    &nbsp;
+                    <a href="javascript://" onclick="$('#imgUpload').show(400)">החלף תמנה</a>
+                </td>
+            </tr>
+             <tr id="imgUpload" style="display: none;">
+                <td colspan="3">
+                    <iframe src="uploadimg/" frameBorder="0" style="width: 350px; height: 50px;"></iframe>
+                </td>
+            </tr> 
+            <tr>
+                <td valign="top">על המוצר:</td>
+                <td colspan="2"><textarea ng-key="details" style="width:250px;height:60px;"></textarea></td>
+            </tr>
+            <tr>
+                <td valign="top">קטגוריות:</td>
+                <td colspan="2">
+                    <select ng-key="category" ng-parse="intArray" style="width: 255px; height: 150px; padding-right:5px;" multiple="multiple">
+
+                        <% for link , index  in @res[0].categories : %>
+                        <optgroup label="<%- link.name %>">
+                            <% for sub in link.categories : %>
+                            <option value="<%- sub._id %>"><%- sub.name %></option>
+                            <% end %>
+                        </optgroup>
+                        <% end %>
+                    </select>
+                </td>
+            </tr>
+            <tr><td colspan="3" align="center"><input type="button" value="שמור" onclick="SaveProductForm();" /></td></tr>
+        </table>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

@@ -1,0 +1,120 @@
+﻿<% firsActiveUrl = (d)-> %>
+    <% for sub in d.categories : %>
+        <% if sub.isActive : %>
+            <% return sub.url%>
+        <% end%>
+    <% end%>
+<% end%>
+<div id="menu" >
+    <ul class="CategoryMenu">
+        <li style="background-color:white;">
+            <div class="sep">
+                <div></div>
+            </div>
+            |
+        </li>
+        <% for link,index in @res[0].categories : %>
+        <% if link.categories[0] and link.url : %>
+        <li
+            <%- ' class="selected" ' if link._id == @Params.ParentID %>>
+            <div class="sep">
+                <div></div>
+
+                <a container="#Pane" href="/<%- firsActiveUrl link %>"><%- link.name %></a>
+            </div><div class="sub<%-index%> sub">
+                <% for sub in link.categories : %>
+                <% if sub.isActive : %>
+                <a href="/<%- sub.url %>" container="#ProdPane"<%- ' class="selectedCat" ' if sub._id == @Params.CategoryID %> onclick="selectSub(this)"><%- sub.name %></a>
+                |
+                <% end %>
+                <% end %>
+            </div>
+
+        </li>
+        <% end %>
+        <% end %>
+
+    </ul>
+
+
+</div>
+<div class="RightBar">
+    <div class="Cart">
+        <div class="CartTitle">
+            עגלת הקניות שלי
+        </div>
+        <b>שלום,</b>
+        <span id="User">אורח</span>
+        <span id="cp0" style="display:none">
+            <a id="signOut" href="javascript://">יציאה</a> /
+            <a id="myOrders" href="/myorders" container="#Pane">הזמנות קודמות</a>
+        </span>
+        <span id="cp1">
+            <a class="btnRegister" href="/register" container="#Pane">הרשמה</a> /
+            <a class="btnLogin" href="javascript://" onclick="$('#CartProducts').hide(400); ng.watermark('Login');$('.CartLogin').show(400);" container="#Pane">כניסה לרשומים</a>
+        </span>
+        <div class="CartLogin" ng-form="Login">
+            <br />
+            <br />
+            <input type="text" ng-key="email" ng-validate="required" ng-watermark="אימייל" />
+
+            <br />
+            <br />
+
+            <input type="password" ng-key="password" ng-validate="required" ng-watermark="סיסמה" />
+
+            <br />
+
+            <a class="btnSend cartLogSend" href="javascript://" onclick="login()">
+                כניסה
+            </a>
+            <br />
+
+            <div id="logErrMsg">
+                שם משתמש או סיסמה אינם נכונים
+            </div>
+            <div class="cartLinks">
+                <a href="javascript://" onclick="openForgotPass()">שכחתי סיסמה</a>
+                <a href="javascript://" onclick="$('.CartLogin').hide(400); $('#CartProducts').show(400);" style="float:left;">סגור</a>
+            </div>
+        </div>
+        <div id="CartProducts">
+        </div>
+    </div>
+    <span class="cartStars">
+        *תיתכן סטייה במחיר הסופי עקב שקילת מוצרים שנבחרו ביחידות ומתומחרים לפי ק"ג
+        <br />
+        * המחיר מעודכן נכון לתאריך
+        <span id="toDate"></span>
+        <br />
+        * מינימום הזמנה 300 ש"ח (לא כולל דמי משלוח)
+    </span>
+    <div class="Calc">
+        <div class="CalcTitle">
+            ממליץ כמויות לאירוח
+        </div>
+
+        <div style="margin-right:8px;">
+            סה"כ 
+            אורחים:
+            <a class="plus" style="margin-right:3px;" onclick="addGuest(1);" unselectable="on" onselectstart="return false;" onmousedown="return false;">+</a>
+            <input type="text" id="GuestCounter" value="8" onkeyup="updateCalc();" />
+            <a class="minus" onclick="addGuest(-1);" unselectable="on" onselectstart="return false;" onmousedown="return false;">-</a>
+        </div>
+        <div style="margin:12px 8px 5px 0;">
+            סה"כ
+            כמות מומלצת:
+        </div>
+        <b>
+            בשר:
+            <span id="CalcMeat">3.2 ק"ג"</span>
+        </b>
+        <b>
+            סלטים:
+            <span id="CalcSalad">1.6 ק"ג"</span>
+        </b>
+    </div>
+</div><div id="ProdPane">
+
+
+</div>

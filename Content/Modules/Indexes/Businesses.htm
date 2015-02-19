@@ -1,0 +1,23 @@
+﻿<ul class="IndexItems">
+    <% for business, index in @res : %>
+    <li>
+        <div class="ItemRightPane">
+            <a href="/indexes/business/?b=<%- business._id %>" container=".IndexItemsPane" class="IndexItemTitle" data-role="none">
+                <%- business.businessName %>
+            </a>
+            <div class="ItemDescription">
+                <%- business.shortDescription %>
+            </div>
+        </div>
+        <div class="ItemLeftPane">
+            <div class="ItemContactPhone">
+                <%- business.phone %>
+            </div>
+            <div class="ItemContactAddress">
+                <%- business.address %>
+            </div>
+        </div>
+        <div class="Clear"></div>
+    </li>
+    <% end %>   
+</ul>

@@ -1,0 +1,74 @@
+﻿<% for product,index in @res : %>
+<div class="Product" ng-form="Product<%-product._id%>">
+    <% if product.specialPrice : %>
+    <div class="Sale"></div>
+    <% end %>
+    <a class="ProdIL"><img src="<%-product.image%>" ng-key="img" alt="<%-product.name%>" /></a>
+    <div class="ProdD">
+        <b ng-key="name"><%-product.name%></b>
+        <div>
+            <% if product.specialPrice : %>
+            <%-product.specialPrice%>
+            <% else : %>
+            <%-product.price%>
+            <% end %>
+            <span>
+                &#8362;
+                <% if product.display=='kg' :%>
+                לק"ג
+                <% else : %>
+                ליח'
+                <% end %>
+            </span>
+        </div>
+        <% if product.details :%>
+            <a class="modeDtlLink" href="javascript://" onclick="$('#MD<%-product._id%>').show(400)">פרטים נוספים</a>
+            <div class="modeDtl" id="MD<%-product._id%>">
+                <a class="BlackX" href="javascript://" onclick="$('#MD<%-product._id%>').hide(400)"></a>
+                <%-product.details%>
+            </div>
+        <%end%>
+    </div>
+    <a class="plus" onclick="addProduct(<%-product._id%>,1)" unselectable="on" onselectstart="return false;" onmousedown="return false;">+</a>
+    <input type="text" value="0" ng-key="quantity" id="ProdCounter<%-product._id%>" onkeyup="addProduct(<%-product._id%>,0)" ng-parse="int" />
+    <a class="minus" onclick="addProduct(<%-product._id%>,-1)" unselectable="on" onselectstart="return false;" onmousedown="return false;">-</a>
+
+    <input type="hidden" ng-key="purchase" value="<%- if product.purchase=='kg' or product.purchase=='Both' then 'kg' else 'Units' %>" />
+    <input type="hidden" ng-key="display" value="<%- product.display %>" />
+    <input type="hidden" ng-key="price" ng-parse="float" value="<%- product.price %>" />
+    <input type="hidden" ng-key="unitWeight" ng-parse="float" value="<%- product.unitWeight %>" />
+    
+
+    <% if product.purchase=='kg' or product.purchase=='Both' :%>
+    <div class="ProdUnit">
+        <a class="radioOff"></a>
+        קילו
+    </div>
+    <% end %>
+    <% if product.purchase=='Units' or product.purchase=='Both' :%>
+    <div class="ProdUnit">
+        <a class="radioOn"></a>
+        יח'
+    </div>
+    <% end %>
+        
+</div>
+<% end %>
+<% if @pager.count > @pager.limit : %>
+<div class="pager" align="center">
+    <%  page =  parseInt(@pager.skip / @pager.limit) + 1 %>
+    <%  totalPages = parseInt(@pager.count / @pager.limit) + 1 %>
+    
+
+    <% if page < totalPages: %>
+    <a style="background-color:#DADADA" href="<%- @Params.url %><%- '?page='+ (  page + 1 ) %>" container="#ProdPane"> &lt; </a>
+    <% end %>
+    <% for i in [totalPages..1]: %>
+    <a <%- 'style="background-color:#CD181F"' if i==page %> href="<%- @Params.url %><%- '?page='+i if i > 1 %>" container="#ProdPane"> <%- i %> </a>
+    <% end %>
+    <% if page > 1: %>
+    <a style="background-color:#DADADA" href="<%- @Params.url %><%- '?page='+ (page-1) if (page-1) > 1 %>" container="#ProdPane"> &gt; </a>
+    <% end %>
+</div>
+<% end %>
+<span></span>

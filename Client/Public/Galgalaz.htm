@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        body {
+            margin: -2% 0 0 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        object
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <a id="radioPlugin" href="">
+        <img alt="גלגלצ" src="images/GalgalzPic.png" style="width: 98%;" border="0" />
+    </a>
+    <script type="text/javascript">
+        var winWidth = parent.window.innerWidth; //Width=235, Height=150
+        var href = "http://player.glz.co.il/Player.aspx?ClipID=glgltz-a-zixief&Type=live&Width=[Width]&Height=[Height]&FixedPoster=true&FixedPosterName=GLGLTZ.jpg";
+        //debugger;
+        if (winWidth < 1980 && winWidth >= 1680)
+            href = href.replace("[Width]", "240").replace("[Height]", "150");
+        else if (winWidth < 1900 && winWidth >= 1680)
+            href = href.replace("[Width]", "215").replace("[Height]", "150");
+        else if (winWidth < 1680 && winWidth >= 1600)
+            href = href.replace("[Width]", "205").replace("[Height]", "150");
+        else if (winWidth < 1600 && winWidth >= 1400)
+            href = href.replace("[Width]", "180").replace("[Height]", "150");
+        else if (winWidth < 1400 && winWidth >= 1280)
+            href = href.replace("[Width]", "160").replace("[Height]", "150");
+        else if (winWidth < 1280 && winWidth >= 1190)
+            href = href.replace("[Width]", "150").replace("[Height]", "120");
+        else if (winWidth < 1190 && winWidth >= 1100)
+            href = href.replace("[Width]", "140").replace("[Height]", "120");
+
+        document.getElementById('radioPlugin').href = href;
+
+    </script>
+</body>
+</html>

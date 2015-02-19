@@ -1,0 +1,149 @@
+﻿<div class="AddRideTitleWrapper" ng-form="Ride">
+    <div class="PagetitleWrapper">
+        <h1 class="PageTitle">הוספת נסיעה</h1>
+        <span style="display:none;" ng-key="_id" ng-parse="int"></span>
+    </div>    
+    <div class="ui-grid-a">
+        <div class="ui-block-a AddRideExtraDetailsPane">
+            <h1>פרטים נוספים והערות</h1>
+            <textarea ng-key="extraDetails" class="ExtraDetailsText" cols="2" rows="2" data-role="none"></textarea>
+            <div width="100%" height="38px" container="InnerPane" onclick="addRide()" class="ConfirmRideBtn">
+            <h2>אישור והוספת נסיעה</h2>
+            </div>
+            <!--<a href="javascript://" class="ConfirmRideBtn" onclick="addRide()"></a>-->
+
+        </div>
+        <div class="ui-block-b AddFormPane"></br>
+               <div class="DestinationWrapper Clear">
+                    <label class="FormLabel">סוג נסיעה</label>
+                    <!--<input type="text" ng-key="destination" ng-validate="required" class="DestinationTxt InputTxt" />-->
+                    <select class="sDestinationT" ng-key="type" ng-validate="required" data-role="none">
+                        <option value="1">נסיעה</option>
+                        <option value="2">קבלנות משנה</option>
+                    </select>
+                </div>
+            <div class="DateWrapper">
+                <label class="FormLabel">תאריך פינוי</label>
+                <input type="text" ng-key="aviliableDate" ng-validate="required" class="DateTxt InputTxt" data-role="none" />
+            </div>
+            <div class="HourWrapper Clear">
+                <label class="FormLabel">שעת פינוי</label>
+                <!--<input type="text" ng-key="aviliableHour" ng-validate="required" class="HourTxt InputTxt" />-->
+                <select class="sHours" ng-key="aviliableHour" ng-validate="required" data-role="none">
+                    <option value="">בחר שעה</option>
+                    <option value="01:00">01:00</option>
+                    <option value="02:00">02:00</option>
+                    <option value="03:00">03:00</option>
+                    <option value="04:00">04:00</option>
+                    <option value="05:00">05:00</option>
+                    <option value="06:00">06:00</option>
+                    <option value="07:00">07:00</option>
+                    <option value="08:00">08:00</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                    <option value="23:00">23:00</option>
+                    <option value="24:00">24:00</option>
+
+                </select>
+            </div>
+            <div class="VehicleTypeWrapper Clear">
+                <label class="FormLabel">סוג רכב</label>
+                <!--<input type="text" ng-key="vehicleType" ng-validate="required" class="VehicleTypeTxt InputTxt" />-->
+                <select class="sVehicleType" ng-key="vehicleType" ng-validate="required" data-role="none">
+                    <option value="">בחר סוג</option>
+                    <option>אוטובוס</option>
+                    <option>מיניבוס</option>
+                    <option>וואן</option>
+                    <option>מיקרובוס</option>
+                    <option>רכב להסעת נכים</option>
+                </select>
+            </div>
+            <div class="VehiclesNumberWrapper Clear">
+                <label class="FormLabel">מס' רכבים</label>
+                <!--<input type="text" ng-key="vehicleNumber" ng-validate="required" class="VehiclesNumberTxt InputTxt" />-->
+                <select class="sVehicleNumber" ng-key="vehicleNumber" ng-validate="required" data-role="none">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5+</option>
+                </select>
+            </div>
+            <div class="AreaWrapper Clear">
+                <label class="FormLabel">אזור פינוי</label>
+                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
+                <select class="sArea" id="srcAreaID" ng-key="mainArea" ng-validate="required" data-role="none" onchange="filterCities(this,'citiesDDL')" ng-add-key="srcAreaID">
+                    <option value="">בחר אזור פינוי</option>
+                    <option ng-srcareaid-val="1">אילת והערבה</option>
+                    <option ng-srcareaid-val="2">גליל העליון והמערבי</option>
+                    <option ng-srcareaid-val="3">גליל התחתון והעמקים</option>
+                    <option ng-srcareaid-val="4">שומרון</option>
+                    <option ng-srcareaid-val="5">השרון</option>
+                    <option ng-srcareaid-val="6">חיפה והקריות</option>
+                    <option ng-srcareaid-val="7">ים המלח ומדבר יהודה</option>
+                    <option ng-srcareaid-val="8">ירושלים והשפלה</option>
+                    <option ng-srcareaid-val="9">מרכז הארץ</option>
+                    <option ng-srcareaid-val="10">מרכז הנגב והמכתשים</option>
+                    <option ng-srcareaid-val="11">צפון הנגב</option>
+                    <option ng-srcareaid-val="12">רמת הגולן</option>
+                </select>
+            </div>
+            <div id="cityList" style="display:none;">
+                
+                <% for city in @res : %>
+                <option data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></option>
+                <% end %>
+            </div>
+            <div class="AreaWrapper Clear">
+                <label class="FormLabel">עיר פינוי</label>
+                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
+                <select id="citiesDDL" class="sArea" ng-key="area" ng-validate="required" data-role="none" ng-add-key="cityID">
+                    
+                </select>
+            </div>
+            <div class="ReturnDateWrapper Clear">
+                <label class="FormLabel">תאריך החזרה</label>
+                <input type="text" ng-key="returnDate" ng-validate="required" data-role="none" class="DateTxt InputTxt" />
+            </div>
+            <div class="AreaWrapper Clear">
+                <label class="FormLabel">אזור יעד חזרה</label>
+                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
+                <select class="sArea" id="dstAreaID" ng-key="destinationArea" ng-validate="required" data-role="none" onchange="filterCities(this, 'destinationCitiesDDL')" ng-add-key="dstAreaID">
+                    <option value="">בחר אזור חזרה</option>
+                    <option ng-dstareaid-val="1">אילת והערבה</option>
+                    <option ng-dstareaid-val="2">גליל העליון והמערבי</option>
+                    <option ng-dstareaid-val="3">גליל התחתון והעמקים</option>
+                    <option ng-dstareaid-val="4">שומרון</option>
+                    <option ng-dstareaid-val="5">השרון</option>
+                    <option ng-dstareaid-val="6">חיפה והקריות</option>
+                    <option ng-dstareaid-val="7">ים המלח ומדבר יהודה</option>
+                    <option ng-dstareaid-val="8">ירושלים והשפלה</option>
+                    <option ng-dstareaid-val="9">מרכז הארץ</option>
+                    <option ng-dstareaid-val="10">מרכז הנגב והמכתשים</option>
+                    <option ng-dstareaid-val="11">צפון הנגב</option>
+                    <option ng-dstareaid-val="12">רמת הגולן</option>
+                </select>
+            </div>
+            <div class="DestinationWrapper Clear">
+                <label class="FormLabel">עיר החזרה</label>
+                <!--<input type="text" ng-key="destination" ng-validate="required" class="DestinationTxt InputTxt" />-->
+                <select id="destinationCitiesDDL" class="sDestinationT" ng-key="destination" ng-validate="required" data-role="none" ng-add-key="dstCityID">
+
+                </select>
+            </div>
+            </div>
+        </div>
+    <div class="Clear"></div>
+</div>

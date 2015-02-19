@@ -1,0 +1,79 @@
+﻿
+.Pane {
+    background-color: #F6F7F9 !important;
+}
+
+.AddProfileTitleWrapper {
+    background-color: #ffffff;
+    border-left: solid 1px #CBCCCE;
+    border-right: solid 1px #CBCCCE;
+    border-bottom: solid 1px #CBCCCE;
+    -webkit-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    -moz-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+	height: 530px;
+}
+
+.ProfileDetailsPane {
+    overflow: visible !important;
+    background-color: #FFFFFF;
+}
+
+.AddCompanyProfileFormPane,
+.ExtraDetailsPane {
+    padding: 0 3% 0 0 !important;
+}
+
+.ExtraDetailsPane {
+    padding: 0 5% !important;
+    text-align: center;
+}
+
+.AddCompanyProfileFormPane div {
+    margin: 0 0 3% 0;
+}
+
+.CompanyNameWrapper {
+    margin: 3.2% 0 0 !important;
+}
+
+.AddCompanyProfileFormPane label,
+.AddCompanyProfileFormPane input {
+    float: right;
+}
+
+.ExtraDetailsPane > h1 {
+    color: #000000;
+    font-size: 180%;
+    line-height: 85%;
+    margin: 4% auto 3% 0;
+}
+
+.CompanyExtraDetailsText {
+    border: 1px solid #000000;
+    direction: rtl;
+    font-size: 16px;
+    height: 270px;
+    margin: 0;
+    padding: 0 2%;
+    resize: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 95%;
+}
+
+.AddCompanyProfileBtn {
+background-color: #4c66a3;
+height: 47px;
+margin: -1.7% 0 0;
+color: #ffffff;
+line-height: 2;
+}
+
+.SuccessMsg
+{
+    display: none;
+    color: #489B49;
+}
+
+ 

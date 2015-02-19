@@ -1,0 +1,52 @@
+﻿
+<table class="DataTable">
+    <tr>
+        <th>מס</th>
+        <th>פעיל</th>
+        <th>שם</th>
+        <th>מחיר</th>
+        <th>מוצג ל</th>
+        <th>נקנה ב</th>
+        <th>משקל יח'</th>
+        <th>תמונה</th>
+        <th>קטגוריות</th>
+        <th>עריכה</th>
+    </tr>
+
+    <% for row in @res : %>
+    <tr>
+        <td><%- row._id %></td>
+        <td>
+            <img src="images/<%- row.isActive %>.png" />
+        </td>
+        <td><%- row.name %></td>
+        <td><%- row.price %></td>
+        <td><%- row.display %></td>
+        <td><%- row.purchase %></td>
+        <td><%- row.unitWeight %></td>
+        <td>
+            <img src="<%- row.image %>" height="30" alt="<%- row.image %>" />
+        </td>
+        <td><%- row.category %></td>
+        <td><a href="javascript://" onclick="OpenProductForm(<%- row._id %>)">עריכה</a></td>
+    </tr>
+    <% end %>
+
+</table>
+<% if @pager.count > @pager.limit : %>
+<div class="pager" align="center">
+    <%  page =  parseInt(@pager.skip / @pager.limit) + 1 %>
+    <%  totalPages = parseInt(@pager.count / @pager.limit) + 1 %>
+
+
+    <% if page < totalPages: %>
+    <a style="background-color:#DADADA" href="/admin/products<%- '?page='+ (  page + 1 ) %>" container="#Grid"> &lt; </a>
+    <% end %>
+    <% for i in [totalPages..1]: %>
+    <a<%- 'style="background-color:#CD181F"' if i==page %> href="/admin/products<%- '?page='+i if i > 1 %>" container="#Grid"> <%- i %> </a>
+    <% end %>
+    <% if page > 1: %>
+    <a style="background-color:#DADADA" href="/admin/products<%- '?page='+ (page-1) if (page-1) > 1 %>" container="#Grid"> &gt; </a>
+    <% end %>
+</div>
+<% end %>

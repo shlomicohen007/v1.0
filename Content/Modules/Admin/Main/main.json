@@ -1,0 +1,6 @@
+﻿{"title":"ניהול אתר BusNet",
+	"links":[{"Name":"ניהול ראשי","Url":"/admin/main"}
+			,{"Name":"היסטורית נסיעות","Url":"/admin/history"}
+			,{"Name":"ניהול משתמשים","Url":"/admin/users"}
+			,{"Name":"ניהול מפרסמים","Url":"/admin/advertisers"}]
+}

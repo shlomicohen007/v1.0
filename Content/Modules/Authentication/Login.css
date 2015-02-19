@@ -1,0 +1,277 @@
+﻿.Login {
+    margin: 31% 5% 0 0;
+    display: inline-block;
+}
+
+.LoginHeader {
+    width: 85%;
+    display: block;
+    font-size: 1em;
+    margin: 2% 7% 0 0;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0.7em 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+    color: #0076F8;
+}
+
+.BusNetLogo {
+    margin: 5% auto 0;
+    width: 15%;
+    height: 20%;
+}
+
+    .BusNetLogo img {
+        width: 100%;
+        height: 100%;
+    }
+
+.LoginFormPane {
+    width: 330px;
+	margin-top: -50px;
+}
+
+.Login input[type='text'],
+.Login input[type='password'] {
+    background-color: #ffffff;
+    border: 0 none;
+    color: #000000;
+    direction: rtl;
+    font-size: 140%;
+    height: 45px;
+    margin: 0 0 5px;
+    padding: 0 5%;
+    text-align: right;
+    width: 90%;
+}
+
+.LoginActionsPane {
+    margin: 0;
+}
+
+a.ForgotPassword {
+    float: left;
+    display: block;
+    background-color: #3CB54B;
+    color: #FFFFFF;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+    a.ForgotPassword:hover {
+        color: #FFFFFF;
+    }
+
+a.Register {
+    float: right;
+}
+
+.LoginActionsPane a.LogSend{
+    background-color: #0072bb;
+    color: #ffffff;
+    display: block;
+    float: right;
+    font-size: 160%;
+    font-weight: normal;
+    height: 37px;
+    padding: 3px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+    .LoginActionsPane a.LogSend:hover {
+        color: #FFFFFF !important;
+    }
+
+.EngDirection {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.loginTitle {
+    font-weight: bold;
+    color: #606060;
+    font-size: 18px;
+    width: 300px;
+    display: inline-block;
+    border-bottom: solid 1px #0172FF;
+    margin: 20px 500px;
+}
+
+.login1, .login2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 280px;
+}
+
+.login1 {
+    width: 330px;
+    margin: 20px 500px;
+}
+
+.logFiled {
+    display: inline-block;
+    width: 190px;
+    height: 30px;
+    margin-top: 15px;
+    color: #606060;
+}
+
+    .logFiled input {
+        width: 220px;
+        height: 25px;
+        margin-top: 5px;
+    }
+
+#logErrMsg {
+    color: red;
+    display: none;
+    margin-top: 10px;
+    /*position: absolute;*/
+    text-align: right;
+    width: 90%;
+    padding: 0 5%;
+    background-color: #FFFFFF;
+}
+
+.cromdwonload {
+    color: #ffffff;
+    display: block;
+    font-size: 142%;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    text-align: center;
+    text-shadow: 1px 0px 4px black;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+
+    .Login {
+        margin: 53% 1% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 240%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 260%;
+        height: 35px;
+        padding: 5px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    .Login {
+        margin: 48.5% 4% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 240%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 260%;
+        height: 35px;
+        padding: 5px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+    .Login {
+        margin: 45% 4.5% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 240%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 260%;
+        height: 35px;
+        padding: 5px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    .Login {
+        margin: 42.3% 4% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 200%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 240%;
+        height: 37px;
+        padding: 3px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .Login {
+        margin: 39% 4.5% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 200%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 230%;
+        height: 37px;
+        padding: 3px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    .Login {
+        margin: 34.9% 4.5% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 170%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 200%;
+        height: 37px;
+        padding: 3px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    .Login {
+        margin: 33.5% 4.5% 0 0;
+    }
+
+        .Login input[type='text'],
+        .Login input[type='password'] {
+            font-size: 160%;
+        }
+
+    .LoginActionsPane a.LogSend {
+        font-size: 190%;
+        height: 37px;
+        padding: 3px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+}

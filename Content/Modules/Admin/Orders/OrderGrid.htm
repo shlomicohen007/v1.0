@@ -1,0 +1,57 @@
+﻿<% df = (d)-> %>
+<% dp = (new Date(d)).toISOString().split('T') %>
+<% dt = dp[0].split('-') %>
+<% h = dp[1].split(':') %>
+   <%- h[0] %>:<%- h[1] %>  <%- dt[2] %>/<%- dt[1] %>/<%- dt[0] %>
+<% end %>
+
+<table class="DataTable">
+    <tr>
+        <th>מס</th>
+        <th>Email</th>
+        <th>לקוח</th>
+        <th>ישוב</th>
+        <th>הוזמן</th>
+
+        <th>אירוח</th>
+        <th>סה"כ</th>
+        <th>סטטוס</th>
+        <th>צפיה</th>
+    </tr>
+
+    <% for row in @res : %>
+    <tr>
+        <td><%- row._id %></td>
+        <td><%- row.customer.email %></td>
+        <td><%- row.customer.firstName %> <%- row.customer.lastName %></td>
+        <td><%- row.customer.city %></td>
+        <td><%- df row.dtl.createDate %></td>
+        <td><%- row.dtl.eDate %></td>
+        <td><%- row.total %></td>
+        <td><%- row.dtl.status %></td>
+        <td><a href="javascript://" onclick="OpenOrder(<%- row._id %>,{print:true})" >צפיה</a></td>
+    </tr>
+    <% end %>
+
+</table>
+
+<br /><br />
+
+<% if @pager.count > @pager.limit : %>
+<div class="pager" align="center">
+    <%  page =  parseInt(@pager.skip / @pager.limit) + 1 %>
+    <%  totalPages = parseInt(@pager.count / @pager.limit) + 1 %>
+
+
+    <% if page < totalPages: %>
+    <a style="background-color:#DADADA" href="/admin/orders<%- '?page='+ (  page + 1 ) %>" container="#Pane"> &lt; </a>
+    <% end %>
+    <% for i in [totalPages..1]: %>
+    <a<%- 'style="background-color:#CD181F"' if i==page %> href="/admin/orders<%- '?page='+i if i > 1 %>" container="#ProdPane"> <%- i %> </a>
+    <% end %>
+    <% if page > 1: %>
+    <a style="background-color:#DADADA" href="/admin/orders<%- '?page='+ (page-1) if (page-1) > 1 %>" container="#Pane"> &gt; </a>
+    <% end %>
+</div>
+<% end %>
+<br /><br /><br /><br /><br /><br /><br />

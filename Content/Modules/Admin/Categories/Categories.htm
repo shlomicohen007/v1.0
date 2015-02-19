@@ -1,0 +1,31 @@
+﻿
+
+
+<ul id="MainCat">
+    <% for link,index in @res[0].categories : %>
+    <li
+        <%- ' class="selected" ' if index == 0 %> >
+        <a href="javascript://" onclick="showSub(<%- index%>)">
+            <%- link.name %>
+        </a>
+    </li>
+    <% end %>
+</ul>
+
+<div id="SubCats">
+    <% for link , index  in @res[0].categories : %>
+    <ul
+        <%- ' style="display:none;" ' if index > 0 %> class="sub<%-index%> subA">
+        <% for sub,i in link.categories : %>
+        <li
+            <%- ' class="notActive" ' if not sub.isActive %>>
+            <%- sub._id %>
+
+            <%- sub.name %>
+            <a href="javascript://" onclick="OpenCategoryForm('<%- index %>','<%- i %>')">עריכה</a>
+        </li>
+        <% end %>
+    <li><a href="javascript://" onclick="NewCategory('<%- index %>')">הוסף</a></li>
+    </ul>
+    <% end %>
+</div>

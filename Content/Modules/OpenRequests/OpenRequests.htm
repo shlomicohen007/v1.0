@@ -1,0 +1,111 @@
+﻿<div class="InnerRidesDetailsPane">
+    <div class="TravelWrapper">
+        <h1 class="TravelBoardTitle">בקשות פתוחות</h1>
+        <div class="DatePane">
+            <div class="PickDateImg">
+                <img alt="" src="Images/DateIcon.jpg" />
+            </div>
+            <input type="text" id="dateInput" class="DateInput" data-role="none" />
+            <div class="DateLbl">תאריך מבוקש</div>
+        </div>
+    </div>
+    <div class="RidesPane">
+        <table class="OpenRequests_T" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <th>מס נסיעה</th>
+                <th>סוג</th>
+                <th>בקשה מאת</th>
+                <th>תאריך פינוי</th>
+                <th>שעת פינוי</th>
+                <th>מס' רכבים</th>
+                <th>אזור הפינוי</th>
+                <th>תאריך החזרה</th>
+                <th>יעד החזרה</th>
+                <th>התקשרות</th>
+            </tr>
+            <% for ride,index in @res : %>
+            <% if ride.requests : %>
+            <% for req in ride.requests : %>
+            <tr>
+                <td class="RideIDCell"><%- ride._id %></td>
+                <td>
+                    <% if ride.type == "2" : %>
+                    קבלנות משנה
+                    <% else : %>
+                    נסיעה
+                    <% end %>
+                </td>
+                <td>
+                    <div class="CompanyNameClick" onclick="showCompanyDtl('<%- req.key %>');">
+                        <%- req.from %>
+                    </div>
+                </td>
+                <td><%- ride.aviliableDate %></td>
+                <td><%- ride.aviliableHour %></td>
+                <td><%- ride.vehicleNumber %></td>
+                <td><%- ride.area %></td>
+                <td><%- ride.returnDate %></td>
+                <td><%- ride.destination %></td>
+                <td>
+                    <div class="RedBallIcon" id="Ball<%- ride._id %>_<%- req.key %>"></div>
+                    <div id="BidRide<%- ride._id %>_<%- req.key %>" class="OpenRideBtn" onclick="OpenRequest('<%- ride._id %>','<%- req.key %>')">פתח</div>
+                </td>
+            </tr>
+            <tr style="display:none;">
+                <td colspan="10"></td>
+            </tr>
+            <tr class="ChatRow" id="ChatRow_<%- ride._id %>_<%- req.key %>">
+                <td colspan="8" style="width:75%;">
+                    <div class="ChatWin" id="ChatWin_<%- ride._id %>_<%- req.key %>">
+                        <% if req.msgs : %>
+                        <% for msg in req.msgs : %>
+                        <% if msg.username == ride.username : %>
+                        <span style="color:red">
+                            <%- msg.time%> |
+                            אתה:
+                            <br /> <%- msg.message %>
+                        </span><br />
+                        <% else : %>
+                        <%- msg.time%> |
+                        <%- msg.name %>:
+                        <br /> <%- msg.message %><br />
+                        <% end %>
+                        <% end %>
+                        <% end %>
+                    </div>
+                    <!--<textarea class="ChatMsg" id="chatMsg_<%- ride._id %>_<%- req.key %>" onkeyup="sendChatFromOwnerOnEnter(event, '<%- ride._id %>', '<%- req.key %>')"></textarea>-->
+                    <textarea class="ChatMsg" data-role="none" id="chatMsg_<%- ride._id %>_<%- req.key %>" onkeyup="sendChatFromOwnerOnEnter(event, '<%- ride._id %>', '<%- req.key %>')" onfocus="toggleOpenChatMsg('<%- ride._id %>', '<%- req.key %>')" onblur="toggleOpenChatMsg('<%- ride._id %>', '<%- req.key %>')">כתוב הודעה...</textarea>
+                    <!--<div class="ChatSend" onclick="sendChatFromOwner('<%- ride._id %>', '<%- req.key %>')">שלח</div>-->
+                    <div class="ChatSend" onclick="sendChatFromOwner('<%- ride._id %>', '<%- req.key %>')">
+                        שלח הודעה
+                    </div>
+                </td>
+                <td align="center" colspan="2" style="width:25%">
+                    פרטים נוספים
+                    <div style="height:95px;">
+                        <%- ride.extraDetails %>
+                    </div>
+                    <% if ride.type != "2" : %>
+                    מחיר העיסקה
+                    <input type="text" style="color: red; font-size: 137%; font-weight: bold; margin: -3%; width: 83%" id="ride_<%- ride._id %>_<%- req.key %>_price" value="<%- req.price %>" />
+
+                    <div class="ApproveRideBtn" id="approveRideBtn_<%- ride._id %>_<%- req.key %>"<%- 'style="display:none!important"' if req.price and req.isApproved isnt false %> onclick="updateRidePrice('<%- ride._id %>', '<%- req.key %>',this);">עדכן</div>
+                    
+                    <span id="ride_<%- ride._id %>_<%- req.key %>_pleaseWait"<%- 'style="display:none"' if not req.price or req.isApproved is false %>>
+                        <% if req.ApprovalDate : %>
+                        המחיר אושר, אנא אשר את ההסכם
+                        <% else :%>
+                        ממתין לאישור העיסקה
+                        <% end %>
+                        </span>
+                    <span style="display: none;position: relative; color: red; margin-bottom: -6%; top: -47px; font-size: 77%" id="ride_<%- ride._id %>_<%- req.key %>_isApproved"<%- 'style="display:block!important"' if req.isApproved isnt false %>>המזמין סרב למחיר</span>
+                    <div class="ApproveRideBtn" id="OpenAgrrementBtn_<%- ride._id %>_<%- req.key %>"<%- 'style="display:none"' if  not req.ApprovalDate  %> onclick="openAgreement('<%- ride._id %>', '<%- req.key %>',this);">אשר הסכם נסיעה</div>
+                    <% end %>
+                </td>
+            </tr>
+            <% end %>
+            <% end %>
+            <% end %>
+        </table>        
+    </div>
+</div>

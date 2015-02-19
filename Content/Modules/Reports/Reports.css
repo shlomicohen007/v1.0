@@ -1,0 +1,350 @@
+﻿.ReportsDatePane {
+    float: left;
+    margin: 0;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+    .ReportsDatePane > div.PickDateImg,
+    .ReportsDatePane > div.DateLbl {
+        float: left;
+        margin: 0.4% 0.5% 0 2.5%;
+    }
+
+    .ReportsDatePane > div.DateLbl {
+        font-size: 130%;
+        margin: 0.8% 0 0 1%;
+    }
+
+    .ReportsDatePane select {
+        float: left;
+        margin: 1.4% 0.5% 0 2.5%;
+    }
+
+
+.ApprovedRedBallIcon,
+.ApprovedGreenBallIcon {
+    background-color: #bf291b;
+    border-radius: 9px;
+    display: inline-block;
+    float: left;
+    height: 50%;
+    margin: 3% 5% 0;
+    width: 19%;
+}
+
+.ApprovedGreenBallIcon {
+    background-color: #489a46;
+    margin: 3% 5% 0;
+    width: 23%;
+}
+
+
+.AdjustApprovedRedBallIcon {
+    width: 23%;
+}
+
+
+.OpenApprovedRideBtn,
+.CloseApprovedRideBtn {
+    background-color: #bf291b;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    margin: 1% auto 0;
+    width: 60%;
+}
+
+.CloseApprovedRideBtn {
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.TotalSumPane {
+    background-color: #4c66a3;
+    color: #000000;
+    font-size: 110%;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    text-shadow: none;
+}
+
+    .TotalSumPane span {
+        float: right;
+        margin: 0.6% 1.2% 0 0;
+        display: inline-block;
+    }
+
+.TotalLbl {
+    margin: 0.5% 77.5% 0 0 !important;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1.5% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 2.7% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 30%;
+        margin: 6% 5% 0;
+        width: 20%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 8% 5% 0;
+    }
+
+    .OpenApprovedRideBtn,
+    .CloseApprovedRideBtn {
+        padding: 0 0 2%;
+    }
+
+    .CloseApprovedRideBtn {
+        margin: 0 auto;
+    }
+
+    .TotalSumPane {
+        font-size: 130%;
+    }
+
+        .TotalSumPane span {
+            margin: 1.5% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 1.5% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1.5% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 2.7% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 36%;
+        margin: 6% 5% 0;
+        width: 20%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 6% 5% 0;
+    }
+
+    .TotalSumPane {
+        font-size: 130%;
+    }
+
+        .TotalSumPane span {
+            margin: 1.5% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 1.5% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 2.2% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 36%;
+        margin: 5% 5% 0;
+        width: 20%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 6% 5% 0;
+        width: 23%;
+    }
+
+    .AdjustApprovedRedBallIcon {
+        width: 25%;
+    }
+
+    .TotalSumPane {
+        font-size: 125%;
+    }
+
+        .TotalSumPane span {
+            margin: 1.1% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 1.1% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 1% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 2.2% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 40%;
+        margin: 5% 5% 0;
+        width: 17%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 6% 5% 0;
+        width: 22%;
+    }
+
+    .AdjustApprovedRedBallIcon {
+        width: 22%;
+    }
+
+    .OpenApprovedRideBtn,
+    .CloseApprovedRideBtn {
+        padding: 0 0 2%;
+    }
+
+    .TotalSumPane {
+        font-size: 120%;
+    }
+
+        .TotalSumPane span {
+            margin: 1.1% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 1.1% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 200%;
+        margin: 0.5% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 1.6% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 40%;
+        margin: 5% 5% 0;
+        width: 17%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 8% 5% 0;
+        width: 22%;
+    }
+
+    .AdjustApprovedRedBallIcon {
+        width: 22%;
+        margin: 7% 5% 0;
+    }
+
+    .TotalSumPane {
+        font-size: 120%;
+    }
+
+        .TotalSumPane span {
+            margin: 0.9% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 0.9% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 160%;
+        margin: 0.8% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 1.6% 0.5% 0 2.5%;
+    }
+
+    .ApprovedRedBallIcon,
+    .ApprovedGreenBallIcon {
+        height: 40%;
+        margin: 5% 5% 0;
+        width: 16%;
+    }
+
+    .ApprovedGreenBallIcon {
+        margin: 7% 8% 0;
+        width: 22%;
+    }
+
+    .AdjustApprovedRedBallIcon {
+        width: 22%;
+        margin: 7% 8% 0;
+    }
+
+    .OpenApprovedRideBtn,
+    .CloseApprovedRideBtn {
+        padding: 0 0 2%;
+    }
+
+    .TotalSumPane {
+        font-size: 105%;
+    }
+
+        .TotalSumPane span {
+            margin: 0.8% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 0.8% 77.5% 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    .ReportsDatePane > div.DateLbl {
+        font-size: 130%;
+        margin: 1% 0 0 2%;
+    }
+
+    .ReportsDatePane select {
+        margin: 1.4% 0.5% 0 2.5%;
+    }
+
+    .TotalSumPane {
+        font-size: 105%;
+    }
+
+        .TotalSumPane span {
+            margin: 0.7% 1.2% 0 0;
+        }
+
+    .TotalLbl {
+        margin: 0.7% 77.5% 0 0 !important;
+    }
+}

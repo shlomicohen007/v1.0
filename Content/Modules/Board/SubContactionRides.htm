@@ -1,0 +1,15 @@
+﻿
+<% for ride,index in @res : %>
+    <div>
+        <a href="javascript://" onclick="openHPNotification(<%- ride._id %>, '<%- ride.username %>')">
+        <span style="color:black">   
+            <%- ride.aviliableHour %>
+            <%- ride.aviliableDate %>
+</span><br><span style="color:red"> 
+            <%- ride.area %>
+            -
+            <%- ride.destination %>
+			</span>
+        </a>
+    </div>
+<% end %>

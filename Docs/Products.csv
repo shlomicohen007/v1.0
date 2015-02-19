@@ -1,0 +1,302 @@
+﻿_id,isActive,category ,name,price,display,purchase,unitWeight,image
+1001,true,1001,"אנטריקוט מיושן אנגוס - לרוסטביף  3-4 ק""ג",125,kg,Units,3.5,rostbifantricot
+1002,true,1001,שיפודי אנטריקוט מיושן אנגוס ,125,kg,Units,1.1,shipodantricot
+1003,true,1001,אנטריקוט - ארגנטינאי - דל סור,125,kg,Units,3,antricotargntinaidelsor
+1004,true,1001,"אנטריקוט מיושן אנגוס 3-4 ק""ג ",137,kg,Units,3.5,antricotangus
+1005,true,1001,סטייק אנטריקוט מיושן אנגוס כ -  300 גרם ,147,kg,Units,0.6,
+1006,true,1001,"אנטריקוט מיושן אנגוס - פרימיום 3.5 - 4.5 ק""ג ",149,kg,Units,4,antricotangusfidlotprimium
+1007,true,1001,"אנטריקוט פריים ריב - עם עצם 6-7 ק""ג ",98,kg,Units,6.5,primerib
+1008,true,1001,סינטה אורגוואי,95,kg,Units,6,
+1009,true,1001,"סינטה עגל 4-6 ק""ג ",112,kg,Units,5,sintaegel
+1010,true,1001,"סינטה פרה שמנה פרימיום 5-6 ק""ג ",179,kg,Units,6,sintaprimum
+1011,true,1001,שיפודי פילה בקר,122,kg,Units,,shipodfilebakar
+1012,true,1001,"פילה בקר 1.1 -1.5 ק""ג ",150,kg,Units,1.3,filebakar
+1013,true,1001,"אסאדו מיושן -  אנגוס פידלוט ללא עצם 3.5-4.5 ק""ג ",69,kg,Units,4,asadobliezem
+1014,true,1001,"אסאדו שלם / פרוס - עם עצם 5-6 ק""ג ",59,kg,Units,5.5,asadoimezem
+1015,true,1002,נקניקיות מרגז - חריפות,51,kg,Units,0.95,margez
+1016,true,1002,נקניקיות צ'וריסוס - ארגנטינאיות,51,kg,Units,,choricoss
+1017,true,1002,נקניקיות עגל 80 גרם,57,kg,Units,0.64,naknikiotegel
+1018,true,1002,נקניקיות עוף לילדים ,24,kg,Units,,naknikiotoflilladim
+1019,true,1002,נקניקיות שטראסבורג עגל - 60 גר' יח',85,kg,Units,0.24,naknikiotstrasburgegel
+1020,true,1002,נקניקיות פרנקפורטר בקר  ,85,kg,Units,,nakniotfrankforterbakar
+1021,true,1002,תולוז הודו מעושן - נקניקית ספירלה כ- 80 גר',85,kg,Units,,naknikiottuluz
+1022,true,1002,כרוב כבוש 500 גרם,,kg,Units,,crovcavosh
+1023,true,1002,המבורגר מיני אנגוס - 80 גרם,46,kg,Units,1.28,hamburger80gram
+1024,true,1002,המבורגר ג'וניור אנגוס - 160 גרם,46,kg,Units,1.28,
+1025,true,1002,המבורגר מקסי אנגוס - 220 גרם,46,kg,Units,1.1,hamburger220gram
+1026,true,1002,הקבב של שישקו - 70 גר' ליח',46,kg,Units,1.26,akbabshelshisko 
+1027,true,1002,קבב בטחינה -70 גר' ליח',46,kg,Units,1.4,kababthcina
+1028,true,1002,קבב חצילים - 70 גר' ליח',49,kg,Units,1.26,kababhazi
+1029,true,1002,קבב על מקל קינמון - 70 גר' ליח',54,kg,Units,1.82,kababalmakelkinamon
+1030,true,1002,קבב טלה עם פיסטוק - 70 גר' ליח',59,kg,Units,1.26,kababfistok
+1031,true,1002,קבב טלה עם צנובר - 70 גר' ליח',59,kg,Units,1.26,kababimznobar
+1032,true,1003,"נתח בשר לצלי - לתנור כ- 1.8 ק""ג",48,kg,Units,1.8,zlicatef
+1033,true,1003,"נתח בשר - לבישול קדרה כ- 3.5 ק""ג",42,kg,Units,3.5,basarlekdera
+1034,true,1003,"נתח בשר - לגולש כ- 3.5 ק""ג",36,kg,Units,3.5,
+1035,true,1003,"בשר בקר טחון - אנגוס - 1 ק""ג",44,kg,Units,1,basartacon
+1036,true,1003,עצמות בקר - עם מח עצם - למרק ולחמין,32,kg,Units,,
+1037,true,1003,מסרן - נקניק לחמין כ- 650 גר',57,kg,Units,0.65,
+1038,true,1003,קשקע - לחמין כ- 500 גרם,44,kg,Units,0.5,
+1039,true,1004,סטייק פרגית - כ- 130 גר' ליח',61.9,kg,Units,1.3,
+1040,true,1004,סטייק פרגית - במרינדה שום ודבש,61.9,kg,Units,,stakepargitbsomvedvash
+1041,true,1004,סטייק פרגית - במרינדה ים תיכונית,61.9,kg,Units,,stakepargityamticoni
+1042,true,1004,שיפודי פרגית,69.9,kg,Units,,
+1043,true,1004,שיפודי פרגית - במרינדה שום ודבש,69.9,kg,Units,,shipodpargitsomvedvas
+1044,true,1004,שיפודי פרגית - במרינדה  ים תיכונית,69.9,kg,Units,,
+1045,true,1004,שיפודי לבבות עוף ,69.9,kg,Units,,shipodlevavotof
+1046,true,1004,שיפודי חזה עוף ,69.9,kg,Units,,shipodhazeof
+1047,true,1004,חזה עוף - חצוי כ- 250 גר' ,34.9,kg,Units,1.5,hazeofhazshoy1
+1048,true,1004,חזה עוף - פרוס לשניצל,36.9,kg,Units,,hazeofparoslesnitel
+1049,true,1004,חזה עוף פרוס - במרינדה שום ודבש - לגריל,42.9,kg,Units,,
+1050,true,1004,חזה עוף שלם,42.9,kg,Units,,hazeofsalem
+1051,true,1004,כרעיים עוף - שלמים /מחולקים ,29.9,kg,Units,,
+1052,true,1004,כנפיים עוף חתוכות מקוצבות ,19,kg,Units,,knafimof
+1053,true,1004,כנפיים עוף חתוכות מקוצבות - במרינדה שום ודבש,21.9,kg,Units,,knafimofbmarinada
+1054,true,1004,כנפיים עוף חתוכות מקוצבות - במרינדה שום ודבש,,kg,Units,,
+1055,true,1004,צלעות כבש,135,kg,Units,,zlaotcheves
+1056,true,1004,"כתף טלה שלם 1.5 ק""ג ",88.5,kg,Units,1.5,katefcheves
+1057,true,1004,"רבע כבש - כ- 3.5 ק""ג ",96,kg,Units,3.5,
+1058,true,1004,שיפודי טלה - כ- 110 גר' ליח',145,kg,Units,0.88,
+1059,true,1006,"פילה סלמון נורבגי גדול - כ- 1.6 ק""ג ",69,kg,Units,1.6,filesalmon.jpg
+1060,true,1006,"פילה סלמון נורבגי גדול - כ- 1.6 ק""ג ",,kg,Units,,filesalmon5
+1061,true,1006,פילה אמנון - מתובל כ- 170 גר' ליח',44,kg,Units,1.02,fileamnon
+1062,true,1006,פילה באס - כ- 170 גר' ליח',48,kg,Units,1.02,filebas
+1063,true,1006,פילה דניס - מתובל כ- 100 גר' ליח',79,kg,Units,0.7,
+1064,true,2001,"צ'יפס אמריקאי 2.5 ק""ג",33.9,Units,Units,,Chipsamrikai
+1065,true,2001,"הום פרייז - קוביות תפו""א לטיגון ואפיה",13.8,Units,Units,,homfrids
+1066,true,2001,"סירות - פלחי תפו""א עם קליפה לטיגון ואפיה",13.8,Units,Units,,placimemklipa-sirot
+1067,true,2001,טבעות בצל הולנדיות - 700 גר',17.9,Units,Units,,tabotbatzal
+1068,true,2001,"קייג'ין - תיבול להום פרייז, פלחים וצ'יפס",9.8,Units,Units,,
+1069,true,2001,קטשופ - 750 גר' ,16,Units,Units,,
+1070,true,2002,לחמניות להמבורגר - 80 גרם  ,15,Units,Units,,lacmaniahmburger80gram
+1071,true,2002,לחמניות להמבורגר - 220 גרם ,15,Units,Units,,lacmaniahmburger220gram
+1072,true,2002,לחמניות לנקניקיה - 8 יח',15,Units,Units,,
+1073,true,2002,פיתות אסליות בעבודת יד - 10 יח' במארז,15,Units,Units,,pitot
+1074,true,2002,פיתות בייבי - אסליות - 10 יח',15,Units,Units,,
+1075,true,2003,אלף האיים  - 300 גר',13,Units,Units,,
+1076,true,2003,ויניגרד תפוזים -300 גר',13,Units,Units,,
+1077,true,2003,ויניגרד קלאסי - 300  גר',13,Units,Units,,
+1078,true,2003,חרדל ודבש לסלט - 300 גר',13,Units,Units,,
+1079,true,2003,ברביקיו - לגריל ולהמבורגר - 300 גר',13,Units,Units,,
+1080,true,2003,צ'ימצ'ורי - 220 גר',24.5,Units,Units,,
+1081,true,2003,מיונז הלמנס - צנצנת ,15.8,Units,Units,,
+1082,true,3001,חומוס ירושלמי 250 גר',8.5,Units,Units,,
+1083,true,3001,חומוס ירושלמי 500 גר',14.9,Units,Units,,
+1084,true,3001,חומוס מסבחה עם גרגרים  - 250 גר',8.5,Units,Units,,
+1085,true,3001,חומוס מסבחה עם גרגרים  - 500 גר',14.9,Units,Units,,
+1086,true,3001,מסבחה ירוקה קצוצה טרייה  - 250 גר',8.5,Units,Units,,
+1087,true,3001,טחינה ישראלית אמיתית - 250 גר',8.5,Units,Units,,
+1088,true,3001,טחינה ישראלית אמיתית - 500 גר',14.9,Units,Units,,
+1089,true,3001,טחינה אבו גוש - עם פטרוזיליה 250 גר',8.5,Units,Units,,
+1090,true,3001,טחינה אבו גוש - עם פטרוזיליה 500 גר',14.9,Units,Units,,
+1091,true,3001,טחינה גולמית אל - ארז  500 גר',17,Units,Units,,thinaelerez
+1092,true,3002,חציל על האש טבעי 250 גר',8.5,Units,Units,,
+1093,true,3002,חציל תאילנדי 250 גר',8.5,Units,Units,,
+1094,true,3002,חציל מרוקאי 250 גר',8.5,Units,Units,,
+1095,true,3002,חציל איטלקי עם זיתים 250 גר',8.5,Units,Units,,
+1096,true,3002,חציל יפני עם רוטב צ'ילי 250 גר',8.5,Units,Units,,
+1097,true,3002,חציל על האש במיונז 250 גר',8.5,Units,Units,,
+1098,true,3002,חציל על האש במיונז 500 גר',14.9,Units,Units,,
+1099,true,3002,חציל על האש עם ירקות 250 גר',8.5,Units,Units,,
+1100,true,3002,חציל על האש עם ירקות 500 גר',14.9,Units,Units,,
+1101,true,3002,חציל על האש בטחינה 500 גר',16.15,Units,Units,,
+1102,true,3002,חציל ברוטב מתוק אדום אדום 250 גר',8.5,Units,Units,,
+1103,true,3002,חציל פיקנטי ברוטב אדום 250 גר',8.5,Units,Units,,
+1104,true,3003,תורכי תורכי 250 גר' ,8.5,Units,Units,,
+1105,true,3003,תורכי תורכי 500 גר' ,14.9,Units,Units,,
+1106,true,3003,סלסה עגבניות עם שום 250 גר' ,8.5,Units,Units,,
+1107,true,3003,מטבוחה על האש -250 גר',8.5,Units,Units,,
+1108,true,3003,מרדומה חמודה - 250 גר' ,8.5,Units,Units,,
+1109,true,3004,פלפלים קלויים על האש - רצועות - 250 גר',8.5,Units,Units,,
+1110,true,3004,פלפלים קלויים על האש - רצועות חריף בכיף,8.5,Units,Units,,
+1111,true,3004,סלק אדום אדום - 250 גר',8.5,Units,Units,,
+1112,true,3004,כרוב אדום במיונז 250 גר',8.5,Units,Units,,
+1113,true,3004,פלפל גמבה - שרי פיקנטי 250 גר',8.5,Units,Units,,
+1114,true,3004,גזר מרוקאי - עם פטרוזיליה קצוצה 250 גר',8.5,Units,Units,,
+1115,true,3004,"תפו""א במיונז עם מלפפון חמוץ 250 גר'",8.5,Units,Units,,
+1116,true,3004,קולסלאו - 250 גר',8.5,Units,Units,,
+1117,true,3004,ארטישוק במיונז וירקות 250 גר',9.5,Units,Units,,
+1118,true,3004,פלחי ארטישוק ברוטב חמצמץ 250 גר',9.5,Units,Units,,
+1119,true,3004,קישוא בטעם כבד 250 גר',9.5,Units,Units,,
+1120,true,3004,קישוא מוקפץ ברוטב עדין 250 גר',9.5,Units,Units,,
+1121,true,3004,פיטריות שמפיניון מוקפצות עם בצל 250 גר',9.5,Units,Units,,
+1122,true,3004,פטריות במשרה מרינדה חמצמצה 250 גר',9.5,Units,Units,,
+1123,true,3004,תירס עם פטריות 250 גר',9.5,Units,Units,,
+1124,true,3004,סלט ביצים במיונז בנגיעות חרדל 250 גר',9.5,Units,Units,,
+1125,true,3004,פסטו טרי טרי 250 גר',12.9,Units,Units,,
+1126,true,3005,"רצועות גזר דקות מתובלות בלימון 0.5 ק""ג ",15.9,Units,Units,,
+1127,true,3005,לפת חמצמצה 250 גר' ,8.5,Units,Units,,
+1128,true,3005,פלחי לימון כבושים מתובלים 250 גר',9.5,Units,Units,,
+1129,true,3005,"עגבניות שרי - כבושות  0.5 ק""ג",14.9,Units,Units,,
+1130,true,3005,"עגבניות  ירוקות - כבושות  0.5 ק""ג",14.9,Units,Units,,
+1131,true,3005,"מסייר - ירקות כבושים  1 ק""ג",16,Units,Units,,
+1132,true,3005,"כרוב אדום עם טיפטופי לימון 1 ק""ג",19.9,Units,Units,,
+1133,true,3005,"כרוב לבן עם טיפטופי לימון 1 ק""ג",19.9,Units,Units,,
+1134,true,3005,"כרוב לבן עם טיפטופי לימון וכוסברה 1 ק""ג",19.9,Units,Units,,
+1135,true,3005,זיתים מיוחדים - סורי 100 גר' ,6.9,Units,Units,,
+1136,true,3005,זיתים מיוחדים - שחורים 100 גר' ,6.9,Units,Units,,
+1137,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,6.9,Units,Units,,zeitim4
+1138,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim1
+1139,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim2
+1140,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim3
+1141,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim5
+1142,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim6
+1143,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim7
+1144,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim8
+1145,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim9
+1146,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim10
+1147,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim11
+1148,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim12
+1149,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim13
+1150,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim14
+1151,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim15
+1152,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim16
+1153,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim17
+1154,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim18
+1155,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim19
+1156,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim20
+1157,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim21
+1158,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim22
+1159,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,zeitim23
+1160,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,
+1161,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,
+1162,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,
+1163,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,,Units,Units,,
+1164,true,3005,"מלפפון הבית במלח 0.5 ק""ג  ",16.45,Units,Units,,hamozim
+1165,true,3005,"מלפפון הבית בחומץ 0.5 ק""ג ",16.45,Units,Units,,hamozim4
+1166,true,3006,סלט צ'רשי - ממרח דלעת טריפוליטאי 250 גר',9.5,Units,Units,,
+1167,true,3006,פלפל צ'ומה 250 גר',11.5,Units,Units,,
+1168,true,3006,סחוג ירוק / אדום  150 גר',12.9,Units,Units,,
+1169,true,3006,אריסה 250 גר',13.9,Units,Units,,
+1170,true,3006,פלפל שיפקונית - 250 גר',9.5,Units,Units,,
+1171,true,3006,פלפל חריף מטוגן שלם 500 גר' ,14.9,Units,Units,,
+1172,true,4004,פירות,,Units,Units,,peyrot
+1173,true,4004,פירות,,Units,Units,,peyrot3
+1174,true,4004,ירקות אווירה,,Units,Units,,
+1175,true,4004,ירקות - סל טנא,,Units,Units,,yrakot
+1176,true,4004,,,Units,Units,,yrakot4
+1177,true,4004,אננס,,Units,Units,,anans
+1178,true,4004,אפרסק,,Units,Units,,afarsek
+1179,true,4004,מנגו,,Units,Units,,mango
+1180,true,4004,ענבים,,Units,Units,,anavim
+1181,true,4004,מלון,,Units,Units,,melon1
+1182,true,4004,אגס,,Units,Units,,agas
+1183,true,4004,קלמנטינה,,Units,Units,,klmantina
+1184,true,4004,קיווי,,Units,Units,,kiwi
+1185,true,4004,פטל שחור,,Units,Units,,petelshacor
+1186,true,4004,תפוז דם,,Units,Units,,tapuzdam
+1187,true,4004,אבטיח,,Units,Units,,avatiach
+1188,true,4004,שזיף אדום - סנטה רוזה,,Units,Units,,shezifadom
+1189,true,4004,בטטה,,Units,Units,,batata
+1190,true,4004,דלורית,,Units,Units,,dalorit
+1191,true,4004,לבבות חסה - שטופים 250 גר' ,9.9,Units,Units,,
+1192,true,4004,"לבבות חסה - שטופים 1 ק""ג ",29,Units,Units,,
+1193,true,4004,לבבות חסה - אלון ירוק 250 גר',9.9,Units,Units,,
+1194,true,4004,לבבות חסה - אלון אדום 250 גר',9.9,Units,Units,,
+1195,true,4004,מיקס עליי בייבי - 250 גר',15.9,Units,Units,,
+1196,true,4004,"מיקס עליי בייבי 0.5 ק""ג ",28,Units,Units,,
+1197,true,4004,"עגבניות שרי כתומות 1 ק""ג",19.9,Units,Units,,
+1198,true,4004,"עגבניות שרי מיקס 1 ק""ג",19.9,Units,Units,,agvaniotsheritamar
+1199,true,4004,עגבניות שרי מיקס כ- 250 גר',13.5,Units,Units,,agvaniotsheri.jpg
+1200,true,4004,עגבניות שרי צהובות,,Units,Units,,agvaniotsherizaov
+1201,true,4004,עגבניה פרוסה,,Units,Units,,
+1202,true,4004,עגבניה שלמה ,,Units,Units,,agvaniia
+1203,true,4004,אספרגוס,,Units,Units,,aspargus
+1204,true,4004,"פטריות פורטובלו 0.5 ק""ג",49,Units,Units,,pitriotportobelo
+1205,true,4004,"פטריות יער 0.5 ק""ג ",49,Units,Units,,pitriotyar
+1206,true,4004,פטריות שמפיניון סלסלה,,Units,Units,,pitriotshampinion
+1207,true,4004,פטריות מלך היער,,Units,Units,,pitriotmelechhyar
+1208,true,4004,פטריות שיטאקי,,Units,Units,,pitriotshitaki
+1209,true,4004,גזר צבעוני כ- 10 יח',24,Units,Units,,gezerzivoni
+1210,true,4004,עלי תבלין טריים - טימין כ- 130 גר' ,7.9,Units,Units,,timin
+1211,true,4004,עלי רוזמרין טריים - כ- 130 גר' ,,Units,Units,,rozmzrin
+1212,true,4004,עלי תבלין טריים - טרגון כ- 130 גר',7.9,Units,Units,,targon
+1213,true,4004,עלי תבלין טריים - זעתר כ- 130 גר',7.9,Units,Units,,aleytavlin
+1214,true,4004,עלי תבלין טריים - עירית כ- 130 גר',7.9,Units,Units,,
+1215,true,4004,עלי תבלין טריים - רוקט כ- 130 גר',7.9,Units,Units,,
+1216,true,4004,נבטי חמניות כ- 130 גר' ,8.9,Units,Units,,nivtayhamnia
+1217,true,4004,נבטי ברוקלי כ- 130 גר' ,8.9,Units,Units,,
+1218,true,4004,נבטי צנונית כ- 130 גר',8.9,Units,Units,,nivtayznonit
+1219,true,4004,נבטי אלפלפא,,Units,Units,,nivteyalfalfa
+1220,true,4004,"בצל סגול - מקולף שלם 1 ק""ג ",8.9,Units,Units,,basaladommekolaf
+1221,true,4004,"בצלל סגול - מקולף פרוס 0.5 ק""ג",7,Units,Units,,bazal sagol
+1222,true,4004,"תפוח אדמה זעיר  1 ק""ג ",8.6,Units,Units,,
+1223,true,4004,"תפ""א ליפס  1 ק""ג ",8.9,Units,Units,,taphchadama
+1224,true,4004,"תפו""א באטר  1 ק""ג ",8.7,Units,Units,,
+1225,true,4004,"תפו""א באטר - מתוק - מיוחד לאפיה  1 ק""ג ",8.9,Units,Units,,
+1226,true,4004,אנדיב,,Units,Units,,andiv
+1227,true,4004,נבטי עדשים,,Units,Units,,nivteyadashim
+1228,true,4004,פטרוזיליה,,Units,Units,,petrozilia
+1229,true,4004,כוסברה,,Units,Units,,cosbara
+1230,true,4004,נענע,,Units,Units,,nana
+1231,true,4004,שיני שום קלופות,,Units,Units,,somkalof
+1232,true,4004,ראש שום,,Units,Units,,som
+1233,true,4004,תערובת פיצוחים,,Units,Units,,tarovrtpituchim
+1234,true,5001,עוגת מוס - שוקולד ,48.3,Units,Units,,
+1235,true,5001,עוגת היער השחור ,48.3,Units,Units,,
+1236,true,5001,עוגת פירות ,48.3,Units,Units,,
+1237,true,5001,עוגת  טירמיסו ,48.3,Units,Units,,
+1238,true,5001,עוגת גבינה,48.3,Units,Units,,
+1239,true,5001,"עוגה בחושה ע""ב שוקולד",35.9,Units,Units,,
+1240,true,5001,"עוגה בחושה ע""ב פאדג' ",35.9,Units,Units,,
+1241,true,5001,"עוגה בחושה ע""ב פרי ",35.9,Units,Units,,
+1242,true,5001,"עוגה בחושה ע""ב חמאה ",35.9,Units,Units,,
+1243,true,5001,"עוגה בחושה ע""ב פיסטוקים ",35.9,Units,Units,,
+1244,true,5001,שמרים שוקולד פיצפוצים ,36.9,Units,Units,,
+1245,true,5001,שמרים פרג ,36.9,Units,Units,,
+1246,true,5001,שמרים אגוזים,36.9,Units,Units,,
+1247,true,5001,שמרים גבינה ,36.9,Units,Units,,
+1248,true,5001,שמרים חלבה,36.9,Units,Units,,
+1249,true,5001,בראוניז  16 יח' במגש,98,Units,Units,,
+1250,true,5001,פאי תותים  8 מנות ,117,Units,Units,,
+1251,true,5001,פאי מרנג לימון  10 מנות ,79,Units,Units,,
+1252,true,5001,טרפלס (כדורי שוקולד 25 גרם) - קוקוס / קקאו / סוכריות צבעוניות - 500 גרם כ - 20 כדורים,46,Units,Units,,
+1253,true,5001,עוגת מוס שוקולד - יום הולדת ,135,Units,Units,,
+1254,true,5001,שטרודל (קפוא לאפיה ביתית) - גבינה ,27.6,Units,Units,,shtrodeltapohachetz
+1255,true,5001,גלידה - וניל  חלבי 4 ליטר ,87,Units,Units,,glidavanil
+1256,true,5001,גלידה - שוקולד  חלבי 4 ליטר ,88,Units,Units,,
+1257,true,5001,וופל גלידה - גביע,,Units,Units,,vafelglida
+1258,true,5001,וופל אמריקאי 5 יח',19.7,Units,Units,,vafelbelgi
+1259,true,5002,שטרודל (קפוא לאפיה ביתית) - פרג ,27.6,Units,Units,,
+1260,true,5002,שטרודל (קפוא לאפיה ביתית) - תפוחים ,27.6,Units,Units,,
+1261,true,5002,"פירות יער קפואים - פטל  2 ק""ג ",69.9,Units,Units,,
+1262,true,5002,"פירות יער קפואים - דובדבן 2 ק""ג ",69.9,Units,Units,,
+1263,true,5002,"פירות יער קפואים - דומדומיות שחורות ואדומות 2 ק""ג ",69.9,Units,Units,,
+1264,true,5002,סורבט - תות 4 ליטר ,87,Units,Units,,surbettot
+1265,true,5002,סורבט - מנגו 4 ליטר ,87,Units,Units,,
+1266,true,5002,סורבט - פסיפלורה 4 ליטר ,87,Units,Units,,
+1267,true,5002,גלידה - וניל  פרווה 4 ליטר ,79,Units,Units,,glidatvanilparve
+1268,true,5002,גלידה - שוקו פרווה 4 ליטר ,79,Units,Units,,glidatshokoladparve
+1269,true,5002,גלידה - תות שמנת פרווה 4 ליטר ,,Units,Units,,glidattotshamenet
+1270,true,5002,מרנג לימון פס ,48,Units,Units,,
+1271,true,5002,"טארט תפוחים ע""ב שקדים",48,Units,Units,,
+1272,true,5002,פרלין מוס אגוזים (שכבות) ,56,Units,Units,,
+1273,true,5002,סורבט מישמיש,,Units,Units,,surbetmishmish
+1274,true,5002,סורבט תפוז סיני,,Units,Units,,surbettapuzsini
+1275,true,5002,סורבט ערק אשכוליות,,Units,Units,,surbetarakeshkoliot
+1276,true,5002,סורבט פטל,,Units,Units,,surbetpetel
+1277,true,5002,סורבט ליצ'י,,Units,Units,,surbetlitshi
+1278,true,5002,סורבט לימונענע,,Units,Units,,surbetlimonana
+1279,true,5002,סורבט פסיפלורה,,Units,Units,,surbetpasiflora
+1280,true,5002,סורבט קיווי,,Units,Units,,surbetkiwi
+1281,true,5002,סורבט אוכמניות,,Units,Units,,surbetuchmaniot
+1282,true,5002,סורבט תפוח ג'ינג'ר,,Units,Units,,surbettapuchginger
+1283,true,5002,סורבט כסיס,,Units,Units,,surbetcasis
+1284,true,5002,סורבט אשכולית קמפרי,,Units,Units,,surbeteshkoliotkampari
+1285,true,5002,סורבט קוקוס,,Units,Units,,surbetkokos
+1286,true,5002,סורבט מנגו,,Units,Units,,surbetmango
+1287,true,6001,תפוז סחוט טבעי  5 ליטר ,37,Units,Units,,mitztivei
+1288,true,6001,לימונדה טבעית 5 ליטר ,37,Units,Units,,
+1289,true,6001,אשכולית אדומה סחוטה 5 ליטר ,37,Units,Units,,
+1290,true,6001,תפוח עץ סחוט 2 ליטר ,27,Units,Units,,
+1291,true,6001,"קוביות קרח 5 ק""ג ",20,Units,Units,,
+1292,true,6002,"יין ירדן הר חרמון 750 מ""ל ",42,Units,Units,,
+1293,true,6002,לוונבראו - עדינה 5.2% חבית 5 ליטר ,139,Units,Units,,
+1294,true,6002,ספטן - לאגר זהובה 5.2% חבית 5 ליטר ,149,Units,Units,,
+1295,true,6002,פרנסיס קאנר 5% חבית קטנה 5 ליטר ,159,Units,Units,,
+1296,true,7001,סיר פוייקה - 14 ליטר,50,Units,Units,,
+1297,true,7001,"גרילר אסאדו גדול 40*100 ס""מ  רשת גריל נעה ",150,Units,Units,,
+1298,true,7001,גרילר נקניקיות מסתובבות ,115,Units,Units,,
+1299,true,7002,"פחמים מעץ הקסיה מאפריקה - 5 ק""ג ",30,Units,Units,,pecmim
+1300,true,7002,מדליק פחמים - חומר בערה מוצק 270 גר',13.9,Units,Units,,
+

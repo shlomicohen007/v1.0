@@ -1,0 +1,74 @@
+﻿.AddBusinessForm {
+    margin: 0 20px 0 0;
+    width: 35%;
+}
+
+    .AddBusinessForm h1 {
+        border-bottom: 3px solid black;
+        display: inline-block;
+        line-height: 35px;
+        margin: 0;
+        padding: 0 0 5px;
+    }
+
+    .AddBusinessForm label {
+        color: #000000;
+        font-size: 120% !important;
+        margin: 7px 0 3px !important;
+    }
+
+    .AddBusinessForm input {
+        background-color: #ffffff !important;
+        border: 1px solid #000000 !important;
+        direction: rtl !important;
+        height: 29px !important;
+        margin: 0 0 10px !important;
+        padding: 0 5px !important;
+        text-align: right !important;
+        width: 100% !important;
+    }
+
+    .AddBusinessForm textarea {
+        border: 1px solid #000000 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        direction: rtl !important;
+        font-size: 16px !important;
+        height: 50px !important;
+        margin: 0 !important;
+        padding: 0 2% !important;
+        resize: none !important;
+        width: 98% !important;
+    }
+
+    .AddBusinessForm select {
+        border: 1px solid black;
+        height: 29px;
+        width: 102%;
+    }
+
+.Cordinates label,
+.Cordinates input {
+    float: right;
+}
+
+.Cordinates input {
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    direction: ltr !important;
+    height: 29px !important;
+    margin: 0 0 10px !important;
+    padding: 0 5px !important;
+    text-align: left !important;
+    width: 40% !important;
+}
+
+a.SaveBusinessBtn {
+    background-color: #0076f8;
+    border-radius: 2px;
+    color: #ffffff !important;
+    display: inline-block;
+    margin: 2% 0 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+}

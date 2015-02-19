@@ -1,0 +1,29 @@
+﻿
+    <table class="Rides_T" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <th>מס</th>
+            <th>שם החברה</th>
+            <th>איש קשר</th>
+            <th>טלפון</th>
+            <th>אימייל</th>
+            <th>מס' רכבים</th>
+            <th>שם משתמש</th>
+            <th>פרטים</th>
+
+        </tr>
+        <% for bc,index in @res : %>
+        <% if  bc.dtl : %>
+        <tr>
+            <td><%- bc._id %></td>
+            <td><%- bc.dtl.companyName %></td>
+            <td><%- bc.dtl.contactName %></td>
+            <td><%- bc.dtl.phoneNumber %></td>
+            <td><%- bc.dtl.email %></td>
+            <td><%- bc.dtl.busesNumber %></td>
+            <td><%- bc.username %></td>
+            <td> <a container="#SysPane" href="/admin/companycard/?busCompanyID=<%-bc._id%>">פרטים</a></td>
+        </tr>
+        <% end %>
+        <% end %>
+    </table>
+

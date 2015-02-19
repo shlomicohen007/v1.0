@@ -1,0 +1,198 @@
+﻿.UserSearchPane,
+.ActiveRidesPane {
+    float: right;
+    min-height: 890px;
+}
+
+.UserSearchPane {
+    width: 25%;
+    background-color: #D2D2D2;
+}
+
+.UserInput {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 180%;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 5% 0 0;
+    width: 80%;
+    border: 0;
+}
+
+.ActiveRidesPane {
+    margin: 0 0.3%;
+    width: 54.9%;
+    background-color: #FFFFFF;
+}
+
+.ActiveRides {
+    width: 100%;
+}
+
+.SearchCityPane {
+    width: 19.5%;
+    min-height: 890px;
+    background-color: #D3DFEB;
+    float: left;
+}
+
+.CityInput {
+    background-color: transparent;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 0 5% 0 0;
+    width: 80%;
+    font-size: 170%;
+    border: 0;
+}
+
+.LightBlueBG {
+    width: 100%;
+    height: 45px;
+    background-color: #00C0FF;
+}
+
+    .LightBlueBG h1 {
+        color: #ffffff;
+        font-size: 210%;
+        font-weight: normal;
+        margin: 0;
+        padding: 0.2% 2% 0 0;
+        display: inline-block;
+    }
+
+.UserSearchIcon,
+.CitySearchIcon {
+    float: left;
+    width: 9%;
+    cursor: pointer;
+}
+
+.CitySearchIcon {
+    width: 11%;
+}
+
+.WhiteButton {
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #000000;
+    display: inline-block;
+    float: left;
+    font-size: 160%;
+    font-weight: bold;
+    margin: 0.3% 0 0 2%;
+    padding: 0.4% 1%;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+}
+
+.MiniBusRides {
+    margin: 0.3% 0 0 1%;
+}
+
+.Users {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .Users li {
+        width: 98.5%;
+        padding: 2% 0.5% 2% 1%;
+        border-bottom: solid 1px #000000;
+        cursor: pointer;
+    }
+
+.Off,
+.On {
+    background-color: #bf291b;
+    border-radius: 9px;
+    float: right;
+    height: 10px;
+    margin: 2.5% 2% 0;
+    width: 2%;
+}
+
+.On {
+    background-color: #489A46;
+}
+
+.SysUserName {
+    color: #000000;
+    float: right;
+    font-size: 125%;
+    margin: 1% 0 0;
+}
+
+.UserDetailsBtn {
+    background-color: #4F4F4F;
+    border-radius: 25px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 125%;
+    font-weight: bold;
+    margin: 0.3% 0 0 2%;
+    padding: 0.5% 1%;
+    text-align: center;
+    width: 15%;
+}
+
+.ActiveRides_T {
+    direction: rtl;
+    font-weight: bold !important;    
+    width: 100%;
+}
+
+.ActiveRides_T th {
+    background-color: #0072FF;
+    color: #ffffff;
+    font-size: 110%;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+}
+
+.ActiveRides_T tr:nth-child(2n) td {
+    background-color: #D3DFEB;
+}
+
+.ActiveRides_T tr td {
+    font-size: 110%;
+    height: 30px;
+    text-align: center;
+    background-color: #F6F7F9;
+}
+
+.Cities_T
+{
+    direction: rtl;
+    font-weight: bold !important;    
+    width: 100%;
+}
+
+.Cities_T th,
+.Cities_T th:last-child
+{
+    background-color: #0072FF;
+    color: #ffffff;
+    font-size: 110%;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    border-left: solid 1px #FFFFFF;
+}
+
+.Cities_T th:last-child
+{
+    border: 0;
+}
+
+.Cities_T tr td
+{
+    padding: 3px 0;
+    text-align: center;
+    border-bottom: solid 1px #000000;
+    cursor: pointer;
+}

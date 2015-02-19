@@ -1,0 +1,484 @@
+﻿.IndexesPane {
+    margin: 0 1% 0 2%;
+    width: 98%;
+    border-right: solid 1px #C8C8C8;
+    border-left: solid 1px #C8C8C8;
+    border-bottom: solid 1px #C8C8C8;
+    border-radius: 15px;
+    background-color: #E8E8E8;
+}
+
+/*.NewsPane {
+    margin: 0 1% 0 0 !important;
+    width: 14% !important;
+    min-height: 500px !important;
+    border: solid 1px #ccc !important;
+    -moz-box-shadow: 0 0 5px #888 !important;
+    -webkit-box-shadow: 0 0 5px#888 !important;
+    box-shadow: 0 0 5px #888 !important;
+    border-radius: 1% 1%;
+}
+
+.NewsTitle {
+    background-color: #00c0ff;
+    font-size: 140%;
+    height: 40px;
+    padding: 5px 0 0;
+    text-align: center;
+    text-shadow: none;
+}
+
+.NewsItems {
+    padding: 5% 3% 0 0;
+    margin: 0;
+    list-style: none;
+}
+
+    .NewsItems li {
+        margin: 0 0 10px 0;
+    }
+
+        .NewsItems li span {
+            display: block;
+        }
+
+.ItemDate {
+    font-size: 80%;
+    color: #545454;
+}
+
+.ItemTitle {
+    font-size: 100%;
+    color: #FB4A40;
+}
+
+.ItemDetails {
+    font-size: 90%;
+}*/
+
+.IndexesHeader {
+    width: 100%;
+    height: 40px;
+    background-color: #499c4a;
+    color: #FFFFFF;
+    border-radius: 15px 15px 0 0;
+}
+
+    .IndexesHeader h1 {
+        float: right;
+        margin: 10px 2% 0 0;
+        line-height: 20px;
+        font-weight: normal;
+    }
+
+.CitySearchPane,
+.BackBtnPane {
+    float: left;
+    width: 40%;
+    margin: 1% 0 0;
+}
+
+    .CitySearchPane span,
+    .CitySearchPane div {
+        float: right;
+    }
+
+    .CitySearchPane span {
+        font-size: 150%;
+        font-weight: normal;
+        line-height: 20px;
+        margin: 0 0 0 2%;
+    }
+
+.BackBtnPane {
+    display: none;
+    margin: 0.5% 0 0 2%;
+    width: 10%;
+}
+
+
+.CityInputBG {
+    width: 60%;
+    background-color: #FFFFFF;
+}
+
+.CityName {
+    border: 0;
+    background-color: transparent;
+    height: 20px;
+    width: 70%;
+}
+
+.SearchByCityBtn {
+    background: url("../Images/SmallSearchIcon.jpg") no-repeat;
+    margin: 2px 0 0 5px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+
+.IndexContainer {
+    background-color: #babfd5 !important;
+    border-radius: 0 0 15px 15px;
+}
+
+.IndexItemsPane {
+    background-color: #ffffff;
+    border-radius: 0 0 0 15px;
+    min-height: 455px !important;
+    width: 80% !important;
+}
+
+.IndexSideMenuPane {
+    width: 20% !important;
+    min-height: 445px !important;
+    background-color: #babfd5;
+    border-radius: 0 0 15px 0;
+    border: solid 1px green;
+}
+
+.IndexSideMenu,
+.IndexItems {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 40px;
+        padding: 5px 5% 0 0;
+    }
+
+        .IndexSideMenu li:hover,
+        .IndexSideMenu li.SelectedIndex {
+            background-color: #4965a4;
+        }
+
+            .IndexSideMenu li a,
+            .IndexSideMenu li:hover a,
+            .IndexSideMenu li.SelectedIndex a {
+                width: 100%;
+                display: block;
+                color: #000000 !important;
+                font-size: 150%;
+                font-weight: normal;
+                text-decoration: none;
+                outline: none;
+            }
+
+            .IndexSideMenu li:hover a,
+            .IndexSideMenu li.SelectedIndex a {
+                color: #FFFFFF !important;
+            }
+
+    .IndexItems li {
+        padding: 15px 0;
+        border-bottom: solid 1px #868686;
+    }
+
+.ItemRightPane {
+    float: right;
+    width: 67%;
+    padding: 0 3% 0 0;
+}
+
+.IndexItemTitle {
+    color: #0071BA !important;
+    font-size: 170%;
+    font-weight: normal !important;
+    text-decoration: none;
+    outline: none;
+}
+
+.ItemContactPhone {
+    color: #0071BA;
+    font-size: 160%;
+}
+
+.ItemDescription,
+.ItemContactAddress {
+    font-size: 100%;
+}
+
+.ItemLeftPane {
+    float: left;
+    width: 30%;
+}
+
+.IndexItemDetailsPane,
+.IndexItemContactPane {
+    width: 100%;
+}
+
+.IndexItemContactPane {
+    margin: 3% 0 0 0;
+}
+
+.IndexItemDetailsPane h1 {
+    color: #0071ba;
+    font-size: 260%;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 2% 3% 3% 0;
+}
+
+.LogoFrame {
+    margin: 0 2% 0 0;
+    width: 18%;
+}
+
+.ItemLogo {
+    float: right;
+}
+
+.IndexItemDescription {
+    color: #434343;
+    float: right;
+    font-size: 120%;
+    font-weight: normal;
+    margin: 0 3% 0 0;
+}
+
+.IndexItemContact,
+.IndexItemMap {
+    margin: 0 3% 0 0;
+    float: right;
+    width: 47%;
+}
+
+    .IndexItemContact table {
+        font-size: 120%;
+    }
+
+.ContactLblTD {
+    width: 25%;
+}
+
+.ContactDataTD {
+}
+
+.WebsiteLink {
+    text-decoration: none;
+    outline: none;
+    color: #FE2E3B !important;
+    font-weight: normal !important;
+}
+
+.IndexItemPhones {
+    color: #0071ba;
+    font-size: 160%;
+    font-weight: normal;
+    margin: 10% 0 0;
+}
+
+.IndexItemMap {
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+.MapFrame {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.IndexItemMap div {
+    font-size: 100%;
+}
+
+/*************************************************************/
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+
+    .CitySearchPane {
+        margin: 1.8% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 2.6% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 280px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 22px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+
+    .CitySearchPane {
+        margin: 1.5% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 2% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 280px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+
+    .CitySearchPane {
+        margin: 1.5% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 1.8% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 280px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+
+    .CitySearchPane {
+        margin: 1.3% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 1.6% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 305px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 28px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+    .CitySearchPane {
+        margin: 1.2% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 1.2% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 370px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 28px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+
+    .IndexesHeader h1 {
+        margin: 9px 2% 0 0;
+    }
+
+    .CitySearchPane {
+        margin: 1% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 0.9% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 380px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 32px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    .IndexesHeader h1 {
+        margin: 9px 2% 0 0;
+    }
+
+    .CitySearchPane {
+        margin: 1% 0 0 0;
+    }
+
+    .BackBtnPane {
+        margin: 0.8% 0 0 2%;
+    }
+
+    .CityName {
+        height: 20px;
+    }
+
+    .IndexItemsPane,
+    .IndexSideMenuPane {
+        min-height: 380px !important;
+    }
+
+    .IndexSideMenu li,
+    .IndexSideMenu li:hover,
+    .IndexSideMenu li.SelectedIndex {
+        height: 34px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+}

@@ -1,0 +1,154 @@
+﻿<% df = (d)-> %>
+<% dp = (new Date(d)).toISOString().split('T') %>
+<% dt = dp[0].split('-') %>
+<% h = dp[1].split(':') %>
+   <%- h[0] %>:<%- h[1] %>  <%- dt[2] %>/<%- dt[1] %>/<%- dt[0] %>
+<% end %>
+
+    <div dir="rtl">
+        מספר הזמנה:
+        <b><%- @res[0]._id %></b>
+         שנתקבלה
+        בתאריך
+        <%- df @res[0].dtl.createDate %>
+        :
+        <div style="clear:both">
+
+            עבור:
+            <%- @res[0].customer.firstName%>
+            <%- @res[0].customer.lastName%>
+            <br />
+            <%- @res[0].customer.street%>
+            <%- @res[0].customer.houseNumber%>,
+            <%- @res[0].customer.city%>
+
+            <% if @res[0].customer.private :%>
+            <br />
+            בית פרטי
+            <% end %>
+
+            <% if @res[0].customer.flor :%>
+            <br />
+            קומה:
+            <%- @res[0].customer.flor%>
+            <% end %>
+
+            <% if @res[0].customer.appNumber :%>
+            <br />
+            מספר דירה:
+            <%- @res[0].customer.appNumber%>
+            <% end %>
+
+            <% if @res[0].customer.entrance :%>
+            <br />
+            כניסה:
+            <%- @res[0].customer.entrance%>
+            <% end %>
+
+
+
+            <% if @res[0].customer.phone :%>
+            <br />
+            טלפון:
+            <%- @res[0].customer.phone%>
+            <% end %>
+
+            <br />
+            תאריך הארוח:
+            <%- @res[0].dtl.eDate%>
+            <br />
+            הערות:
+            <%- @res[0].dtl.notes%>
+        </div>       
+        <table dir="rtl">
+            <% for cat,index in @res[0].categories : %>
+            <% if cat : %>
+            <tr>
+                <td colspan="5">
+                    <div style="width: 312px; height: 31px; color: black; margin-top: 30px; border-bottom:solid 2px #000;">
+                        <span style="float: right; margin: 3px 28px auto; font-size: 20px;"><%- cat.name %></span>
+                    </div>
+                </td>
+            </tr>
+            <% for p in cat.products : %>
+            <% if p : %>
+            <tr>
+                <td>
+                    <b>
+                        <%-p.cartDtl.quantity%>
+
+                        <% if p.cartDtl.purchase=='kg' :%>
+                        ק"ג
+                        <% else : %>
+                        יח'
+                        <% end %>
+                    </b>
+                </td>
+                <td>
+                    <img src="http://www.basarmeakfar.co.il/<%-p.image %>" height="70" />
+                </td>
+                <td>
+                    <%-p.name%>
+                </td>
+                <td>
+
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <b>
+                        <% if p.specialPrice : %>
+                        <%-p.specialPrice%>
+                        <% else : %>
+                        <%-p.price%>
+                        <% end %>
+                    </b>
+                    <span>
+                        &#8362;
+                        <% if p.display=='kg' :%>
+                        לק"ג
+                        <% else : %>
+                        ליח'
+                        <% end %>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 0px; border:solid 1px #E8E8E8; padding:0;"></td>
+            </tr>
+            <% end %>
+            <% end %>
+            <tr>
+                <td colspan="5" style="color:#444; height:32px; padding-left:30px;" align="left">
+                    סה"כ
+                    <%- cat.name %>:
+
+                    &nbsp;
+
+                    <b id="CatTotal<%- cat._id %>" class="CatPrice"><%- cat.total %></b>
+                    &#8362;
+                </td>
+            </tr>
+            <% end %>
+            <% end %>
+            <tr>
+                <td colspan="5" style="padding-left:30px;" align="left">
+                    סה"כ
+
+
+                    &nbsp;
+
+                    <b id="CartTotal" style="font-size: 30px; color: #303030;"><%- @res[0].total %></b>
+                    &#8362;
+                </td>
+            </tr>
+        </table>
+
+
+       
+        <br />
+        <br />
+        <br />
+    </div>
+

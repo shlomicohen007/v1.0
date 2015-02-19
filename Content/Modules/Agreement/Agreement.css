@@ -1,0 +1,51 @@
+﻿.JobForm
+{
+    margin: 0 auto;
+    width: 40%;
+    direction: rtl;    
+}
+
+.FormLogo
+{
+    margin: 0 auto;
+    width: 40%; 
+    height: 20%;
+}
+
+.JobOrderTitle
+{
+    margin: 0 0 8px; 
+    font-size: 130%;
+}
+
+.DateLbl
+{
+    font-weight: bold;
+}
+
+.JobForm table
+{
+    margin: 1% 0 0;
+    width: 100%;
+}
+
+.RideTable
+{
+    width: 90% !important;
+}
+
+.LabelTD
+{
+    width: 20%;
+    padding: 0 2% 0 0;    
+}
+
+.LabelTD label
+{
+    font-weight: bold !important;
+}
+
+.TextTD
+{
+    padding: 0 2% 0 0;
+}

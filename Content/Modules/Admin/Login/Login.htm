@@ -1,0 +1,29 @@
+﻿
+<div class="Login" ng-form="Login">
+    <div style="margin-right:300px;" class="Title">
+        <span>כניסה לממשק ניהול</span>
+        <div class="arrow-down"></div>
+    </div>
+
+
+    <div style="width:350px; margin:20px 300px 0 0;" >
+        <div class="logFiled">
+            *דואר אלקטרוני
+            <input type="text" ng-key="email" ng-validate="required" dir="ltr" />
+        </div>
+        <br />
+        <div class="logFiled">
+            *סיסמה
+            <input type="password" ng-key="password" ng-validate="required" dir="ltr" />
+        </div>
+        <br />
+
+        <a class="btnSend logSend" href="javascript://" onclick="adminLogin()">
+            שלח
+        </a>
+        
+        <div id="logErrMsg">
+            שם משתמש או סיסמה אינם נכונים
+        </div>
+    </div>
+</div>

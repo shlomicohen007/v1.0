@@ -1,0 +1,35 @@
+﻿<h1 class="ECTitle">יומן אירועים</h1>
+<h1 class="CurrentEventDate"></h1>
+<div class="Clear"></div>
+<div id="RemindersPane" dir="rtl">
+    <ul>
+        <% for r,index in @res : %>
+        <li>
+            <span class="ECTime"><%- r.datetime %></span>
+            <span class="ECMsg"><%- r.msg %></span>
+            <div class="Clear"></div>
+        </li>
+        <% end %>
+    </ul>
+    <div class="AddEventPane">
+        <div class="AddEvent">
+            <img alt="הוספת אירוע" src="Images/AddEventIcon.jpg" />
+        </div>
+        <div class="Clear"></div>
+        <div class="AddEventForm">
+            אירוע: <input type="text" id="reminders2Add" class="EventMsg" />
+            <div class="SetHourPane">
+                <div class="MinuteWrapper">
+                    <span>דקה: </span>
+                    <select id="sMinutes"></select>
+                </div>
+                <div class="HourWrapper">
+                    <span>שעה: </span>
+                    <select id="sHour"></select>
+                </div>
+                <div class="Clear"></div>
+            </div>
+            <a href="javascript://" onclick="saveReminder();">הוסף</a>
+        </div>
+    </div>
+</div>

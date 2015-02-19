@@ -1,0 +1,30 @@
+﻿
+<div class="Login" ng-form="Login">
+    <!--<div class="BusNetLogo">
+        <img alt="BusNet" src="Images/logo.jpg" />
+    </div>-->
+    <div class="LoginFormPane">
+        <div>
+            <!--<label for="userName">*שם משתמש</label>-->
+            <input type="text" class="LoginInput" ng-key="username" ng-validate="required" placeholder="שם משתמש*" onkeypress="TryLogin(event)" data-role="none">
+            <!--<label for="bday">*סיסמה</label>-->
+            <input type="password" class="LoginInput" ng-key="password" ng-validate="required" placeholder="סיסמה*" onkeypress="TryLogin(event)" data-role="none">
+        </div>
+        <div class="LoginActionsPane">
+            <a class="btnSend LogSend" href="javascript://" onclick="login()">
+                כניסה למערכת
+            </a><br><br>
+			<a class="btnSend LogSend" style="background:#56b144;margin-top: 4px" href="#" onclick="window.open('http://busbook.fanscard.co.il/login','_blank','width=600,fullscreen=no, height=600')">
+                שינוי סיסמא ופרטי חשבון
+            </a>
+            <!--<a class="ForgotPassword" href="javascript://" onclick="openForgotPass()" data-role="none">שכחתי סיסמה</a>-->
+            <div class="Clear"></div>
+        </div>
+        <div id="logErrMsg">
+            שם משתמש או סיסמה אינם נכונים
+        </div>
+
+    </div>
+</div>
+<div class="cromdwonload">מערכת באסנט עובדת בצורה הטובה ביותר בדפדפן כרום
+<br><a style="color:#00ff12" href="https://www.google.co.il/chrome/browser/desktop/" target="_blank" >להורדה דפדפן כרום לחץ כאן</a></div>

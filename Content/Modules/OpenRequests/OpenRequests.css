@@ -1,0 +1,333 @@
+﻿.OpenRequests_T {
+    direction: rtl;
+    font-weight: bold !important;
+    text-shadow: none;
+    width: 100%;
+}
+
+    .OpenRequests_T th {
+        background-color: #4c66a3;
+        color: #ffffff;
+        font-size: 110%;
+        font-weight: bold;
+        height: 30px;
+        text-align: center;
+    }
+
+    .OpenRequests_T tr td {
+        font-size: 100%;
+        height: 30px;
+        text-align: center;
+		border-bottom: 1px solid #b4b4b4;
+    }
+
+    .LightPurple
+    {
+        background-color: #D6D9EC;
+    }
+
+
+.OpenRideBtn,
+.CloseRideBtn {
+    background-color: #bf291b;
+    color: #ffffff;
+    margin: 1% auto 0;
+    cursor: pointer;
+    width: 60%;
+    float: left;
+}
+
+.CloseRideBtn {
+    background-color: transparent;
+    margin: 0 auto 0;
+}
+
+.RedBallIcon, .GreenBallIcon {
+    background-color: #BF291B;
+    border-radius: 9px;
+    display: inline-block;
+    height: 50%;
+    margin: 3% 5% 0;
+    width: 14%;
+    float: left;
+}
+
+.GreenBallIcon {
+    background-color: #489A46;
+    margin: 3% 5% 0;
+    width: 12%;
+}
+
+.AdjustRedBallIcon {
+    width: 12%;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 32%;
+        margin: 6% 5% 0 10%;
+        width: 17%;
+    }
+
+    .GreenBallIcon {
+        margin: 6% 5% 0 10%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 37% !important;
+    }
+
+    .ChatMsg {
+        height: 13px;
+        padding: 1%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 22px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 37%;
+        margin: 6% 5% 0 10%;
+        width: 16%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 37%;
+        width: 16%;
+    }
+
+    .ChatMsg {
+        height: 13px;
+        padding: 1%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 23px;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 39%;
+        margin: 6% 5% 0 10%;
+        width: 15%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 39%;
+        width: 15%;
+    }
+
+    .ChatMsg {
+        height: 16px;
+        padding: 1%;
+    }
+
+    .ChatSend {
+    height: 29px;
+    padding-top: 5px;
+    width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 41%;
+        margin: 6% 5% 0 10%;
+        width: 17%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 44%;
+        width: 17%;
+    }
+
+    .ChatMsg {
+        height: 17px;
+        padding: 1%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 31px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 41%;
+        margin: 6% 5% 0 10%;
+        width: 15%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+        width: 13%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 41%;
+        width: 13%;
+    }
+
+    .ChatMsg {
+        height: 18px;
+        padding: 1%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 31px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 41%;
+        margin: 6% 5% 0 10%;
+        width: 13%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+        width: 12%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 41%;
+        width: 12%;
+    }
+
+    .ChatMsg {
+        height: 19px;
+        padding: 1%;
+        font-size: 110%;
+        line-height: 40%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 31px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    .OpenRideBtn,
+    .CloseRideBtn {
+        margin: 1% auto 0 6%;
+        padding: 0 0 3.5%;
+    }
+
+    .CloseRideBtn {
+        margin: 0 auto 0 6%;
+    }
+
+    .RedBallIcon, .GreenBallIcon {
+        height: 44%;
+        margin: 6% 5% 0 10%;
+        width: 14%;
+    }
+
+    .GreenBallIcon {
+        margin: 5% 5% 0 10%;
+        width: 12%;
+    }
+
+    .AdjustRedBallIcon {
+        height: 44%;
+        width: 12%;
+    }
+
+    .ChatMsg {
+        height: 19px;
+        padding: 1%;
+        font-size: 110%;
+        line-height: 40%;
+    }
+
+    .ChatSend {
+        width: 20%;
+        height: 31px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+}

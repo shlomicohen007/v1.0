@@ -1,0 +1,157 @@
+﻿<% df = (d)-> %>
+<% dp = (new Date(d)).toISOString().split('T') %>
+<% dt = dp[0].split('-') %>
+<% h = dp[1].split(':') %>
+   <%- h[0] %>:<%- h[1] %>  <%- dt[2] %>/<%- dt[1] %>/<%- dt[0] %>
+<% end %>
+<div id="OrderView" dir="ltr">
+    <div dir="rtl">
+        להלן ההזמנה שנתקבלה
+        בתאריך
+        <%- df @dtl.createDate %>
+        :
+        <% if @Params and @Params.print :%>
+        <a href="admin/orders/print/?OrderID=<%- @_id %>" target="_blank" style="float:left;">הדפס</a>
+        <% end %>
+        <table dir="rtl">
+            <% for cat,index in @categories : %>
+            <% if cat : %>
+            <tr>
+                <td colspan="5">
+                    <div style="width: 312px; height: 31px; background-color: #CD181F; color: white; margin-top: 30px;">
+                        <span style="float: right; margin: 3px 28px auto; font-size: 20px;"><%- cat.name %></span>
+                        <div style="position: relative; top: 31px; right: 13px; border-left: 6px solid rgba(0, 0, 0, 0); border-right: 6px solid rgba(0, 0, 0, 0); border-top: 8px solid #CD181F; height: 0; width: 0;"></div>
+                    </div>
+                </td>
+            </tr>
+            <% for p in cat.products : %>
+            <% if p : %>
+            <tr>
+                <td>
+                    <b>
+                        <%-p.cartDtl.quantity%>
+
+                        <% if p.cartDtl.purchase=='kg' :%>
+                        ק"ג
+                        <% else : %>
+                        יח'
+                        <% end %>
+                    </b>
+                </td>
+                <td>
+                    <img src="http://www.basarmeakfar.co.il/<%-p.image %>" height="70" />
+                </td>
+                <td>
+                    <%-p.name%>
+                </td>
+                <td>
+
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <b>
+                        <% if p.specialPrice : %>
+                        <%-p.specialPrice%>
+                        <% else : %>
+                        <%-p.price%>
+                        <% end %>
+                    </b>
+                    <span>
+                        &#8362;
+                        <% if p.display=='kg' :%>
+                        לק"ג
+                        <% else : %>
+                        ליח'
+                        <% end %>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 1px; background-color: #E8E8E8; padding:0;"></td>
+            </tr>
+            <% end %>
+            <% end %>
+            <tr>
+                <td colspan="5" style="background-color: #2C2C2C; color:#fff; height:32px; padding-left:30px;" align="left">
+                    סה"כ
+                    <%- cat.name %>:
+
+                    &nbsp;
+
+                    <b id="CatTotal<%- cat._id %>" class="CatPrice"><%- cat.total %></b>
+                    &#8362;
+                </td>
+            </tr>
+            <% end %>
+            <% end %>
+            <tr>
+                <td colspan="5" style="padding-left:30px;" align="left">
+                    סה"כ
+
+
+                    &nbsp;
+
+                    <b id="CartTotal" style="font-size: 30px; color: #303030;"><%- @total %></b>
+                    &#8362;
+                </td>
+            </tr>
+        </table>
+
+
+        <div style="clear:both">
+            <br />
+            <br />
+            <br />
+            עבור:
+            <%- @customer.firstName%>
+            <%- @customer.lastName%>
+            <br />
+            <%- @customer.street%>
+            <%- @customer.houseNumber%>,
+            <%- @customer.city%>
+
+            <% if @customer.private :%>
+            <br />
+            בית פרטי
+            <% end %>
+
+            <% if @customer.flor :%>
+            <br />
+            קומה:
+            <%- @customer.flor%>
+            <% end %>
+
+            <% if @customer.appNumber :%>
+            <br />
+            מספר דירה:
+            <%- @customer.appNumber%>
+            <% end %>
+
+            <% if @customer.entrance :%>
+            <br />
+            כניסה:
+            <%- @customer.entrance%>
+            <% end %>
+
+
+
+            <% if @customer.phone :%>
+            <br />
+            טלפון:
+            <%- @customer.phone%>
+            <% end %>
+
+            <br />
+            תאריך הארוח:
+            <%- @dtl.eDate%>
+            <br />
+            הערות:
+            <%- @dtl.notes%>
+        </div>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>

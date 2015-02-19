@@ -1,0 +1,85 @@
+﻿<% df = (d)-> %>
+<% dp = (new Date(d)).toISOString().split('T') %>
+<% dt = dp[0].split('-') %>
+<% h = dp[1].split(':') %>
+   <%- h[0] %>:<%- h[1] %>  <%- dt[2] %>/<%- dt[1] %>/<%- dt[0] %>
+<% end %>
+<div class="RightBar">
+    <div class="Cart">
+        <div class="CartTitle">
+            עגלת הקניות שלי
+        </div>
+        <b>שלום,</b>
+        <span id="User">אורח</span>
+        <span id="cp0" style="display:none">
+            <a id="signOut" href="javascript://">יציאה</a> /
+            <a id="myOrders" href="/myorders" container="#Pane">הזמנות קודמות</a>
+        </span>
+        <span id="cp1">
+            <a class="btnRegister" href="/register" container="#Pane">הרשמה</a> /
+            <a class="btnLogin" href="javascript://" onclick="$('#CartProducts').hide(400); ng.watermark('Login');$('.CartLogin').show(400);" container="#Pane">כניסה לרשומים</a>
+        </span>
+        <div class="CartLogin" ng-form="Login">
+            <br />
+            <br />
+            <input type="text" ng-key="email" ng-validate="required" ng-watermark="אימייל" />
+
+            <br />
+            <br />
+
+            <input type="password" ng-key="password" ng-validate="required" ng-watermark="סיסמה" />
+
+            <br />
+
+            <a class="btnSend cartLogSend" href="javascript://" onclick="login()">
+                כניסה
+            </a>
+            <br />
+
+            <div id="logErrMsg">
+                שם משתמש או סיסמה אינם נכונים
+            </div>
+            <div class="cartLinks">
+                <a href="javascript://" onclick="openForgotPass()">שכחתי סיסמה</a>
+                <a href="javascript://" onclick="$('.CartLogin').hide(400); $('#CartProducts').show(400);" style="float:left;">סגור</a>
+            </div>
+        </div>
+        <div id="CartProducts">
+        </div>
+    </div>
+
+    <span class="cartStars">
+        *תיתכן סטייה במחיר הסופי עקב שקילת מוצרים שנבחרו ביחידות ומתומחרים לפי ק"ג
+        <br/>
+        * המחיר מעודכן נכון לתאריך 
+        <span id="toDate"></span> 
+        <br/>
+        * מינימום הזמנה 300 ש"ח (לא כולל דמי משלוח)
+    </span>
+</div><div id="ProdPane">
+<table class="DataTable" style="margin-right:10px;">
+        <tr>
+            <th>מס</th>
+
+            <th>הוזמן</th>
+
+            <th>אירוע</th>
+            <th>סה"כ</th>
+            <th>סטטוס</th>
+            <th>צפיה</th>
+        </tr>
+
+        <% for row in @res : %>
+        <tr>
+            <td><%- row._id %></td>
+
+            <td><%- df row.dtl.createDate %></td>
+            <td><%- row.dtl.eDate %></td>
+            <td><%- row.total %></td>
+            <td><%- row.dtl.status %></td>
+            <td><a href="javascript://" onclick="OpenOrder(<%- row._id %>)">צפיה</a></td>
+        </tr>
+        <% end %>
+
+    </table>
+</div>

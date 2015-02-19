@@ -1,0 +1,25 @@
+﻿
+<table <% if @GridSettings.cssClass? : %>class="<%-  @GridSettings.cssClass %>"<% end %> >
+    <tr>
+        <% for c in @GridSettings.columns : %>
+        <th>
+            <% if c.display? : %>
+                <%- c.display %>
+            <% else: %>
+                <%- c.name %>
+            <% end %>
+        </th>
+        <% end %>
+    </tr>
+    
+    <% for row in @res : %>
+    <tr>
+        <% for c in @GridSettings.columns : %>
+        <td>
+            <%- row[c.name] %>
+        </td>
+        <% end %>
+    </tr>
+    <% end %>
+
+</table>

@@ -1,0 +1,23 @@
+﻿<% df = (d)-> %>
+    <% dt = d.split(' ') %>
+    <% h = dt[4].split(':') %>
+    <%- h[0] %>:<%- h[1] %>
+<% end %>
+
+<marquee behavior="scroll" direction="right" scrolldelay="100" onmouseover="$(this).attr('scrolldelay',2000)" onmouseout="$(this).attr('scrolldelay',100)">
+    <% for item,index in @res : %>
+
+    <a href="<%- item.link %>" target="_blank" style="text-decoration:none; color:#808080">
+        <%- df item.pubDate %>
+        <b><%- item.title %></b>
+    </a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    |
+    &nbsp;
+    &nbsp;
+    &nbsp;
+
+    <% end %>
+</marquee>

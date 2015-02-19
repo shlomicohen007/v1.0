@@ -1,0 +1,150 @@
+﻿<div class="UserSearchPane">
+    <div class="LightBlueBG">
+        <input type="text" id="userInput" class="UserInput SearchInput" value="חיפוש משתמש" onkeypress="SearchUser(event)" />
+        <div class="UserSearchIcon">
+            <img alt="" src="Images/SearchIcon.jpg" width="100%" height="100%" />
+        </div>
+        <div class="Clear"></div>
+    </div>
+    <ul class="Users">
+        <li onclick="showUserDetails('');">
+            <div id="user" class="onOffIcon Off"></div>
+            <div id="userName" class="SysUserName">
+                הסעות הצפון 2004
+            </div>
+            <div id="userDetails" class="UserDetailsBtn">לפרטים</div>
+            <div class="Clear"></div>
+        </li>
+        <li onclick="showUserDetails('');">
+            <div id="user" class="onOffIcon On"></div>
+            <div id="userName" class="SysUserName">
+                הסעות המרכז
+            </div>
+            <div id="userDetails" class="UserDetailsBtn">לפרטים</div>
+            <div class="Clear"></div>
+        </li>
+    </ul>
+</div>
+<div class="ActiveRidesPane">
+    <div class="ActiveRides">
+        <div class="LightBlueBG">
+            <h1>לוח נסיעות פעילות</h1>
+            <a id="BusRides" href="javascript://" class="BusRides WhiteButton" container="#ActiveRidesInnerPane">אוטובוסים</a>
+            <a id="MiniBusRides" href="javascript://" class="MiniBusRides WhiteButton" container="#ActiveRidesInnerPane">מיניבוסים</a>
+        </div>
+        <div class="Clear"></div>
+        <div id="ActiveRidesInnerPane" class="ActiveRidesInnerPane">
+            <table class="ActiveRides_T" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <th>תאריך פינוי</th>
+                    <th>שעת פינוי</th>
+                    <th>שם החברה</th>
+                    <th>מס' רכבים</th>
+                    <th>אזור הפינוי</th>
+                    <th>תאריך החזרה</th>
+                    <th>יעד החזרה</th>
+                </tr>
+                <tr>
+                    <td>05/08/2014</td>
+                    <td>03:00</td>
+                    <td>
+                        <div class="CompanyNameClick">
+                            טיולי דני
+                        </div>
+                    </td>
+                    <td>2</td>
+                    <td>אבן ספיר</td>
+                    <td>09/08/2014</td>
+                    <td>אילות</td>
+                </tr>
+                <tr>
+                    <td>05/08/2014</td>
+                    <td>03:00</td>
+                    <td>
+                        <div class="CompanyNameClick">
+                            טיולי אלעד
+                        </div>
+                    </td>
+                    <td>2</td>
+                    <td>אבן ספיר</td>
+                    <td>09/08/2014</td>
+                    <td>אילות</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="SearchCityPane">
+    <div class="LightBlueBG">
+        <input type="text" id="cityInput" class="CityInput SearchInput" value="חיפוש לפי עיר" onkeypress="SearchCity(event)" />
+        <div class="CitySearchIcon">
+            <img alt="" src="Images/SearchIcon.jpg" width="100%" height="100%" />
+        </div>
+        <div class="Clear"></div>
+    </div>
+    <table class="Cities_T" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <th>צפון</th>
+            <th>מרכז</th>
+            <th>דרום</th>
+        </tr>
+        <tr>
+            <td>נהריה</td>
+            <td>תל אביב</td>
+            <td>אילת</td>
+        </tr>
+        <tr>
+            <td>קרית חיים</td>
+            <td>גבעתיים</td>
+            <td>באר שבע</td>
+        </tr>
+        <tr>
+            <td>קרית ביאליק</td>
+            <td>ירושלים</td>
+            <td>מצפה רמון</td>
+        </tr>
+        <tr>
+            <td>קרית מוצקין</td>
+            <td>בית יעקוב</td>
+            <td>בית שמש</td>
+        </tr>
+        <tr>
+            <td>חיפה</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>מעלות</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>עכו</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>צפת</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>

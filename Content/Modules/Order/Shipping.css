@@ -1,0 +1,92 @@
+﻿
+.shipping {
+   height:1065px;
+   background-image:url('../images/regbg.jpg');
+   background-repeat:no-repeat;
+   background-position:bottom;
+}
+
+.round {
+    background-color:white;
+    width:24px;
+    height:22px;
+    padding-top:2px;
+    border-radius:12px;
+    color:red;
+    font-weight:bold;
+    font-size:16px;
+    vertical-align:middle;
+    text-align:center;
+    position:absolute;
+    right:7px;
+    top:4px;
+}
+
+
+.cuStepOn , .cuStepOff{
+     width: 252px;
+    height: 32px;
+    background-color: #CD181F;
+    color: white;
+    position:relative;
+    float:right;
+}
+
+.cuStepOff{
+    background-color: #4D4D4D;
+}
+
+    .cuStepOff .round {
+        color: #4D4D4D;
+    }
+
+    .cuStepOn span,.cuStepOff span {
+    float: right;
+    font-size: 20px;
+    margin: 3px 45px auto;
+}
+
+.shipCont1{
+    
+    border-top: solid 1px #CD181F;
+    padding-top:15px;
+}
+.shippingDtl {
+    height:90px;
+}
+
+.shipCont3{
+    height:160px;
+    border-top: solid 1px #CD181F;
+    border-bottom: solid 1px #CD181F;
+    padding-top:15px;
+}
+.btnUpdateAddress {
+    float:left;
+    width:110px;
+    height:26px;
+    text-align:center;
+    display:block;
+    background-color:#CD181F;
+    color:white;
+    padding: 4px 0 0 0 ;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.shpSend{
+    margin-left:0;
+    width:210px;
+    height:39px;
+    padding-top:6px;
+    border-radius: 2px;
+    float:left;
+    margin-top:10px;
+}
+
+.updateShipping {
+      width: 660px;
+    height: 300px;
+    display:none;
+    padding:20px;
+}

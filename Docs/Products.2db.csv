@@ -1,0 +1,166 @@
+﻿_id,isActive,Category,name,price,display,purchase,unitWeight,image
+101,true,1001,"אנטריקוט מיושן אנגוס - לרוסטביף  3-4 ק""ג",125,kg,Units,3.5,ProdPic/default.jpg
+102,true,1001,שיפודי אנטריקוט מיושן אנגוס ,125,kg,Units,1,ProdPic/default.jpg
+103,true,1001,אנטריקוט - ארגנטינאי - דל סור,125,kg,Units,3.5,ProdPic/default.jpg
+104,true,1001,"אנטריקוט מיושן אנגוס 3-4 ק""ג ",137,kg,Units,3.5,ProdPic/default.jpg
+105,true,1001,סטייק אנטריקוט מיושן אנגוס כ -  300 גרם ,147,kg,Units,0.3,ProdPic/default.jpg
+106,true,1001,"אנטריקוט מיושן אנגוס - פרימיום 3.5 - 4.5 ק""ג ",149,kg,Units,4,ProdPic/default.jpg
+107,true,1001,"אנטריקוט פריים ריב - עם עצם 6-7 ק""ג ",98,kg,Units,6.5,ProdPic/default.jpg
+108,true,1001,"סינטה  4-6 ק""ג ",112,kg,Units,5,ProdPic/default.jpg
+109,true,1001,שיפודי פילה בקר,122,kg,Units,1,ProdPic/default.jpg
+110,true,1001,"פילה בקר 1.1 -1.5 ק""ג ",150,kg,Units,1.5,ProdPic/default.jpg
+111,true,1001,"אסאדו מיושן -  אנגוס פידלוט ללא עצם 3.5-4.5 ק""ג ",69,kg,Units,4,ProdPic/default.jpg
+112,true,1001,"אסאדו שלם / פרוס - עם עצם 5-6 ק""ג ",59,kg,Units,5,ProdPic/default.jpg
+113,true,1002,נקניקיות מרגז - חריפות,51,kg,Units,1,ProdPic/default.jpg
+114,true,1002,נקניקיות צ'וריסוס - ארגנטינאיות,51,kg,Units,1,ProdPic/default.jpg
+115,true,1002,נקניקיות עגל 80 גרם,57,kg,Units,0.08,ProdPic/default.jpg
+116,true,1002,נקניקיות עוף לילדים ,24,kg,Units,0.08,ProdPic/default.jpg
+117,true,1002,נקניקיות שטראסבורג עגל - 60 גר' יח',85,kg,Units,0.06,ProdPic/default.jpg
+118,true,1002,נקניקיות פרנקפורטר בקר  ,85,kg,Units,0.08,ProdPic/default.jpg
+119,true,1002,תולוז הודו מעושן - נקניקית ספירלה כ- 80 גר',85,kg,Units,0.08,ProdPic/default.jpg
+120,true,1002,המבורגר מיני אנגוס - 80 גרם,46,kg,Units,0.08,ProdPic/default.jpg
+121,true,1002,המבורגר ג'וניור אנגוס - 80 גרם,46,kg,Units,0.08,ProdPic/default.jpg
+122,true,1002,המבורגר מקסי אנגוס - 220 גרם,46,kg,Units,0.22,ProdPic/default.jpg
+123,true,1002,הקבב של שישקו - 70 גר' ליח',46,kg,Units,0.07,ProdPic/default.jpg
+124,true,1002,קבב בטחינה -70 גר' ליח',46,kg,Units,0.07,ProdPic/default.jpg
+125,true,1002,קבב חצילים - 70 גר' ליח',49,kg,Units,0.07,ProdPic/default.jpg
+126,true,1002,קבב על מקל קינמון - 70 גר' ליח',54,kg,Units,0.07,ProdPic/default.jpg
+127,true,1002,קבב טלה עם פיסטוק - 70 גר' ליח',59,kg,Units,0.07,ProdPic/default.jpg
+128,true,1002,קבב טלה עם צנובר - 70 גר' ליח',59,kg,Units,0.07,ProdPic/default.jpg
+129,true,1003,"נתח בשר לצלי - לתנור כ- 1.8 ק""ג",48,kg,Units,1.8,ProdPic/default.jpg
+130,true,1003,"נתח בשר - לבישול קדרה כ- 3.5 ק""ג",42,kg,Units,3.5,ProdPic/default.jpg
+131,true,1003,"נתח בשר - לגולש כ- 3.5 ק""ג",36,kg,Units,3.5,ProdPic/default.jpg
+132,true,1003,"בשר בקר טחון - אנגוס - 1 ק""ג",44,kg,Units,1,ProdPic/default.jpg
+133,true,1003,עצמות בקר - עם מח עצם - למרק ולחמין,32,kg,Units,1,ProdPic/default.jpg
+134,true,1003,מסרן - נקניק לחמין כ- 650 גר',57,kg,Units,0.65,ProdPic/default.jpg
+135,true,1003,קשקע - לחמין כ- 500 גרם,44,kg,Units,0.5,ProdPic/default.jpg
+136,true,1004,סטייק פרגית - כ- 130 גר' ליח',60,kg,Units,0.13,ProdPic/default.jpg
+137,true,1004,סטייק פרגית - במרינדה שום ודבש,60,kg,Units,0.13,ProdPic/default.jpg
+138,true,1004,שיפודי פרגית,66,kg,Units,0.1,ProdPic/default.jpg
+139,true,1004,שיפודי פרגית - במרינדה שום ודבש,66,kg,Units,0.1,ProdPic/default.jpg
+140,true,1004,חזה עוף - חצוי כ- 250 גר' ,34.9,kg,Units,0.25,ProdPic/default.jpg
+141,true,1004,חזה עוף - פרוס לשניצל,36.9,kg,Units,0.25,ProdPic/default.jpg
+142,true,1004,חזה עוף פרוס - במרינדה שום ודבש - לגריל,42.9,kg,Units,0.25,ProdPic/default.jpg
+143,true,1004,כרעיים עוף - שלמים /מחולקים ,29.9,kg,Units,0.25,ProdPic/default.jpg
+144,true,1004,כנפיים עוף חתוכות מקוצבות ,19,kg,Units,1,ProdPic/default.jpg
+145,true,1004,כנפיים עוף חתוכות מקוצבות - במרינדה שום ודבש,21.9,kg,Units,1,ProdPic/default.jpg
+146,true,1004,צלעות כבש,135,kg,Units,1,ProdPic/default.jpg
+147,true,1004,"כתף טלה שלם 1.5 ק""ג ",88.5,kg,Units,1.5,ProdPic/default.jpg
+148,true,1004,"רבע כבש - כ- 3.5 ק""ג ",96,kg,Units,3.5,ProdPic/default.jpg
+149,true,1004,שיפודי טלה - כ- 110 גר' ליח',145,kg,Units,0.11,ProdPic/default.jpg
+150,true,1006,"פילה סלמון נורבגי גדול - כ- 1.6 ק""ג ",69,kg,Units,1.6,ProdPic/default.jpg
+151,true,1006,פילה אמנון - מתובל כ- 170 גר' ליח',44,kg,Units,0.17,ProdPic/default.jpg
+152,true,1006,פילה באס - כ- 170 גר' ליח',48,kg,Units,0.17,ProdPic/default.jpg
+153,true,1006,פילה דניס - מתובל כ- 100 גר' ליח',79,kg,Units,0.1,ProdPic/default.jpg
+154,true,2001,"צ'יפס אמריקאי 2.5 ק""ג",33.9,kg,Units,2.5,ProdPic/default.jpg
+155,true,2001,"הום פרייז - קוביות תפו""א לטיגון ואפיה",13.8,kg,Units,1,ProdPic/default.jpg
+156,true,2001,"סירות - פלחי תפו""א עם קליפה לטיגון ואפיה",13.8,kg,Units,1,ProdPic/default.jpg
+157,true,2001,טבעות בצל הולנדיות - 700 גר',17.9,kg,Units,1,ProdPic/default.jpg
+158,true,2001,"קייג'ין - תיבול להום פרייז, פלחים וצ'יפס",9.8,kg,Units,1,ProdPic/default.jpg
+159,true,2001,קטשופ - 750 גר' ,16,kg,Units,0.75,ProdPic/default.jpg
+160,true,2002,לחמניות להמבורגר - 80 גרם  ,15,Units,Units,,ProdPic/default.jpg
+161,true,2002,לחמניות להמבורגר - 220 גרם ,15,Units,Units,,ProdPic/default.jpg
+162,true,2002,לחמניות לנקניקיה - 8 יח',15,Units,Units,,ProdPic/default.jpg
+163,true,2002,פיתות אסליות - 10 יח',15,Units,Units,,ProdPic/default.jpg
+164,true,2002,פיתות בייבי - אסליות - 10 יח',15,Units,Units,,ProdPic/default.jpg
+165,true,2003,אלף האיים  - 300 גר',13,Units,Units,,ProdPic/default.jpg
+166,true,2003,ויניגרד תפוזים -300 גר',13,Units,Units,,ProdPic/default.jpg
+167,true,2003,ויניגרד קלאסי - 300  גר',13,Units,Units,,ProdPic/default.jpg
+168,true,2003,חרדל ודבש לסלט - 300 גר',13,Units,Units,,ProdPic/default.jpg
+169,true,2003,ברביקיו - לגריל ולהמבורגר - 300 גר',13,Units,Units,,ProdPic/default.jpg
+170,true,2003,צ'ימצ'ורי - 220 גר',24.5,Units,Units,,ProdPic/default.jpg
+171,true,2003,מיונז הלמנס - צנצנת ,15.8,Units,Units,,ProdPic/default.jpg
+172,true,3001,חומוס ירושלמי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+173,true,3001,חומוס ירושלמי 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+174,true,3001,חומוס מסבחה עם גרגרים  - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+175,true,3001,חומוס מסבחה עם גרגרים  - 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+176,true,3001,מסבחה ירוקה קצוצה טרייה  - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+177,true,3001,טחינה ישראלית אמיתית - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+178,true,3001,טחינה ישראלית אמיתית - 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+179,true,3001,טחינה אבו גוש - עם פטרוזיליה 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+180,true,3001,טחינה אבו גוש - עם פטרוזיליה 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+181,true,3001,טחינה גולמית אל - ארז  500 גר',17,Units,Units,,ProdPic/default.jpg
+182,true,3002,חציל על האש טבעי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+183,true,3002,חציל תאילנדי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+184,true,3002,חציל מרוקאי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+185,true,3002,חציל איטלקי עם זיתים 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+186,true,3002,חציל יפני עם רוטב צ'ילי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+187,true,3002,חציל על האש במיונז 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+188,true,3002,חציל על האש במיונז 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+189,true,3002,חציל על האש עם ירקות 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+190,true,3002,חציל על האש עם ירקות 500 גר',14.9,Units,Units,,ProdPic/default.jpg
+191,true,3002,חציל על האש בטחינה 500 גר',16.15,Units,Units,,ProdPic/default.jpg
+192,true,3002,חציל ברוטב מתוק אדום אדום 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+193,true,3002,חציל פיקנטי ברוטב אדום 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+194,true,3003,תורכי תורכי 250 גר' ,8.5,Units,Units,,ProdPic/default.jpg
+195,true,3003,תורכי תורכי 500 גר' ,14.9,Units,Units,,ProdPic/default.jpg
+196,true,3003,סלסה עגבניות עם שום 250 גר' ,8.5,Units,Units,,ProdPic/default.jpg
+197,true,3003,מטבוחה על האש -250 גר',8.5,Units,Units,,ProdPic/default.jpg
+198,true,3003,מרדומה חמודה - 250 גר' ,8.5,Units,Units,,ProdPic/default.jpg
+199,true,3004,פלפלים קלויים על האש - רצועות - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+200,true,3004,פלפלים קלויים על האש - רצועות חריף בכיף,8.5,Units,Units,,ProdPic/default.jpg
+201,true,3004,סלק אדום אדום - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+202,true,3004,כרוב אדום במיונז 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+203,true,3004,פלפל גמבה - שרי פיקנטי 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+204,true,3004,גזר מרוקאי - עם פטרוזיליה קצוצה 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+205,true,3004,"תפו""א במיונז עם מלפפון חמוץ 250 גר'",8.5,Units,Units,,ProdPic/default.jpg
+206,true,3004,קולסלאו - 250 גר',8.5,Units,Units,,ProdPic/default.jpg
+207,true,3004,ארטישוק במיונז וירקות 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+208,true,3004,פלחי ארטישוק ברוטב חמצמץ 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+209,true,3004,קישוא בטעם כבד 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+210,true,3004,קישוא מוקפץ ברוטב עדין 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+211,true,3004,פיטריות שמפיניון מוקפצות עם בצל 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+212,true,3004,פטריות במשרה מרינדה חמצמצה 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+213,true,3004,תירס עם פטריות 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+214,true,3004,סלט ביצים במיונז בנגיעות חרדל 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+215,true,3004,פסטו טרי טרי 250 גר',12.9,Units,Units,,ProdPic/default.jpg
+216,true,3005,"רצועות גזר דקות מתובלות בלימון 0.5 ק""ג ",15.9,Units,Units,,ProdPic/default.jpg
+217,true,3005,לפת חמצמצה 250 גר' ,8.5,Units,Units,,ProdPic/default.jpg
+218,true,3005,פלחי לימון כבושים מתובלים 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+219,true,3005,"עגבניות שרי - כבושות  0.5 ק""ג",14.9,Units,Units,,ProdPic/default.jpg
+220,true,3005,"עגבניות  ירוקות - כבושות  0.5 ק""ג",14.9,Units,Units,,ProdPic/default.jpg
+221,true,3005,"מסייר - ירקות כבושים  1 ק""ג",16,Units,Units,,ProdPic/default.jpg
+222,true,3005,"כרוב אדום עם טיפטופי לימון 1 ק""ג",19.9,Units,Units,,ProdPic/default.jpg
+223,true,3005,"כרוב לבן עם טיפטופי לימון 1 ק""ג",19.9,Units,Units,,ProdPic/default.jpg
+224,true,3005,"כרוב לבן עם טיפטופי לימון וכוסברה 1 ק""ג",19.9,Units,Units,,ProdPic/default.jpg
+225,true,3005,זיתים מיוחדים - סורי 100 גר' ,6.9,Units,Units,,ProdPic/default.jpg
+226,true,3005,זיתים מיוחדים - שחורים 100 גר' ,6.9,Units,Units,,ProdPic/default.jpg
+227,true,3005,זיתים מיוחדים - ירוקים 100 גר' ,6.9,Units,Units,,ProdPic/default.jpg
+228,true,3005,"מלפפון הבית במלח 0.5 ק""ג  ",16.45,Units,Units,,ProdPic/default.jpg
+229,true,3005,"מלפפון הבית בחומץ 0.5 ק""ג ",16.45,Units,Units,,ProdPic/default.jpg
+230,true,3006,סלט צ'רשי - ממרח דלעת טריפוליטאי 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+231,true,3006,פלפל צ'ומה 250 גר',11.5,Units,Units,,ProdPic/default.jpg
+232,true,3006,סחוג ירוק / אדום  150 גר',12.9,Units,Units,,ProdPic/default.jpg
+233,true,3006,אריסה 250 גר',13.9,Units,Units,,ProdPic/default.jpg
+234,true,3006,פלפל שיפקונית - 250 גר',9.5,Units,Units,,ProdPic/default.jpg
+235,true,3006,פלפל חריף מטוגן שלם 500 גר' ,14.9,Units,Units,,ProdPic/default.jpg
+236,true,4004,לבבות חסה - שטופים 250 גר' ,9.9,Units,Units,,ProdPic/default.jpg
+237,true,4004,"לבבות חסה - שטופים 1 ק""ג ",29,Units,Units,,ProdPic/default.jpg
+238,true,4004,לבבות חסה - אלון ירוק 250 גר',9.9,Units,Units,,ProdPic/default.jpg
+239,true,4004,לבבות חסה - אלון אדום 250 גר',9.9,Units,Units,,ProdPic/default.jpg
+240,true,4004,מיקס עליי בייבי - 250 גר',15.9,Units,Units,,ProdPic/default.jpg
+241,true,4004,"מיקס עליי בייבי 0.5 ק""ג ",28,Units,Units,,ProdPic/default.jpg
+242,true,4004,"עגבניות שרי כתומות 1 ק""ג",19.9,Units,Units,,ProdPic/default.jpg
+243,true,4004,"עגבניות שרי מיקס 1 ק""ג",19.9,Units,Units,,ProdPic/default.jpg
+244,true,4004,עגבניות שרי מיקס כ- 250 גר',13.5,Units,Units,,ProdPic/default.jpg
+245,true,4004,"פטריות פורטובלו 0.5 ק""ג",49,Units,Units,,ProdPic/default.jpg
+246,true,4004,"פטריות יער 0.5 ק""ג ",49,Units,Units,,ProdPic/default.jpg
+247,true,4004,גזר צבעוני כ- 10 יח',24,Units,Units,,ProdPic/default.jpg
+248,true,4004,עלי תבלין טריים - טימין כ- 130 גר' ,7.9,Units,Units,,ProdPic/default.jpg
+249,true,4004,עלי תבלין טריים - טרגון כ- 130 גר',7.9,Units,Units,,ProdPic/default.jpg
+250,true,4004,עלי תבלין טריים - זעתר כ- 130 גר',7.9,Units,Units,,ProdPic/default.jpg
+251,true,4004,עלי תבלין טריים - עירית כ- 130 גר',7.9,Units,Units,,ProdPic/default.jpg
+252,true,4004,עלי תבלין טריים - רוקט כ- 130 גר',7.9,Units,Units,,ProdPic/default.jpg
+253,true,4004,נבטי חמניות כ- 130 גר' ,8.9,Units,Units,,ProdPic/default.jpg
+254,true,4004,נבטי ברוקלי כ- 130 גר' ,8.9,Units,Units,,ProdPic/default.jpg
+255,true,4004,נבטי צנונית כ- 130 גר',8.9,Units,Units,,ProdPic/default.jpg
+256,true,4004,"בצל סגול - מקולף שלם 1 ק""ג ",8.9,Units,Units,,ProdPic/default.jpg
+257,true,4004,"תפוח אדמה זעיר  1 ק""ג ",8.6,Units,Units,,ProdPic/default.jpg
+258,true,4004,"תפ""א ליפס  1 ק""ג ",8.9,Units,Units,,ProdPic/default.jpg
+259,true,4004,"תפו""א באטר  1 ק""ג ",8.7,Units,Units,,ProdPic/default.jpg
+260,true,4004,"תפו""א באטר - מתוק - מיוחד לאפיה  1 ק""ג ",8.9,Units,Units,,ProdPic/default.jpg
+261,true,6001,תפוז סחוט טבעי  5 ליטר ,37,Units,Units,,ProdPic/default.jpg
+262,true,6001,לימונדה טבעית 5 ליטר ,37,Units,Units,,ProdPic/default.jpg
+263,true,6001,אשכולית אדומה סחוטה 5 ליטר ,37,Units,Units,,ProdPic/default.jpg
+264,true,6001,תפוח עץ סחוט 2 ליטר ,27,Units,Units,,ProdPic/default.jpg
+265,true,6001,"קוביות קרח 5 ק""ג ",20,Units,Units,,ProdPic/default.jpg

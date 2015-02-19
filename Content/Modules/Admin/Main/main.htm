@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%- @title%></title>
+    <base href="http://{{host}}/" />
+    <link type="text/css" rel="stylesheet" href="/min/min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+</head>
+<body class="Body">
+    <div class="Main">        
+        <div class="Header">
+            <ul class="AdminTopMenu">
+                <% for link in @links : %>
+                <li style="<%-link.style%>"><a href="<%- link.Url %>" container="#SysPane"><%- link.Name %></a></li>
+                <% end %>
+            </ul>           
+        </div>
+        <div id="SysPane">
+
+        </div>        
+    </div>
+    <div id="mask"></div>
+    <div id="lb"><a class="X" onclick="closeLightBox()"></a></div>
+    <div id="OS" style="display:none;"></div>
+   
+    <script type="text/javascript" src="/min/admin.js"></script>
+</body>
+</html>
+
+

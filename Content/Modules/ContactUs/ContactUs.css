@@ -1,0 +1,102 @@
+﻿
+.ContactUs {
+    height: 527px;
+    margin: 0 0 0 0 !important;
+    background-color: #ffffff;
+    border-left: solid 1px #CBCCCE;
+    border-right: solid 1px #CBCCCE;
+    border-bottom: solid 1px #CBCCCE;
+    -webkit-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    -moz-box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+    box-shadow: 0px 1px 5px 3px rgba(50, 50, 50, 0.11);
+}
+
+.TitlePane {
+    width: 100%;
+    height: 39px;
+    background-color: #499C4A;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.Title {
+    display: inline-block;
+    float: right;
+    font-size: 170%;
+    font-weight: normal;
+    line-height: 85%;
+    margin: 0.7% 4.5% 0 0;
+}
+
+/*.Seperator {
+    float: left;
+    height: 426px;
+    width: 12px;
+    background-image: -webkit-gradient( linear, right top, left top, color-stop(0.24, #FFFFFF), color-stop(1, #E5E5E5) );
+    background-image: -o-linear-gradient(left, #FFFFFF 24%, #E5E5E5 100%);
+    background-image: -moz-linear-gradient(left, #FFFFFF 24%, #E5E5E5 100%);
+    background-image: -webkit-linear-gradient(left, #FFFFFF 24%, #E5E5E5 100%);
+    background-image: -ms-linear-gradient(left, #FFFFFF 24%, #E5E5E5 100%);
+    background-image: linear-gradient(to left, #FFFFFF 24%, #E5E5E5 100%);
+}*/
+
+/*.cu2 {
+    width: 396px;
+    height: 426px;
+    float: left;
+}
+
+    .cu2 img {
+        float: left;
+        margin-top: 15px;
+    }
+
+    .cu2 div {
+        line-height: 1.4;
+        margin-right: 35px;
+        font-size: 16px;
+        color: #6B6B6B;
+    }*/
+
+.cu1 {
+    width: 472px;
+    height: 426px;
+    float: right;
+    margin: 1% 5% 0 0;
+}
+
+    .cu1 input:first-child {
+        margin: 1% 0 3%;
+    }
+
+    .cu1 input,
+    .cu1 textarea {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        direction: rtl;
+        float: right;
+        height: 25px;
+        margin: 0 0 3%;
+        padding: 0 5px;
+        text-align: right;
+        text-shadow: none;
+        width: 60%;
+    }
+
+    .cu1 select {
+        border: 1px solid black;
+        float: right;
+        height: 29px;
+        width: 62%;
+        margin: 0 0 4%;
+    }
+
+    .cu1 textarea {
+        height: 118px;
+        resize: none;
+    }
+
+.cuSend {
+    float: right;
+    margin: 0 52.5% 0 0;
+}

@@ -1,0 +1,31 @@
+﻿
+<input type="text" id="newCat" /> <input type="button" onclick="AddCat()" value="הוסף קטגוריה" />
+<div id="CategoryEditor" dir="rtl">
+    <table width="400" cellspacing="4" style="margin:30px;" ng-form="Category">
+        <tr>
+            <td>מספר:</td>
+            <td><span ng-key="_id" ng-parse="int"></span></td>
+            <td align="left">
+                פעיל
+                <input type="checkbox" ng-key="isActive" />
+            </td>
+        </tr>
+        <tr>
+            <td>שם:</td>
+            <td colspan="2"><input id="catName" type="text" style="width:250px;" ng-key="name" /></td>
+        </tr>
+        <tr>
+            <td>קישור:</td>
+            <td colspan="2" dir="ltr">
+                <nobr>
+                    www.basar.co.il/<input id="catUrl" type="text" style="width:220px;" ng-key="url" />
+                </nobr>
+            </td>
+        </tr>
+        <tr><td colspan="3" align="center"><input type="button" value="שמור" onclick="SaveCategory();" /></td></tr>
+    </table>
+</div>
+
+<div id="Categories">
+
+</div>

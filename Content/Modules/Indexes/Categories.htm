@@ -1,0 +1,8 @@
+﻿
+<ul class="IndexSideMenu">    
+    <% for category, index in @res : %>
+    <li <%- 'class="SelectedIndex"' if index == 0 %>>
+        <a href="/indexes/?c=<%- category.name %>" container=".IndexItemsPane" data-role="none"><%- category.name %></a>
+    </li>    
+    <% end %>
+</ul>

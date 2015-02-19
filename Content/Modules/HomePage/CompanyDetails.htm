@@ -1,0 +1,56 @@
+﻿<div class="InnerCompanyDetailsPane" dir="rtl">
+    <table cellpadding="5" cellspacing="3">
+        <tr>
+            <th colspan="2" align="right">פרטי חברה</th>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">שם חברה:</td>
+            <td align="right"><%- @dtl.companyName%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">איש קשר:</td>
+            <td align="right"><%- @dtl.contactName%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">כתובת:</td>
+            <td align="right"><%- @dtl.address%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">טלפון:</td>
+            <td align="right"><%- @dtl.phoneNumber%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">פקס:</td>
+            <td align="right"><%- @dtl.faxNumber%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">מייל:</td>
+            <td align="right"><%- @dtl.email%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">ח.פ/עוסק מורשה:</td>
+            <td align="right"><%- @dtl.companyNumber%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">מספר אוטובוסים:</td>
+            <td align="right"><%- @dtl.busesNumber%></td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">מספר מיניבוסים:</td>
+            <td align="right">
+                <% if @dtl.minibusesNumber == true :%>
+                
+                <% else if @dtl.minibusesNumber == false : %>
+                
+                <% else : %>
+                    <%- @dtl.minibusesNumber  %>
+                <% end %>              
+            </td>
+        </tr>
+        <tr>
+            <td class="TxtBold" align="right">פרטים נוספים:</td>
+            <td align="right"><%- @dtl.extraDetails  %></td>
+        </tr>
+    </table>
+
+</div>

@@ -1,0 +1,223 @@
+﻿
+.EventsCalendar {
+    height: 550px;
+    width: 905px;
+}
+
+    .EventsCalendar h1 {
+        float: right;
+        font-size: 180%;
+        margin: 1% 1.5% 0 0;
+    }
+
+.ECTitle {
+    margin: 0 0 0 5%;
+}
+
+.CurrentEventDate {
+    color: #3b67a4;
+    font-size: 160% !important;
+    margin: 1.4% 1% 0 0 !important;
+}
+
+/*#reminders {
+    width: 300px;
+    height: 460px;
+    padding: 10px 0;
+}*/
+
+#RemindersPane {
+    margin: 0 auto;
+    width: 95%;
+    height: 475px;
+    overflow: auto;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: solid 1px #C5C5C5;
+    border-radius: 2px;
+}
+
+.EventsCalendar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .EventsCalendar ul li {
+        border-bottom: solid 1px #000000;
+        padding: 5px 0;
+    }
+
+        .EventsCalendar ul li span {
+            float: right;
+            font-size: 120%;
+        }
+
+.ECTime {
+    color: #E3271B;
+    margin: 0.1% 1% 0 3%;
+}
+
+.AddEventPane {
+    margin: 1% 0 0 0;
+    padding: 0 0 5px 0;
+    border-bottom: solid 1px #000000;
+}
+
+.AddEvent {
+    float: right;
+    width: 20%;
+    cursor: pointer;
+}
+
+    .AddEvent img {
+        margin: 0 8% 0 0;
+        width: 15%;
+    }
+
+.AddEventForm {
+    display: none;
+    margin: 0 0 2%;
+}
+
+.EventMsg {
+    width: 22%;
+}
+
+.Highlighted a {
+    background-color: #4C66A3 !important;
+    background-image: none !important;
+    color: White !important;
+    font-weight: bold !important;
+}
+
+.SetHourPane {
+    margin: 10px 0 0 0;
+}
+
+    .SetHourPane div,
+    .SetHourPane div span,
+    .SetHourPane div select {
+        float: right;
+    }
+
+        .SetHourPane div span {
+            margin: 0 0 0 10px;
+        }
+
+        .SetHourPane div select {
+            margin: 0 0 0 15px;
+        }
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .EventsCalendar {
+        height: 250px;
+        width: 405px;
+    }
+
+    #RemindersPane {
+        height: 175px;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1189px) {
+    .EventsCalendar {
+        height: 250px;
+        width: 405px;
+    }
+
+    #RemindersPane {
+        height: 195px;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1279px) {
+    .EventsCalendar {
+        height: 250px;
+        width: 405px;
+    }
+
+    #RemindersPane {
+        height: 195px;
+        width: 90%;
+    }
+
+    .AddEvent img {
+        margin: 4% 8% 0 0;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    .EventsCalendar {
+        height: 250px;
+        width: 405px;
+    }
+
+    #RemindersPane {
+        height: 195px;
+        width: 90%;
+    }
+
+    .AddEvent img {
+        margin: 4% 8% 0 0;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .EventsCalendar {
+        height: 350px;
+        width: 605px;
+    }
+
+    #RemindersPane {
+        height: 285px;
+        width: 93%;
+    }
+
+    .AddEvent img {
+        margin: 4% 8% 0 0;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    .EventsCalendar {
+        height: 350px;
+        width: 605px;
+    }
+
+    #RemindersPane {
+        height: 285px;
+        width: 93%;
+    }
+
+    .AddEvent img {
+        margin: 4% 8% 0 0;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1899px) {
+    .EventsCalendar {
+        height: 350px;
+        width: 605px;
+    }
+
+    #RemindersPane {
+        height: 285px;
+        width: 93%;
+    }
+
+    .AddEvent img {
+        margin: 4% 8% 0 0;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+}
