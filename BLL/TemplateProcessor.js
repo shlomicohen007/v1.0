@@ -1,4 +1,4 @@
-﻿var pt = require("../Settings/PageTemplate").pageTemplate;
+﻿var pt = require("../settings/PageTemplate").pageTemplate;
 
 var proc =  (function(){
     var pub = {

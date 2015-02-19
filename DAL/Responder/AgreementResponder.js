@@ -1,6 +1,6 @@
 ﻿var Responder = require("./Responder");
 var dal = require("../dal").instance;
-var config = require("../../Settings/config.js");
+var config = require("../../settings/config.js");
 
 var urlLib = require("url");
 

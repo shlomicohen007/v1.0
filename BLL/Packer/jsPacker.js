@@ -1,5 +1,5 @@
 ﻿var fs = require("fs");
-var packer = require("../../Settings/Packer.js");
+var packer = require("../../settings/Packer.js");
 
 function Run(){
     for(i=0; i<packer.length; i++){
