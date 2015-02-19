@@ -1,2 +1,2 @@
 # v1.0
-as received from david
+a B2B system for transportation
