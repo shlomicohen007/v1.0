@@ -15,7 +15,7 @@ for(var t in root){
     var cb = (function (templateName) {
         var tName = templateName;
         return function (err, data) {
-            if (data.indexOf('\uFEFF') === 0) {
+if (data.indexOf('\uFEFF') === 0) {
                 data = data.substring(1, data.length);
             }
             root[tName] = data.replace("{{host}}", host);

@@ -42,6 +42,7 @@ app.use(function (err, req, res, next) {
 
 dal.getUrlPull(function(pages){urlPull = pages;});
 
+console.log(config.listen.port);
 server.listen(config.listen.port,config.listen.host);
 
 var io = require('socket.io').listen(server);
@@ -397,4 +398,4 @@ chat.sockets.on('connection', function (socket) {
 //  });
 
 
-console.log('Listening on ' + config.host + ":" + config.port);
+console.log('Listening on ' + config.listen.host + ":" + config.listen.port);
