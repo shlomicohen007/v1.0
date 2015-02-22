@@ -25,7 +25,7 @@
                                                      ,"./Client/Core/Core.js"
                                                     ,'./Content/Modules/Main/Main.js'
                                                     ,'./Content/Modules/Admin/ActiveRides/ActiveRides.js'
-                                                    , './Content/Modules/Admin/users/users.js'
+                                                    , './Content/Modules/Admin/Users/Users.js'
                                                     ]},
 
     {

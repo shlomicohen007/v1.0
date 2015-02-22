@@ -1,5 +1,5 @@
 ﻿var dal = require("../../DAL/dal").instance;
-var order = require("../Orders/order");
+var order = require("../Orders/Order");
 var aMember = require("../aMember");
 var crypto = require('crypto');
 var mailer = require("../Mailer.js");
