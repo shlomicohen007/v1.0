@@ -1,5 +1,5 @@
 ﻿module.exports =[
-    { PackTo: "./Client/public/Min/min.js" , files:["./Client/Core/jquery.min.js","./Client/Core/jquery.cookie.js"
+    { PackTo: "./Client/Public/Min/min.js" , files:["./Client/Core/jquery.min.js","./Client/Core/jquery.cookie.js"
                                                     ,"./Client/Core/coffee-script.js"
                                                     ,"./Client/Core/ect.min.js","./Client/Core/Core.js"
                                                     , './Content/Modules/Main/Main.js'
