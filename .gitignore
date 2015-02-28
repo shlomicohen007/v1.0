@@ -27,3 +27,9 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 .elasticbeanstalk/
+
+#macOS
+.DS_Store
+
+#deployment
+latest.zip

@@ -1,12 +1,16 @@
 {
-  "name": "ng",
+  "name": "busnet-web-server",
   "version": "0.0.1",
-  "description": "ng",
+  "description": "busnet web server",
+  "private": true,
   "main": "server.js",
   "author": {
     "name": "David",
     "email": ""
   },
+  "scripts": {
+    "start": "node server"
+    },
   "dependencies": {
     "cheerio": "~0.13.1",
     "ect": "~0.5.6",
@@ -14,6 +18,8 @@
     "express": "~3.4.7",
     "mongolian": "~0.1.18",
     "request": "^2.36.0",
+    "socket.io": "~1.0.4",
+    "windows-1255": "~0.1.2",
     "xml-simple": "0.0.1"
   }
 }
