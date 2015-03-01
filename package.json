@@ -9,7 +9,7 @@
     "email": ""
   },
   "scripts": {
-    "start": "node server"
+    "start": "sudo node server"
     },
   "dependencies": {
     "cheerio": "~0.13.1",
