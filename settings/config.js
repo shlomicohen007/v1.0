@@ -2,12 +2,15 @@
     autoPack:true,
     listen:{
 	    host: "localhost",
-	    port: 80
+	    port: 3002
     },
     serve:{
         host: "localhost",
-	    port: 80
+	    port: 3002
     },
-    db:{name:"BusNet"}
+    db:{
+        name:"BusNet",
+        server:"localhost"
+    }
 }
 
