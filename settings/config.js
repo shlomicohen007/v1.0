@@ -10,7 +10,7 @@
     },
     db:{
         name:"BusNet",
-        server:"localhost"
+        server:"ip-172-31-25-81.us-west-2.compute.internal"
     }
 }
 
