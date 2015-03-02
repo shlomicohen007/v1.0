@@ -10,7 +10,7 @@
     },
     db:{
         name:"BusNet",
-        server:"ip-172-31-25-81.us-west-2.compute.internal"
+        server:"ec2-52-11-81-185.us-west-2.compute.amazonaws.com"
     }
 }
 
