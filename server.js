@@ -43,7 +43,7 @@ app.use(function (err, req, res, next) {
 dal.getUrlPull(function(pages){urlPull = pages;});
 
 console.log(config.listen.port);
-server.listen(config.listen.port,config.listen.host);
+server.listen(config.listen.port);
 
 var io = require('socket.io').listen(server);
 //io.set('transports', ['xhr-polling']);
