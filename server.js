@@ -30,10 +30,10 @@ if(config.autoPack){
 var ws =  require('./BLL/ws/ws');
 app.use(express.cookieParser());
 app.use(express.bodyParser());
-app.use('/min', express.static(__dirname + '/Client/Public/Min'));
-app.use('/images', express.static(__dirname + '/Client/Public/Images'));
-app.use('/pub', express.static(__dirname + '/Client/Public'));
-app.use('/prodpic', express.static(__dirname + '/Client/Public/ProdPic'));
+app.use('/min', express.static(__dirname + '/Client/public/Min'));
+app.use('/images', express.static(__dirname + '/Client/public/Images'));
+app.use('/pub', express.static(__dirname + '/Client/public'));
+app.use('/prodpic', express.static(__dirname + '/Client/public/ProdPic'));
 app.use('/sys', express.static(__dirname + '/Client/Sys/'));
 app.use(function (err, req, res, next) {
     console.error(err.stack);
@@ -121,7 +121,7 @@ app.get('/uploadimg/', function(request, response){
 
 app.post('/uploadimg/', function (request, response) {
     fs.readFile(request.files.img.path, function (err, data) {
-        var newPath = __dirname + "/Client/Public/ProdPic/" + request.files.img.name;
+        var newPath = __dirname + "/Client/public/ProdPic/" + request.files.img.name;
         fs.writeFile(newPath, data, function (err) {
             response.end('<!DOCTYPE html><html><body dir="rtl" onload="parent.setProdImg(\'' +request.files.img.name + '\')"> התמונה עלתה בהצלחה <a href="../uploadimg/">החלף תמונה</a></body></html>');
         });

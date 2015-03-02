@@ -1,5 +1,5 @@
 ﻿module.exports =[
-    { PackTo: "./Client/Public/Min/min.js" , files:["./Client/Core/jquery.min.js","./Client/Core/jquery.cookie.js"
+    { PackTo: "./Client/public/Min/min.js" , files:["./Client/Core/jquery.min.js","./Client/Core/jquery.cookie.js"
                                                     ,"./Client/Core/coffee-script.js"
                                                     ,"./Client/Core/ect.min.js","./Client/Core/Core.js"
                                                     , './Content/Modules/Main/Main.js'
@@ -20,7 +20,7 @@
                                                     , './Content/Modules/ContactUs/ContactUs.js'
                                                     ]},
 
-    { PackTo: "./Client/Public/Min/admin.js" , files:["./Client/Core/jquery.min.js","./Client/Core/coffee-script.js"
+    { PackTo: "./Client/public/Min/admin.js" , files:["./Client/Core/jquery.min.js","./Client/Core/coffee-script.js"
                                                      ,"./Client/Core/ect.min.js"
                                                      ,"./Client/Core/Core.js"
                                                     ,'./Content/Modules/Main/Main.js'
@@ -29,7 +29,7 @@
                                                     ]},
 
     {
-        PackTo: "./Client/Public/Min/min.css", files: ["./Content/Modules/Main/Main.css"
+        PackTo: "./Client/public/Min/min.css", files: ["./Content/Modules/Main/Main.css"
                                                     , "./Content/Modules/HomePage/hp.css"
                                                     , "./Content/Modules/AddRide/AddRide.css"
                                                     , "./Content/Modules/Profile/Profile.css"

@@ -11,6 +11,7 @@
     db:{
         name:"BusNet",
         server:"ip-172-31-25-81.us-west-2.compute.internal"
+        //server: "localhost"
     }
 }
 
