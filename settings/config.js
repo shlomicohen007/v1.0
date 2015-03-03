@@ -1,11 +1,11 @@
 ﻿module.exports = {
     autoPack:true,
     listen:{
-	    host: "localhost",
+	    host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
 	    port: 3002
     },
     serve:{
-        host: "localhost",
+        host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
 	    port: 3002
     },
     db:{
