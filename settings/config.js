@@ -2,11 +2,11 @@
     autoPack:true,
     listen:{
 	    host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
-	    port: 3002
+	    port: 80
     },
     serve:{
         host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
-	    port: 3002
+	    port: 80
     },
     db:{
         name:"BusNet",
