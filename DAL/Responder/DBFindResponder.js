@@ -2,7 +2,7 @@
 var Mongolian = require("mongolian");
 var config = require("../../settings/config.js");
 var areas = require("../../BLL/Areas/Areas.js");
-var server = new Mongolian;
+var server = new Mongolian(config.db.server);
 var db = server.db(config.db.name);
 var urlLib = require("url");
 

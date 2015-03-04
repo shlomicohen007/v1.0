@@ -2,10 +2,12 @@
     autoPack:true,
     listen:{
 	    host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
+        //host: "localhost",
 	    port: 3002
     },
     serve:{
         host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
+        //host: "localhost",
 	    port: 3002
     },
     db:{
