@@ -33,3 +33,6 @@ node_modules
 
 #deployment
 latest.zip
+
+#public
+Client/Public/Min

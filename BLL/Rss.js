@@ -1,8 +1,7 @@
 ﻿var fs = require('fs'),
  XML = require('xml-simple');
 var request = require("request");
-//var windows1255 = require('windows-1255');
-//var encoding = require('encoding');
+
 
 var rss = {
     getRss: function (cb) {
@@ -17,17 +16,6 @@ var rss = {
                     cb(e, null);
             })
         });
-
-        /*fs.readFile('./Content/Modules/RSS/Ynet.xml', function (err, data) {
-            //  var rss = windows1255.decode(data);
-            XML.parse(data, function (e, parsed) {
-                if (parsed)
-                    cb(e, { res: parsed.channel.item });
-                else
-                    cb(e, null);
-            })
-
-        });*/
 
     }
 };
