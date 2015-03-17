@@ -47,7 +47,15 @@ var ws = {
         
     },
     sendWasup: function(ride, cb){
-        var txt = 'נכנסה נסיעה חדשה לבאסנט מ:' + ride.area + ' אל: ' + ride.destination + ' בתאריך ' + ride.aviliableDate;
+        var txt;
+        switch(ride.type){
+            case "1":
+                txt = 'הוזרמה נסיעה חדשה בBusNet מ' + ride.area + ' אל ' + ride.destination + ' בתאריך ' + ride.aviliableDate + '. פרטים נוספים במערכת. תודה.';
+                break;
+            case "2":
+                txt = 'הוזרמה בקשה בBusNet ל' + ride.vehicleType +' מ'+ ride.area + ' ל' + ride.destination + ' בתאריך ' + ride.aviliableDate + '. פרטים נוספים במערכת. תודה.';
+                break;
+        }
         var numbers = [];
         dal.getPhoneNumbers(ride.companyID, function(err, data){
             for (var i = data.length - 1; i >= 0; i--) {
