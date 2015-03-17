@@ -5,6 +5,8 @@ var crypto = require('crypto');
 var mailer = require("../Mailer.js");
 var rss = require("../Rss.js");
 var request = require("request");
+var needle = require("needle");
+var config = require("../../settings/config");
 
 /*
  wsReq ={ 
@@ -38,9 +40,32 @@ var ws = {
             ride.aviliableDateObj = aviliableDateObj;
             ride.fix1 = 1;
            
-            dal.SaveDoc('Rides', ride, cb);
+            dal.SaveDoc('Rides', ride, function(){
+                ws.sendWasup(ride, cb);
+            });
         });
         
+    },
+    sendWasup: function(ride, cb){
+        var txt = 'נכנסה נסיעה חדשה לבאסנט מ:' + ride.area + ' אל: ' + ride.destination + ' בתאריך ' + ride.aviliableDate;
+        var numbers = [];
+        dal.getPhoneNumbers(ride.companyID, function(err, data){
+            for (var i = data.length - 1; i >= 0; i--) {
+                numbers.push(data[i].phoneNumber);
+            };
+            //temporary test numbers
+            numbers = [972587184392, 972535399999, 972547355879];
+            var data = {msg: txt, phones: numbers};
+            var options = {json:true};
+            needle.post(config.wasup.url, data, options, function(err, res, body){
+                if (!err && res.statusCode == 200){
+                    console.log('sent wasup to: ' + numbers + ', msg:' + txt);
+                }else{
+                    console.log(res);
+                    console.log(body);
+                }
+            });
+        });
     },
     getSubContactionRides: function (a,cb) {
         dal.getSubContactionRides(function(err,data){

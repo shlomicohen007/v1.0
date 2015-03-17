@@ -34,6 +34,10 @@ var dal ={
         getAreas: function (cb) {
             db.collection("Area").find().toArray(cb);
         },
+        getPhoneNumbers: function(exclude_user, cb){
+            console.log('in get numbers');
+            db.collection("BusCompany").find({_id:{$ne:exclude_user}}, {dtl:1}).toArray(cb);
+        },
         SaveDoc: function(collection,doc,cb){
             if(!doc._id){
                 var cbl = cb;
