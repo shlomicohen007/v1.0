@@ -31,7 +31,8 @@ var ws = {
         dal.findOne('BusCompany', { _id: parseInt(ride.username), hash: ride.h }, { _id: 1, "dtl.companyName": 1 }, function (err, d) {
             delete ride.h;
             ride.companyID = d._id;
-            ride.company = d.dtl.companyName; 
+            ride.company = d.dtl.companyName;
+            ride.isApproved = false;
                         
             var dateString = ride.aviliableDate.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
             var year = parseInt(dateString[3]);
@@ -42,13 +43,12 @@ var ws = {
             ride.aviliableDateObj = aviliableDateObj;
             ride.fix1 = 1;
            
-            dal.SaveDoc('Rides', ride, function(){
-                ws.sendWasup(ride, cb);
-            });
+            dal.SaveDoc('Rides', ride, cb);
+            ws.sendWasup(ride);
         });
         
     },
-    sendWasup: function(ride, cb){
+    sendWasup: function(ride){
         var txt;
         switch(ride.type){
             case "1":
@@ -73,7 +73,6 @@ var ws = {
                 }else{
                     console.log(err);
                 }
-                cb(err, ride);
             });
         });
     },
