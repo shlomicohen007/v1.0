@@ -8,6 +8,8 @@ var request = require("request");
 var needle = require("needle");
 var config = require("../../settings/config");
 
+var util = require('util')
+
 /*
  wsReq ={ 
             funcName:funName,
@@ -69,9 +71,9 @@ var ws = {
                 if (!err && res.statusCode == 200){
                     console.log('sent wasup to: ' + numbers + ', msg:' + txt);
                 }else{
-                    console.log(res);
-                    console.log(body);
+                    console.log(err);
                 }
+                cb(err, ride);
             });
         });
     },
