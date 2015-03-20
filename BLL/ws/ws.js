@@ -8,8 +8,6 @@ var request = require("request");
 var needle = require("needle");
 var config = require("../../settings/config");
 
-var util = require('util')
-
 /*
  wsReq ={ 
             funcName:funName,
