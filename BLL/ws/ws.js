@@ -58,11 +58,7 @@ var ws = {
         }
         var numbers = [];
         dal.getPhoneNumbers(ride.companyID, function(err, data){
-            for (var i = data.length - 1; i >= 0; i--) {
-                numbers.push(data[i].phoneNumber);
-            };
-            //temporary test numbers
-            numbers = [972587184392, 972535399999, 972547355879];
+            var numbers = data;
             var data = {msg: txt, phones: numbers};
             var options = {json:true};
             needle.post(config.wasup.url, data, options, function(err, res, body){

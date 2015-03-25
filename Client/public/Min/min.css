@@ -4252,7 +4252,7 @@ line-height: 2;
 }
 
 .BusBG {
-    background-image: url('../Images/BusBG.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/busnet/website/BusBG.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: 100% auto;

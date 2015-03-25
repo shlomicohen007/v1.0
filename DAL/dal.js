@@ -35,8 +35,19 @@ var dal ={
             db.collection("Area").find().toArray(cb);
         },
         getPhoneNumbers: function(exclude_user, cb){
-            console.log('in get numbers');
-            db.collection("BusCompany").find({_id:{$ne:exclude_user}}, {dtl:1}).toArray(cb);
+            var data = db.collection("BusCompany");
+            var numbers=[];
+            data.find({_id:{$ne:exclude_user}}, {dtl:1}).forEach(function (company) {
+                if(company.dtl && company.dtl.phoneNumber){
+                    var number = company.dtl.phoneNumber;
+                    number = number.replace(/-/i, '');
+                    number = '972' + number.substr(1);
+                    var pattern = /^9725\d{8}$/
+                    if(number.match(pattern)){
+                        numbers.push(number);
+                    }
+                }
+                },function(){ cb(null, numbers)});
         },
         SaveDoc: function(collection,doc,cb){
             if(!doc._id){
