@@ -1,4 +1,7 @@
-﻿
+﻿var area = '';
+function InitAutocomplete(){
+    console.log('jud');
+}
 
 function addRide() {
     if (!ng.validate("Ride"))

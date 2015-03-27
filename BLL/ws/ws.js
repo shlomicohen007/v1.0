@@ -42,7 +42,7 @@ var ws = {
             ride.fix1 = 1;
            
             dal.SaveDoc('Rides', ride, cb);
-            ws.sendWasup(ride);
+            //ws.sendWasup(ride);
         });
         
     },

@@ -1,4 +1,17 @@
-﻿<div class="AddRideTitleWrapper" ng-form="Ride">
+<!--div class="AreaWrapper Clear">
+    <label class="FormLabel">עיר פינוי</label>
+    <input type="text" id="cityfilter" ng-key="cityfilter" ng-validate="required" /><br/>
+    <ul ng-key="area" class="ui-listview ui-listview-inset" ng-validate="required" data-role="listview" data-filter="true" data-input="#cityfilter" data-filter-reveal="true">
+    <% for city in @res : %>
+        <% if city.area != area : %>
+            <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit" ><%- city.area %></li>
+        <%  end %>
+        <li data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></li>
+        <% area = city.area %>
+    <% end %>
+    </ul>
+</div-->
+<div class="AddRideTitleWrapper" ng-form="Ride">
     <div class="PagetitleWrapper">
         <h1 class="PageTitle">הוספת נסיעה</h1>
         <span style="display:none;" ng-key="_id" ng-parse="int"></span>
@@ -80,6 +93,19 @@
                     <option value="4">4</option>
                     <option value="5">5+</option>
                 </select>
+            </div>
+             <div class="cityWrapper Clear">
+                <label class="FormLabel">עיר</label>
+                <input type="text" id="cityfilter" ng-key="cityfilter" ng-validate="required" /><br/>
+                <ul ng-key="city" class="ui-listview ui-listview-inset" ng-validate="required" data-role="listview" data-filter="true" data-input="#cityfilter" data-filter-reveal="true">
+                <% for city in @res : %>
+                    <% if city.area != area : %>
+                        <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit" ><%- city.area %></li>
+                    <%  end %>
+                    <li data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></li>
+                    <% area = city.area %>
+                <% end %>
+                </ul>
             </div>
             <div class="AreaWrapper Clear">
                 <label class="FormLabel">אזור פינוי</label>

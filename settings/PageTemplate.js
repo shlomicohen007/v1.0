@@ -1,4 +1,5 @@
-﻿var sm = {
+﻿var moment = require('moment');
+var sm = {
     Core:
       {
           Templates: [{
@@ -60,7 +61,7 @@
                            Responder: 'DBFindResponder', Collection: 'Rides', Criteria: {
                                username: { $$Param: { From: "Cookie", Key: "username" } }
                                , isApproved: false
-                               , aviliableDateObj: { $gte: { $$Param: { From: "System", Key: "today" } } }
+                               , aviliableDateObj: { $lte: moment.utc()}
                            }, Fileds: { none: 0 }, Options: { skip: 0, limit: 200, sort: { "aviliableDate": 1 } }
                        }
                    }]
@@ -179,8 +180,8 @@
                     Responder: 'DBFindResponder', Collection: 'IndexCategories', Criteria: {}, Fileds: { none: 0 }, Options: { skip: 0, limit: 5 }
                 },
                 Templates: [{
-                    Container: '#InnerPane', Template: 'AddRide/AddRide', Js: "InitDates(); InitEditRideForm();",
-                    Data: { Responder: 'DBFindResponder', Collection: 'Cities', Criteria: {}, Fileds: { none: 0 }, Options: { skip: 0, limit: 2000 , sort:{"city":1} } }
+                    Container: '#InnerPane', Template: 'AddRide/AddRide', Js: "InitDates(); InitEditRideForm(); InitAutocomplete();",
+                    Data: { Responder: 'DBFindResponder', Collection: 'Cities', Criteria: {}, Fileds: { none: 0 }, Options: { skip: 0, limit: 2000 , sort:{"area":1, "city":1} } }
                 }]
                 
             }]

@@ -32,6 +32,7 @@ app.use(express.cookieParser());
 app.use(express.bodyParser());
 app.use('/min', express.static(__dirname + '/Client/public/Min'));
 app.use('/images', express.static(__dirname + '/Client/public/Images'));
+app.use('/jquery', express.static(__dirname + '/Client/public/jquery'));
 app.use('/pub', express.static(__dirname + '/Client/public'));
 app.use('/prodpic', express.static(__dirname + '/Client/public/ProdPic'));
 app.use('/sys', express.static(__dirname + '/Client/Sys/'));
