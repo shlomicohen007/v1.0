@@ -1,4 +1,4 @@
-﻿/* Interactive Area */
+/* Interactive Area */
 
 .InteractivePane {
     margin: 0 0 10px 0;
@@ -176,9 +176,9 @@ width: 4.3vw;
 
 .FormLabel {
     font-size: 150% !important;
-    color: #000000;
+    color: #343434;
     width: 35%;
-    line-height: 110%;
+    line-height: 165%;
 }
 
 .InputTxt {

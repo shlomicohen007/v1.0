@@ -39,7 +39,7 @@ var sm = {
                                     , { dstCityID: { $$Param: { From: "Area", Key: "GetFaviCities", ParseFnc: '$in' } } }
                                ]
                            }
-                                , Fileds: { 'reuqests': 0 }, Options: { skip: 0, limit: 500, sort: { "aviliableDateObj": 1 } }
+                                , Fileds: { 'reuqests': 0 }, Options: { skip: 0, limit: 500, sort: { "aviliableDateObj": 1, "aviliableHour": 1 } }
                        }
                    }]
                }]
@@ -62,8 +62,8 @@ var sm = {
                            Responder: 'DBFindResponder', Collection: 'Rides', Criteria: {
                                username: { $$Param: { From: "Cookie", Key: "username" } }
                                , isApproved: false
-                               , aviliableDateObj: { $gte: moment().toDate()}
-                           }, Fileds: { none: 0 }, Options: { skip: 0, limit: 200, sort: { "aviliableDate": 1 } }
+                               , aviliableDateObj: { $gte: { $$Param: { From: "System", Key: "today" } } }
+                           }, Fileds: { none: 0 }, Options: { skip: 0, limit: 200, sort: { "aviliableDate": 1, "aviliableHour": 1 } }
                        }
                    }]
                }]

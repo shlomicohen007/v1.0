@@ -1,4 +1,4 @@
-﻿.Pane {
+.Pane {
     background-color: #F6F7F9 !important;
 }
 
@@ -53,7 +53,7 @@
 }
 
     .AddFormPane div select {
-        border: 1px solid black;
+        border: 1px solid rgb(108, 108, 108);
         float: right;
         height: 29px;
         width: 62%;
@@ -63,6 +63,7 @@
 .AddFormPane label,
 .AddFormPane input {
     float: right;
+	border-color: rgb(108, 108, 108);
 }
 
 .ConfirmRideBtn {
@@ -71,6 +72,54 @@ cursor: pointer;
 height: 39px;
 margin: 2.3% 0 0;
 color: #ffffff;
+}
+
+.AddRideTitleWrapper .ui-input-search:after {
+  right: 35%;
+  margin-top: 2px;
+  margin-left: 0px;
+}
+.AddRideTitleWrapper .ui-input-search input {
+  width: 60%;
+  margin-top: -11.5%;
+  margin-right: 30%;
+}
+
+.AddRideTitleWrapper .ui-listview .ui-li-divider {
+  padding: .5em 28px;
+  color: rgb(73, 156, 74);
+  text-align:right;
+  width: 100%;
+}
+
+.ui-shadow {
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+}
+
+.AddRideTitleWrapper .ui-input-search.ui-input-has-clear .ui-btn.ui-input-clear, .ui-input-text.ui-input-has-clear .ui-btn.ui-input-clear {
+  left: 8px;
+  top: 8px;
+  right: inherit;
+}
+
+.AddRideTitleWrapper .ui-listview li a.ui-btn {
+  text-align: right;
+  direction: rtl;
+  width: 100%;
+}
+
+.AddRideTitleWrapper .filterable {
+  position: relative;
+  top: -15px;
+  width: 50.3%;
+  box-shadow: 0 0 0;
+  right: 177px;
+}
+
+.AddRideTitleWrapper .ui-grid-a {
+  min-height: 488px;
 }
 
 
