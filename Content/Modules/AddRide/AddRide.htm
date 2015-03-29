@@ -1,16 +1,3 @@
-<!--div class="AreaWrapper Clear">
-    <label class="FormLabel">עיר פינוי</label>
-    <input type="text" id="cityfilter" ng-key="cityfilter" ng-validate="required" /><br/>
-    <ul ng-key="area" class="ui-listview ui-listview-inset" ng-validate="required" data-role="listview" data-filter="true" data-input="#cityfilter" data-filter-reveal="true">
-    <% for city in @res : %>
-        <% if city.area != area : %>
-            <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit" ><%- city.area %></li>
-        <%  end %>
-        <li data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></li>
-        <% area = city.area %>
-    <% end %>
-    </ul>
-</div-->
 <div class="AddRideTitleWrapper" ng-form="Ride">
     <div class="PagetitleWrapper">
         <h1 class="PageTitle">הוספת נסיעה</h1>
@@ -94,82 +81,35 @@
                     <option value="5">5+</option>
                 </select>
             </div>
-             <div class="cityWrapper Clear">
-                <label class="FormLabel">עיר</label>
-                <input type="text" id="cityfilter" ng-key="cityfilter" ng-validate="required" /><br/>
-                <ul ng-key="city" class="ui-listview ui-listview-inset" ng-validate="required" data-role="listview" data-filter="true" data-input="#cityfilter" data-filter-reveal="true">
-                <% for city in @res : %>
-                    <% if city.area != area : %>
-                        <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit" ><%- city.area %></li>
-                    <%  end %>
-                    <li data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></li>
-                    <% area = city.area %>
-                <% end %>
-                </ul>
-            </div>
-            <div class="AreaWrapper Clear">
-                <label class="FormLabel">אזור פינוי</label>
-                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
-                <select class="sArea" id="srcAreaID" ng-key="mainArea" ng-validate="required" data-role="none" onchange="filterCities(this,'citiesDDL')" ng-add-key="srcAreaID">
-                    <option value="">בחר אזור פינוי</option>
-                    <option ng-srcareaid-val="1">אילת והערבה</option>
-                    <option ng-srcareaid-val="2">גליל העליון והמערבי</option>
-                    <option ng-srcareaid-val="3">גליל התחתון והעמקים</option>
-                    <option ng-srcareaid-val="4">שומרון</option>
-                    <option ng-srcareaid-val="5">השרון</option>
-                    <option ng-srcareaid-val="6">חיפה והקריות</option>
-                    <option ng-srcareaid-val="7">ים המלח ומדבר יהודה</option>
-                    <option ng-srcareaid-val="8">ירושלים והשפלה</option>
-                    <option ng-srcareaid-val="9">מרכז הארץ</option>
-                    <option ng-srcareaid-val="10">מרכז הנגב והמכתשים</option>
-                    <option ng-srcareaid-val="11">צפון הנגב</option>
-                    <option ng-srcareaid-val="12">רמת הגולן</option>
-                </select>
-            </div>
-            <div id="cityList" style="display:none;">
-                
-                <% for city in @res : %>
-                <option data-area="<%- city.area %>" ng-city="<%- city._id %>"><%- city.city %></option>
-                <% end %>
-            </div>
             <div class="AreaWrapper Clear">
                 <label class="FormLabel">עיר פינוי</label>
-                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
-                <select id="citiesDDL" class="sArea" ng-key="area" ng-validate="required" data-role="none" ng-add-key="cityID">
-                    
-                </select>
+                <input class="filterable-input InputTxt" data-type="search" type="text" class="filterable-input" id="sourcefilter" ng-key="area" ng-validate="required" placeholder="חפש עיר..." />
+                <ul ng-key="srcArea" class="filterable" data-role="listview" data-filter="true" data-input="#sourcefilter" data-filter-reveal="true" data-inset="true" data-children="#city-data ul li">
+                </ul>
             </div>
             <div class="ReturnDateWrapper Clear">
                 <label class="FormLabel">תאריך החזרה</label>
                 <input type="text" ng-key="returnDate" ng-validate="required" data-role="none" class="DateTxt InputTxt" />
             </div>
-            <div class="AreaWrapper Clear">
-                <label class="FormLabel">אזור יעד חזרה</label>
-                <!--<input id="AreaTxt" type="text" ng-key="area" ng-validate="required" class="AreaTxt InputTxt" />-->
-                <select class="sArea" id="dstAreaID" ng-key="destinationArea" ng-validate="required" data-role="none" onchange="filterCities(this, 'destinationCitiesDDL')" ng-add-key="dstAreaID">
-                    <option value="">בחר אזור חזרה</option>
-                    <option ng-dstareaid-val="1">אילת והערבה</option>
-                    <option ng-dstareaid-val="2">גליל העליון והמערבי</option>
-                    <option ng-dstareaid-val="3">גליל התחתון והעמקים</option>
-                    <option ng-dstareaid-val="4">שומרון</option>
-                    <option ng-dstareaid-val="5">השרון</option>
-                    <option ng-dstareaid-val="6">חיפה והקריות</option>
-                    <option ng-dstareaid-val="7">ים המלח ומדבר יהודה</option>
-                    <option ng-dstareaid-val="8">ירושלים והשפלה</option>
-                    <option ng-dstareaid-val="9">מרכז הארץ</option>
-                    <option ng-dstareaid-val="10">מרכז הנגב והמכתשים</option>
-                    <option ng-dstareaid-val="11">צפון הנגב</option>
-                    <option ng-dstareaid-val="12">רמת הגולן</option>
-                </select>
-            </div>
             <div class="DestinationWrapper Clear">
                 <label class="FormLabel">עיר החזרה</label>
-                <!--<input type="text" ng-key="destination" ng-validate="required" class="DestinationTxt InputTxt" />-->
-                <select id="destinationCitiesDDL" class="sDestinationT" ng-key="destination" ng-validate="required" data-role="none" ng-add-key="dstCityID">
-
-                </select>
+                <input class="filterable-input InputTxt" data-type="search" type="text" id="destinationfilter" ng-key="destination" ng-validate="required" placeholder="חפש עיר..." />
+                <ul ng-key="destArea" class="filterable" data-role="listview" data-filter="true" data-input="#destinationfilter" data-filter-reveal="true" data-inset="true" data-children="#city-data ul li">
+                </ul>
             </div>
             </div>
         </div>
     <div class="Clear"></div>
+    
+    <div id="city-data" style="display:none;">
+        <ul>
+        <% for city in @res : %>
+            <% if city.area != area : %>
+                <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit" ><%- city.area %></li>
+            <%  end %>
+            <li data-cityid="<%- city._id %>" data-filtertext="<%-city.city%>"><a href="javascript:false;"><%- city.city %></a></li>
+            <% area = city.area %>
+        <% end %>
+        </ul>
+    </div>
 </div>

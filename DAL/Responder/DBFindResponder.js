@@ -21,7 +21,7 @@ DBFindResponder.prototype.GetData = function (templateData, cb, params) {
     var t = JSON.parse(JSON.stringify(templateData));
     this.SetValues(t.Criteria);
     this.SetValues(t.Options);
-     
+     console.log('Criteria: ', t.Criteria);
     var cur = db.collection(t.Collection).find(t.Criteria, t.Fileds);
     var pager = {};
     if (t.Options) {

@@ -1,4 +1,5 @@
 ﻿var moment = require('moment');
+console.log('moment: ', moment().format());
 var sm = {
     Core:
       {
@@ -61,7 +62,7 @@ var sm = {
                            Responder: 'DBFindResponder', Collection: 'Rides', Criteria: {
                                username: { $$Param: { From: "Cookie", Key: "username" } }
                                , isApproved: false
-                               , aviliableDateObj: { $lte: moment.utc()}
+                               , aviliableDateObj: { $gte: moment().toDate()}
                            }, Fileds: { none: 0 }, Options: { skip: 0, limit: 200, sort: { "aviliableDate": 1 } }
                        }
                    }]
