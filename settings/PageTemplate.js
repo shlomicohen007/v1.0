@@ -1,5 +1,5 @@
 ﻿var moment = require('moment');
-console.log('moment: ', moment().format());
+
 var sm = {
     Core:
       {

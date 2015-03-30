@@ -62,7 +62,6 @@ app.get('/EctMail.html', function(request, response){
     app.post('/spindel', function (request, response) {
         
         var ob = JSON.parse(request.body.webReq);
-        console.log(ob);
         if (request.body.type == 'ws') {
             ws.processAjax(ob, response);
             if (ob.funcName == "addRide") {
@@ -72,8 +71,10 @@ app.get('/EctMail.html', function(request, response){
                 var dt = new Date();
                 var time = dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds();
                 var txt = ob.params.companyName + ' הוסיפו נסיעה ' + ob.params.area + ' אל  ' + ob.params.destination + ' בתאריך ' + ob.params.aviliableDate;
+                
                 var data = { message: txt, username: ob.params.username, time: time , name:'<span style="color:red">הודעת מערכת</span>' };
-
+                console.log(data);
+                
                 chat.sockets.emit('forumMsg', data);
                 chat2all.push(data);
             }

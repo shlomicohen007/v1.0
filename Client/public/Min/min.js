@@ -11286,7 +11286,7 @@ $(document).ready(function () {
     socket.emit('hello', {  username: $.cookie('username', { path: '/' })});
 
     socket.on('forumMsg', function (data) {
-
+        console.log('data from socket on forumMsg: ', data);
         var e = $('.ForumMsgsPane');
         if (data.username == $.cookie('username', { path: '/' }))
             e.append('<div style="padding: 5px 0px; border-bottom: 1px solid rgb(230, 231, 235);"><span style="color:red">' + data.time + ' | אתה:<br/>' + data.message + '</span><br/></div>');
