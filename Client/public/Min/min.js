@@ -11203,19 +11203,13 @@ function InitAutocomplete(){
                 var input = $(this).closest('div').find('input');
                 input.val(selection);
                 input.data("cityid", $(this).data().cityid);
+                input.data("areaid", $(this).data().areaid);
                 $ul.hide();
             });
             $ul.append(city);
         });
     }
 });
-}
-
-function selectCity(ctrl){
-    var selection = $(ctrl).text();
-    var input = $(ctrl).closest('.filterable-input');
-    input.val(selection);
-    input.data.cityid = $(ctrl).data.cityid;
 }
 
 function addRide() {
@@ -11232,11 +11226,10 @@ function addRide() {
     ride.srcCity = $('#sourcefilter').data().cityid;
     ride.destCity = $('#destinationfilter').data().cityid;
 
-    /*ride.srcAreaID = parseInt(ride.srcAreaID);
-    ride.dstAreaID = parseInt(ride.dstAreaID);
-    ride.dstCityID = parseInt(ride.dstCityID);
-    ride.cityID = parseInt(ride.cityID);
-    */
+    ride.srcAreaID = parseInt($('#sourcefilter').data().areaid);
+    ride.dstAreaID = parseInt($('#destinationfilter').data().areaid);
+    ride.dstCityID = parseInt($('#destinationfilter').data().cityid);
+    ride.cityID = parseInt($('#sourcefilter').data().cityid);
 
     ride.username = $.cookie('username', { path: '/' });
     ride.h = $.cookie('h', { path: '/' });
