@@ -20,6 +20,22 @@ function getNewID(collection,cb) {
 };
 
 var dal ={
+        updateCityArea: function(cb){
+            db.collection("Cities").find().forEach(function(city){
+                var areaName = city.area;
+                db.collection("Area").findOne({area: {$eq: areaName}}, function(err, area){
+                    var areaId = area._id;
+                    db.collection('Cities').update({_id: {$eq: city._id}}, {
+                        areaId: areaId,
+                        area: area.area,
+                        city: city.city
+                    }, function(err){
+                        console.log('finished update of city', city._id, ' with area:', areaId);
+                });
+            });
+        });
+        cb(null);
+        },
         getUrlPull: function(cb){
                 var pages = db.collection("Pages")
                 var p=[];
@@ -27,7 +43,6 @@ var dal ={
                     p[page.url] = page;
                 },function(){ cb(p)});
         },
-       
         getOperators:function(cb){
             db.collection("Operators").find().toArray(cb);
         },
