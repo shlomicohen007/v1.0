@@ -5,7 +5,7 @@
         //host: "localhost",
         //port: 3002,
         host: "awseb-e-g-AWSEBLoa-1323WP9X79QUC-1828159266.us-west-2.elb.amazonaws.com",
-	    port: 80
+	    port: 3002
     },
     serve:{
         //host: "ec2-52-11-65-151.us-west-2.compute.amazonaws.com",
