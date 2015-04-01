@@ -49,6 +49,9 @@ server.listen(config.listen.port);
 var io = require('socket.io').listen(server);
 //io.set('transports', ['xhr-polling']);
 
+app.get('/ping.html', function(request, response){
+    response.send('all is well. jud.');
+});
 
 app.get('/EctMail.html', function(request, response){
       var uri = url.parse(request.url,true);    
